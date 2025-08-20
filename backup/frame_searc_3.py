@@ -496,164 +496,87 @@ class _QwenVLCaptioner:
             traceback.print_exc()
             raise
         
-    def caption_batch(self, images: List[Image.Image], max_new_tokens: int = 64, batch_size: int = 8) -> List[str]:
-        """真正的批量处理caption生成，最大化GPU利用率"""
+    def caption_batch(self, images: List[Image.Image], max_new_tokens: int = 64) -> List[str]:
         import torch
         
-        print(f"[DEBUG] Starting caption_batch for {len(images)} images with batch_size={batch_size}")
+        print(f"[DEBUG] Starting caption_batch for {len(images)} images")
         
-        if len(images) == 0:
-            return []
-        
-        all_captions = []
-        
-        # 按batch_size分批处理
-        for batch_start in range(0, len(images), batch_size):
-            batch_end = min(batch_start + batch_size, len(images))
-            batch_images = images[batch_start:batch_end]
-            
-            print(f"[DEBUG] Processing batch {batch_start//batch_size + 1}: images {batch_start+1}-{batch_end}")
-            
+        out = []
+        for i, img in enumerate(images):
             try:
-                # 准备批量输入
-                batch_texts = []
-                batch_imgs = []
+                print(f"[DEBUG] Processing image {i+1}/{len(images)}")
                 
-                for img in batch_images:
-                    # 为每张图片准备消息
-                    messages = [
-                        {
-                            "role": "user",
-                            "content": [
-                                {"type": "image", "image": img},
-                                {"type": "text", "text": "You are an image captioning assistant for a Video Question Answering system. Your task is to produce a detailed description for the image between 30 and 100 tokens. Your description cannot exceed 100 tokens. You must capture all important visual information without omission. Describe concrete elements such as objects, people, actions, background, colors, symbols, logos, or visible text with their positions. If some categories are absent (e.g., no text, no people), omit them without inventing details. Do not mention layout, alignment, design style, or atmosphere. The description must be factual, comprehensive, and cover every essential element that is visibly present. Output only the caption text."}
-                            ]
-                        }
-                    ]
-                    # 应用chat模板
-                    text = self.processor.apply_chat_template(
-                        messages, 
-                        tokenize=False, 
-                        add_generation_prompt=True
-                    )
-                    batch_texts.append(text)
-                    batch_imgs.append(img)
+                # Use exact same message format as test script
+                messages = [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "image", "image": img},
+                            {"type": "text", "text": "Describe this image."}
+                        ]
+                    }
+                ]
                 
-                print(f"[DEBUG] Prepared {len(batch_texts)} text prompts and {len(batch_imgs)} images")
-                
-                # 批量处理输入
-                print("[DEBUG] Processing batch inputs...")
-                inputs = self.processor(
-                    text=batch_texts,
-                    images=batch_imgs,
-                    return_tensors="pt",
-                    padding=True  # 重要：启用padding以支持批处理
+                # Apply chat template (exactly like test script)
+                text = self.processor.apply_chat_template(
+                    messages, 
+                    tokenize=False, 
+                    add_generation_prompt=True
                 )
                 
-                # 移动到设备
+                # Process input (exactly like test script)
+                inputs = self.processor(
+                    text=[text], 
+                    images=[img], 
+                    return_tensors="pt"
+                )
+                
+                # Move inputs to device (exactly like test script)
                 if self.device != "cpu":
                     inputs = {k: v.to(self.device) if hasattr(v, 'to') else v for k, v in inputs.items()}
                 
-                print(f"[DEBUG] Batch inputs shape: {inputs['input_ids'].shape if 'input_ids' in inputs else 'N/A'}")
-                print("[DEBUG] Generating batch outputs...")
+                print("[DEBUG] Inputs processed, generating...")
                 
-                # 批量生成
+                # Generate (exactly like test script)
                 with torch.no_grad():
                     outputs = self.model.generate(
                         **inputs,
                         max_new_tokens=max_new_tokens,
                         do_sample=False,
-                        pad_token_id=self.processor.tokenizer.eos_token_id,
-                        eos_token_id=self.processor.tokenizer.eos_token_id,
-                        use_cache=True,  # 启用KV缓存优化
+                        pad_token_id=self.processor.tokenizer.eos_token_id
                     )
                 
-                print("[DEBUG] Batch generation completed, decoding...")
+                print("[DEBUG] Generation completed, decoding...")
                 
-                # 批量解码
-                batch_captions = []
-                for i, output in enumerate(outputs):
-                    # 提取新生成的部分（去掉输入的token）
-                    input_length = inputs['input_ids'][i].shape[0]
-                    generated_tokens = output[input_length:]
-                    
-                    # 解码
-                    caption = self.processor.tokenizer.decode(
-                        generated_tokens, 
-                        skip_special_tokens=True
-                    ).strip()
-                    
-                    batch_captions.append(caption)
-                    print(f"[DEBUG] Caption {batch_start + i + 1}: {caption[:100]}...")
+                # Decode (exactly like test script)
+                response = self.processor.decode(outputs[0], skip_special_tokens=True)
                 
-                all_captions.extend(batch_captions)
+                # Extract just the response part (remove input)
+                # Find the assistant response after the prompt
+                if "assistant\n" in response:
+                    caption = response.split("assistant\n", 1)[-1].strip()
+                else:
+                    caption = response.strip()
                 
-                # 清理GPU缓存
+                print(f"[DEBUG] Caption for image {i+1}: {caption[:100]}...")
+                out.append(caption)
+                
+                # Clear cache after each image - 只用 empty_cache，不用 synchronize
                 if torch.cuda.is_available():
                     torch.cuda.empty_cache()
                 
-                print(f"[DEBUG] Batch {batch_start//batch_size + 1} completed successfully")
-                
             except Exception as e:
-                print(f"[ERROR] Batch processing failed: {e}")
-                print("[DEBUG] Falling back to individual processing for this batch...")
+                print(f"[ERROR] Failed to caption image {i+1}: {e}")
+                import traceback
+                traceback.print_exc()
+                out.append("Error generating caption")
                 
-                # 回退到逐个处理
-                for i, img in enumerate(batch_images):
-                    try:
-                        messages = [
-                            {
-                                "role": "user",
-                                "content": [
-                                    {"type": "image", "image": img},
-                                    {"type": "text", "text": "Describe this image."}
-                                ]
-                            }
-                        ]
-                        
-                        text = self.processor.apply_chat_template(
-                            messages, 
-                            tokenize=False, 
-                            add_generation_prompt=True
-                        )
-                        
-                        inputs = self.processor(
-                            text=[text], 
-                            images=[img], 
-                            return_tensors="pt"
-                        )
-                        
-                        if self.device != "cpu":
-                            inputs = {k: v.to(self.device) if hasattr(v, 'to') else v for k, v in inputs.items()}
-                        
-                        with torch.no_grad():
-                            outputs = self.model.generate(
-                                **inputs,
-                                max_new_tokens=max_new_tokens,
-                                do_sample=False,
-                                pad_token_id=self.processor.tokenizer.eos_token_id
-                            )
-                        
-                        response = self.processor.decode(outputs[0], skip_special_tokens=True)
-                        
-                        if "assistant\n" in response:
-                            caption = response.split("assistant\n", 1)[-1].strip()
-                        else:
-                            caption = response.strip()
-                        
-                        all_captions.append(caption)
-                        print(f"[DEBUG] Individual caption {batch_start + i + 1}: {caption[:100]}...")
-                        
-                    except Exception as individual_error:
-                        print(f"[ERROR] Individual processing failed for image {batch_start + i + 1}: {individual_error}")
-                        all_captions.append("Error generating caption")
-                
-                # 清理GPU缓存
+                # Clear cache on error too
                 if torch.cuda.is_available():
                     torch.cuda.empty_cache()
         
-        print(f"[DEBUG] caption_batch completed, returning {len(all_captions)} captions")
-        return all_captions
+        print(f"[DEBUG] caption_batch completed, returning {len(out)} captions")
+        return out
 
 class _TextReasoner:
     """Use Qwen2.5-VL as text-only chat LLM to produce reasoning lines in JSONL style."""
@@ -1240,81 +1163,27 @@ def select_frames_by_framesearch(
 
     cap_stage_start_ts = time.time()
     if needed and not cache_status['caption']:
-        print(f"[DEBUG] Generating {len(needed)} captions with batch processing...")
+        print(f"[DEBUG] Generating {len(needed)} captions...")
         _load_decord()
         vr = VideoReader(video_path, ctx=cpu(0), num_threads=1)
-        
-        # 批处理设置
-        caption_batch_size = int(os.getenv('FS_CAPTION_BATCH_SIZE', '8'))  # 可通过环境变量调整
-        batch_size = min(caption_batch_size, len(needed))
-        
-        print(f"[DEBUG] Using batch size: {batch_size}")
-        
-        # 批处理方式：先读取所有帧，然后批量处理
-        for batch_start in range(0, len(needed), batch_size):
-            batch_end = min(batch_start + batch_size, len(needed))
-            batch_indices = needed[batch_start:batch_end]
-            
-            print(f"[DEBUG] Processing caption batch {batch_start//batch_size + 1}: frames {batch_indices}")
-            
-            # 批量读取帧
-            batch_frames = []
-            batch_frame_data = []
-            
-            for idx in batch_indices:
-                frame_arr = _read_frames(vr, [idx])
-                pil = _to_pils(frame_arr)
-                if pil:
-                    batch_frames.append(pil[0])
-                    batch_frame_data.append({
-                        'idx': idx,
-                        'ts': round((idx / avg_fps) if avg_fps > 0 else 0.0, 2)
-                    })
-            
-            if batch_frames:
-                try:
-                    # 批量生成caption
-                    print(f"[DEBUG] Batch processing {len(batch_frames)} frames...")
-                    captions = capper.caption_batch(batch_frames, batch_size=len(batch_frames))
-                    
-                    # 保存结果
-                    for frame_data, caption in zip(batch_frame_data, captions):
-                        cap_map[str(frame_data['idx'])] = {
-                            'ts': frame_data['ts'],
-                            'caption': caption
-                        }
-                        print(f"[DEBUG] Frame {frame_data['idx']} caption: {caption[:100]}...")
-                    
-                    # 批量更新缓存
-                    caps_json['captions'] = cap_map
-                    _write_json_atomic(cap_json_path, caps_json)
-                    
-                    print(f"[DEBUG] Batch caption completed: {len(captions)} captions generated")
-                    
-                except Exception as e:
-                    print(f"[DEBUG] Batch caption error: {e}")
-                    print("[DEBUG] Falling back to individual processing...")
-                    
-                    # 回退到逐个处理
-                    for frame_data in batch_frame_data:
-                        idx = frame_data['idx']
-                        frame_arr = _read_frames(vr, [idx])
-                        pil = _to_pils(frame_arr)
-                        cap_text = ''
-                        try:
-                            cap_text = capper.caption_batch(pil)[0] if pil else ''
-                            print(f"[DEBUG] Individual caption result: {cap_text[:100]}...")
-                        except Exception as individual_error:
-                            print(f"[DEBUG] Individual caption error for frame {idx}: {individual_error}")
-                            cap_text = ''
-                        
-                        cap_map[str(idx)] = {
-                            'ts': frame_data['ts'],
-                            'caption': cap_text
-                        }
-                        caps_json['captions'] = cap_map
-                        _write_json_atomic(cap_json_path, caps_json)
-        
+        for i, idx in enumerate(needed):
+            print(f"[DEBUG] Captioning frame {idx} ({i+1}/{len(needed)})")
+            frame_arr = _read_frames(vr, [idx])
+            pil = _to_pils(frame_arr)
+            cap_text = ''
+            try:
+                cap_text = capper.caption_batch(pil)[0] if pil else ''
+                print(f"[DEBUG] Caption result: {cap_text[:100]}...")
+            except Exception as e:
+                print(f"[DEBUG] Caption error: {e}")
+                cap_text = ''
+            cap_map[str(idx)] = {
+                'ts': round((idx / avg_fps) if avg_fps > 0 else 0.0, 2),
+                'caption': cap_text
+            }
+            caps_json['captions'] = cap_map
+            # incremental safe write
+            _write_json_atomic(cap_json_path, caps_json)
         # accumulate caption stage time
         try:
             elapsed = max(0.0, time.time() - cap_stage_start_ts)
