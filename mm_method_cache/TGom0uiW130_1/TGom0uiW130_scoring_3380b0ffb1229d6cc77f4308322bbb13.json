@@ -1,0 +1,781 @@
+{
+  "meta": {
+    "video_path": "/home/syh/.cache/huggingface/videomme/data/TGom0uiW130.mp4",
+    "vid": "TGom0uiW130",
+    "question": "Select the best answer to the following multiple-choice question based on the video and the subtitles. Respond with only the letter (A, B, C, or D) of the correct option.\nWhat is the video mainly about?\nA. Planes invented by the Wright Brothers.\nB. The structural difference between the planes created by Whitehead and planes created by the Wright Brothers.\nC. Who invented the first plane.\nD. How Whitehead and the Wright Brothers cooperated to invent the first motorized flight.\nThe best answer is:",
+    "question_hash": "3380b0ffb1229d6cc77f4308322bbb13",
+    "avg_fps": 25.0,
+    "total_frames": 79226,
+    "created_at": "2025-08-20T04:46:56Z"
+  },
+  "items": [
+    {
+      "frame_idx": 0,
+      "score": 0.0,
+      "ts": 0.0,
+      "reasoning": "The image description does not provide any information that can help answer the question, as it only describes a completely black image with no visible content. The question is about the main topic of a video and its subtitles, which is unrelated to the image description."
+    },
+    {
+      "frame_idx": 623,
+      "score": 0.0,
+      "ts": 24.92,
+      "reasoning": "The image description does not provide enough information to answer the question, as it does not mention Whitehead, the Wright Brothers, or any details about the invention of the first plane or their cooperation."
+    },
+    {
+      "frame_idx": 1247,
+      "score": 0.0,
+      "ts": 49.88,
+      "reasoning": "The image description mentions \"Gustave Whitehead\" and \"aviation,\" which suggests the video may be related to early aviation history. However, it does not specifically discuss the Wright Brothers, the structural differences between planes, or a collaboration between Whitehead and the Wright Brothers. It also does not directly address who invented the first plane. Therefore, while the image description provides some context about aviation and mentions Whitehead, it does not provide enough information to definitively answer the question about what the video is mainly about."
+    },
+    {
+      "frame_idx": 1871,
+      "score": 0.0,
+      "ts": 74.84,
+      "reasoning": "<think>\n好的，我现在要分析用户提供的图像描述是否能帮助回答那个多选题的问题。首先，我需要仔细阅读图像描述和问题。\n图像描述是：一张特写照片，一个人穿着有图案领带的白色衬衫，画面光线昏暗，聚焦在上半身和颈部区域。问题问的是视频主要内容，选项包括关于莱特兄弟发明飞机、怀特黑德和莱特兄弟飞机的结构差异、谁发明了第一架飞机，以及两人如何合作发明第一架动力飞行。\n首先，图像描述中提到的人穿着白色衬衫和图案领带，但没有提到任何与飞机或发明相关的内容。视频的问题涉及飞机发明的历史，而图像描述中的场景似乎与之无关。可能用户误以为图像描述与问题有关联，但实际没有直接联系。\n接下来，我需要确认问题是否与图像有关。问题中的选项都是关于飞机发明的，而图像描述中的内容是关于一个人的穿着和光线，没有涉及飞机、发明者或技术细节。因此，图像描述无法提供任何有助于回答问题的信息。\n可能用户混淆了图像和视频内容，但根据提供的信息，图像描述并不能帮助回答问题，因为两者主题完全不同。因此，正确的答案应"
+    },
+    {
+      "frame_idx": 2495,
+      "score": 0.0,
+      "ts": 99.8,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and the individuals involved (Whitehead and the Wright Brothers). The image shows a clock tower, which is unrelated to the topic of the question. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 3119,
+      "score": 0.85,
+      "ts": 124.76,
+      "reasoning": "The image description provides context that the video is related to the \"first flight\" and mentions \"Conquest of the Skies,\" which suggests it is about the invention of the first plane. This supports options that focus on who invented the first plane or the significance of the first flight. However, it does not specifically mention Whitehead or the Wright Brothers, so it cannot confirm the exact focus between them. The description helps narrow the options to those related to the first flight, making option C more likely."
+    },
+    {
+      "frame_idx": 3742,
+      "score": 0.0,
+      "ts": 149.68,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It describes a ceiling, a tent, and a building, which are unrelated to the question about the invention of planes or the Wright Brothers. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 4366,
+      "score": 0.0,
+      "ts": 174.64,
+      "reasoning": "The image description does not provide any information related to the content of the video or the subtitles, as it only describes a scene inside a helicopter cockpit with two individuals. The question, however, is about the invention of planes and the Wright Brothers, which is unrelated to the image described. Therefore, the image description is not helpful in answering the question."
+    },
+    {
+      "frame_idx": 4990,
+      "score": 0.0,
+      "ts": 199.6,
+      "reasoning": "图像描述无法直接回答问题，因为问题询问的是视频的主要内容，而图像仅"
+    },
+    {
+      "frame_idx": 5614,
+      "score": 0.0,
+      "ts": 224.56,
+      "reasoning": "The image description does not provide relevant information to answer the question, as it depicts a ship's rigging and not any content related to planes, inventors, or historical events involving the Wright Brothers or Whitehead."
+    },
+    {
+      "frame_idx": 6238,
+      "score": 0.0,
+      "ts": 249.52,
+      "reasoning": "The image description does not provide information related to the content of the video or the subtitles, as it only describes a man in a specific setting. Therefore, it cannot help answer the question about the video's main topic."
+    },
+    {
+      "frame_idx": 6862,
+      "score": 0.0,
+      "ts": 274.48,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, as it depicts a man sketching in a dimly lit room, which is unrelated to the topic of planes, inventors, or historical events mentioned in the question. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 7485,
+      "score": 0.0,
+      "ts": 299.4,
+      "reasoning": "The image description does not provide information about the invention of planes, specific inventors like the Wright Brothers or Whitehead, or any historical context related to the development of aviation. It only describes a black-and-white photograph of a large aircraft, possibly a seaplane or flying boat, flying over water. Therefore, it does not help in answering the multiple-choice question about the invention of the first plane or related historical events."
+    },
+    {
+      "frame_idx": 8109,
+      "score": 0.0,
+      "ts": 324.36,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, which is about the invention of planes and the individuals involved. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 8733,
+      "score": 0.0,
+      "ts": 349.32,
+      "reasoning": "The image description does not provide any relevant information about the video's content, as it only describes a man in a room with a brick wall and blurred background objects. The question is about the main topic of a video related to the invention of planes by the Wright Brothers and possibly Whitehead. Since the image description does not mention any of these topics or individuals, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 9357,
+      "score": 0.0,
+      "ts": 374.28,
+      "reasoning": "The image description does not provide information related to the question, as it depicts a person typing on a vintage typewriter, which is unrelated to the invention of planes or the Wright Brothers. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 9981,
+      "score": 0.0,
+      "ts": 399.24,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, as it only describes a man in a specific setting. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 10604,
+      "score": 0.0,
+      "ts": 424.16,
+      "reasoning": "The image description does not provide information about the content of a video or subtitles, so it cannot help answer the question about what the video is mainly about. The question refers to a video and subtitles, which are not mentioned or implied in the image description."
+    },
+    {
+      "frame_idx": 11228,
+      "score": 0.0,
+      "ts": 449.12,
+      "reasoning": "图像描述无法帮助回答问题，因为图像仅提供静态人物肖像信息，而问题"
+    },
+    {
+      "frame_idx": 11852,
+      "score": 0.0,
+      "ts": 474.08,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, which is about the invention of planes and the individuals involved (Whitehead and the Wright Brothers). The image shows a man working in a workshop, which is unrelated to the topic of the question. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 12476,
+      "score": 0.0,
+      "ts": 499.04,
+      "reasoning": "The image description does not provide enough information to answer the question, as it only shows Dr. Tom Crouch in front of a historical aircraft and does not mention anything about the Wright Brothers, Whitehead, or the topic of the video."
+    },
+    {
+      "frame_idx": 13100,
+      "score": 0.0,
+      "ts": 524.0,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and the Wright Brothers. The image describes a village scene with a stone archway, a yellow house, and a clear sky, which has no connection to the topic of the question. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 13724,
+      "score": 0.1,
+      "ts": 548.96,
+      "reasoning": "The image description provides context about a room with a biplane model and informational displays, suggesting it may be related to aviation history. However, it does not specifically mention the Wright Brothers, Whitehead, or the topic of invention credits or structural differences. Therefore, while it may hint at a general aviation theme, it does not directly support selecting the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 14347,
+      "score": 0.0,
+      "ts": 573.88,
+      "reasoning": "The image description mentions a mechanical structure with a sign reading \"Gustav Weißkopf Nr. 21 B,\" which appears to be related to an individual or entity named Gustav Weißkopf and a specific number, possibly indicating a model or serial number. This may be connected to aviation history, as Gustav Weißkopf is known in the context of early aviation, particularly in relation to Gustav Weißkopf's work on aircraft. However, the image description alone does not provide enough information to determine the main subject of the video, as it does not mention the Wright Brothers, Whitehead, or any direct reference to the invention of the first plane or cooperation between individuals. Therefore, while the image may be related to aviation history, it does not directly help answer the question about the video's main topic."
+    },
+    {
+      "frame_idx": 14971,
+      "score": 0.0,
+      "ts": 598.84,
+      "reasoning": "The image description does not provide any relevant information about the content of the video or the question, as it depicts a man in a plaid shirt and glasses in a staircase, which is unrelated to the topic of planes, inventors, or historical events related to aviation. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 15595,
+      "score": 0.0,
+      "ts": 623.8,
+      "reasoning": "The image description does not provide any direct information about the content of the video or the subtitles, as it only describes a person holding an origami-like structure in a grassy field. It does not mention anything related to planes, inventors, or historical events. Therefore, it is not helpful in answering the question about what the video is mainly about."
+    },
+    {
+      "frame_idx": 16219,
+      "score": 0.0,
+      "ts": 648.76,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation, and therefore cannot help in answering the question."
+    },
+    {
+      "frame_idx": 16843,
+      "score": 0.1,
+      "ts": 673.72,
+      "reasoning": "The image description provides context about a man interacting with an early biplane, which suggests the video may be related to the history of early aviation. However, it does not specifically mention the Wright Brothers, Whitehead, or any direct comparison between inventors, making it difficult to determine the exact focus of the video. The description is too general to definitively select the best answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 17466,
+      "score": 0.0,
+      "ts": 698.64,
+      "reasoning": "The image description does not provide specific information about the content of the video or the subtitles, as it focuses on visual elements such as a person, a futuristic structure, and a sunset. It does not mention any historical figures, inventions, or events related to the Wright Brothers or Whitehead. Therefore, it does not help in answering the multiple-choice question about the video's main topic."
+    },
+    {
+      "frame_idx": 18090,
+      "score": 0.0,
+      "ts": 723.6,
+      "reasoning": "The image description does not provide enough information to answer the multiple-choice question, as it does not mention any specific historical figures, inventions, or events related to the options provided. The image only depicts a silhouette of a person flying with bat-like wings, which is not directly related to the question about the invention of planes or the Wright Brothers."
+    },
+    {
+      "frame_idx": 18714,
+      "score": 0.0,
+      "ts": 748.56,
+      "reasoning": "The image description does not provide enough information to answer the multiple-choice question about the video's main topic. The description focuses on a mechanical structure with pipes, a metal framework, and a labeled cylindrical tank, which does not relate to the invention of planes, the Wright Brothers, or Whitehead. Therefore, it cannot help determine the correct answer to the question."
+    },
+    {
+      "frame_idx": 19338,
+      "score": 0.0,
+      "ts": 773.52,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It describes a man on a city sidewalk, which is unrelated to the question about the invention of planes or the Wright Brothers. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 19962,
+      "score": 0.0,
+      "ts": 798.48,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It describes a scene involving individuals moving a boat-like object using a skateboard, which is unrelated to the question about the invention of planes or the Wright Brothers. Therefore, it cannot help in answering the multiple-choice question."
+    },
+    {
+      "frame_idx": 20586,
+      "score": 0.0,
+      "ts": 823.44,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It depicts an older man playing a musical instrument in a rustic room, which is unrelated to the question about the invention of planes or the Wright Brothers. Therefore, it cannot help in answering the multiple-choice question."
+    },
+    {
+      "frame_idx": 21209,
+      "score": 0.0,
+      "ts": 848.36,
+      "reasoning": "The image description does not provide information related to the invention of planes, the Wright Brothers, Whitehead, or cooperation between inventors. It only describes a scene of an airplane taxiing on a wet runway with a building and crane in the background. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 21833,
+      "score": 0.0,
+      "ts": 873.32,
+      "reasoning": "The image description does not provide any information related to the question, as it describes a bird flying over a car, trees, and a clear sky, which has no connection to the invention of planes, the Wright Brothers, or Whitehead. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 22457,
+      "score": 0.0,
+      "ts": 898.28,
+      "reasoning": "The image description does not provide any relevant information about the content of the video or the multiple-choice question, as it depicts a person in a hooded cloak in a dark setting, which is unrelated to the topic of planes, inventors, or historical events related to aviation. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 23081,
+      "score": 0.0,
+      "ts": 923.24,
+      "reasoning": "The image description does not provide information related to planes, inventors, or historical figures such as the Wright Brothers or Whitehead. It depicts an industrial factory scene from the early 20th century with workers and machinery, which is unrelated to the question about the invention of planes. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 23705,
+      "score": 0.0,
+      "ts": 948.2,
+      "reasoning": "The image description does not provide any information related to the question, which is about a video discussing the invention of planes by the Wright Brothers or Whitehead. The image shows a pencil drawing of a windmill and a pulley system with a weight indicated, which is unrelated to the topic of early aviation or the invention of planes. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 24328,
+      "score": 0.0,
+      "ts": 973.12,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It describes a scene involving men on a sailing ship with ropes and rigging, which is unrelated to the question about the invention of planes or the Wright Brothers. Therefore, it cannot help in answering the multiple-choice question."
+    },
+    {
+      "frame_idx": 24952,
+      "score": 0.0,
+      "ts": 998.08,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It describes a beach scene, which is unrelated to the question about the invention of planes or the Wright Brothers. Therefore, it cannot help in answering the multiple-choice question."
+    },
+    {
+      "frame_idx": 25576,
+      "score": 0.0,
+      "ts": 1023.04,
+      "reasoning": "The image description does not provide any relevant information about the topic of the video, as it depicts a man in a shopping area, which is unrelated to the question about the invention of planes or the Wright Brothers. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 26200,
+      "score": 0.0,
+      "ts": 1048.0,
+      "reasoning": "The image description does not provide enough information to answer the question, as it does not mention anything related to planes, inventors, or historical events involving the Wright Brothers or Whitehead. The description only portrays a man in a dark jacket standing in front of a stone building with a tower, gesturing while speaking. This scene is unrelated to the content of the video and the multiple-choice question, which focuses on the invention of planes and the individuals involved. Therefore, the image description is not helpful in determining the correct answer."
+    },
+    {
+      "frame_idx": 26824,
+      "score": 0.0,
+      "ts": 1072.96,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and specific individuals like the Wright Brothers or Whitehead. The image is of a person on a hilltop overlooking a forest and cityscape, which has no connection to the topic of the question. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 27448,
+      "score": 0.0,
+      "ts": 1097.92,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes, the Wright Brothers, or Whitehead. The image depicts an industrial scene with smokestacks, railway tracks, and a ship, which is unrelated to the topic of aviation or the invention of the airplane. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 28071,
+      "score": 0.0,
+      "ts": 1122.84,
+      "reasoning": "The image description does not provide any information related to the question, as it depicts a street scene from the early 20th century with a horse-drawn carriage, a drug store, and a Coca-Cola advertisement, but it does not mention anything about planes, the Wright Brothers, or Whitehead. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 28695,
+      "score": 0.0,
+      "ts": 1147.8,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and the individuals involved (Whitehead and the Wright Brothers). The image describes a man sitting outdoors in specific clothing, surrounded by greenery and a column, but there is no mention of aviation, historical figures, or technological inventions. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 29319,
+      "score": 0.0,
+      "ts": 1172.76,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, as it describes a room filled with filing cabinets and a bookshelf, which is unrelated to the topic of planes, inventors, or historical events mentioned in the question. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 29943,
+      "score": 0.0,
+      "ts": 1197.72,
+      "reasoning": "The image description does not provide information related to the video's content or the multiple-choice question, as it only describes a historical newspaper clipping from 1899 and does not mention anything about planes, inventors, or the Wright Brothers. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 30567,
+      "score": 0.0,
+      "ts": 1222.68,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It describes a man in a dark suit in a vehicle at night, which is unrelated to the question about the invention of planes or the Wright Brothers. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 31190,
+      "score": 0.0,
+      "ts": 1247.6,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes, Whitehead, the Wright Brothers, or their cooperation. The image shows a man in a park, trees, and buildings, which are unrelated to the topic of the question. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 31814,
+      "score": 0.0,
+      "ts": 1272.56,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and the individuals involved, such as the Wright Brothers or Whitehead. The image depicts dilapidated buildings and a hillside, which is unrelated to the topic of aviation history. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 32438,
+      "score": 0.0,
+      "ts": 1297.52,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It describes a scene in a warehouse with a person riding a bicycle and another person observing, which has no connection to the question about the invention of planes or the Wright Brothers. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 33062,
+      "score": 0.0,
+      "ts": 1322.48,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, as it depicts a black-and-white portrait of a man in a suit, which is unrelated to the topic of planes, inventors, or historical events mentioned in the question. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 33686,
+      "score": 0.0,
+      "ts": 1347.44,
+      "reasoning": "The image description does not provide enough information to answer the multiple-choice question, as it does not mention Whitehead, the Wright Brothers, or any historical context about the invention of the first plane. It only describes a man operating or inspecting a vintage biplane, which is not specific enough to determine the main topic of the video."
+    },
+    {
+      "frame_idx": 34310,
+      "score": 0.0,
+      "ts": 1372.4,
+      "reasoning": "The image description does not provide information about a video or subtitles, and therefore cannot help answer the question about what the video is mainly about."
+    },
+    {
+      "frame_idx": 34933,
+      "score": 0.0,
+      "ts": 1397.32,
+      "reasoning": "The image description does not provide any information related to planes, inventors, or historical events involving the Wright Brothers or Whitehead. It depicts a scene in a dimly lit room with two men in period attire, but there is no mention of aviation, flight, or invention. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 35557,
+      "score": 0.0,
+      "ts": 1422.28,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It describes a person inside a vehicle with a reflection on the windshield, but there is no mention of planes, the Wright Brothers, Whitehead, or any details related to the question. Therefore, it cannot help in answering the multiple-choice question."
+    },
+    {
+      "frame_idx": 36181,
+      "score": 0.0,
+      "ts": 1447.24,
+      "reasoning": "The image description does not provide any direct information related to the content of the video or the multiple-choice question, as it depicts a young boy in a rustic setting, which is unrelated to the topic of planes, inventors, or historical events mentioned in the question. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 36805,
+      "score": 0.0,
+      "ts": 1472.2,
+      "reasoning": "The image description does not provide any direct information about the content of the video or the subtitles, as it only describes a young boy in a specific setting. Therefore, it cannot help answer the question about the main topic of the video."
+    },
+    {
+      "frame_idx": 37429,
+      "score": 0.0,
+      "ts": 1497.16,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, which is about the invention of planes and the individuals involved (Whitehead and the Wright Brothers). Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 38052,
+      "score": 0.0,
+      "ts": 1522.08,
+      "reasoning": "The image description does not provide enough information to directly answer the question about the main topic of the video. The description only mentions an elderly man in a specific setting with an aircraft in the background, but it does not indicate who the man is, the context of the video, or the content of the subtitles. Therefore, the image description alone cannot determine the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 38676,
+      "score": 0.0,
+      "ts": 1547.04,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, as it only describes a close-up of a man with a mustache in a dimly lit setting. Therefore, it cannot help in answering the question about the video's main topic."
+    },
+    {
+      "frame_idx": 39300,
+      "score": 0.0,
+      "ts": 1572.0,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and the individuals involved (Whitehead and the Wright Brothers). The image depicts a person in a hammock inside a rustic barn, which is unrelated to the topic of aviation history. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 39924,
+      "score": 0.0,
+      "ts": 1596.96,
+      "reasoning": "The image description provides context about a man sitting in a biplane from the early 20th century in a desert, but it does not directly address the content of the video or subtitles, which are necessary to answer the question about what the video is mainly about. The image may suggest a historical or aviation-related theme, but it does not provide enough specific information to determine the correct answer to the multiple-choice question. Therefore, the image description alone is not sufficient to answer the question."
+    },
+    {
+      "frame_idx": 40548,
+      "score": 0.3,
+      "ts": 1621.92,
+      "reasoning": "The image description provides visual context of a man lying on the ground next to an early biplane, which suggests the topic is related to early aviation. However, it does not specifically mention the Wright Brothers, Whitehead, or any details about invention or cooperation. Therefore, it offers limited direct help in selecting the correct answer to the multiple-choice question, which requires specific historical or comparative information about early airplane inventors."
+    },
+    {
+      "frame_idx": 41172,
+      "score": 0.0,
+      "ts": 1646.88,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, as it describes a natural landscape rather than anything related to aviation history or the invention of planes. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 41795,
+      "score": 0.0,
+      "ts": 1671.8,
+      "reasoning": "The image description does not provide enough information to answer the question, as it does not mention any specific individuals, historical context, or details about the invention of planes or the Wright Brothers. It only describes a group of people near a vintage biplane on a sandy landscape, which is not directly related to the content of the video or the specific question about who invented the first plane or the relationship between Whitehead and the Wright Brothers."
+    },
+    {
+      "frame_idx": 42419,
+      "score": 0.0,
+      "ts": 1696.76,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and the individuals involved (Whitehead and the Wright Brothers). The image shows three children and partially visible adults, which is unrelated to the topic of the video and the multiple-choice question. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 43043,
+      "score": 0.0,
+      "ts": 1721.72,
+      "reasoning": "The image description does not provide any relevant information about the topic of the video or the multiple-choice question, as it depicts an elderly man on a bench looking at the ocean, which is unrelated to the invention of planes, the Wright Brothers, or Whitehead. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 43667,
+      "score": 0.0,
+      "ts": 1746.68,
+      "reasoning": "The image description does not provide any relevant information about the topic of the video or the multiple-choice question, as it depicts a bird flying over an ocean, which is unrelated to the invention of planes or the Wright Brothers. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 44291,
+      "score": 0.0,
+      "ts": 1771.64,
+      "reasoning": "The image description does not provide direct information about the content of the video or the subtitles, as it only shows a hand pointing to a photograph of a beach scene with a small structure and dark shapes on the sand. This does not relate to the topic of planes, inventors, or historical events mentioned in the multiple-choice question. Therefore, the image description is not helpful in answering the question."
+    },
+    {
+      "frame_idx": 44914,
+      "score": 0.0,
+      "ts": 1796.56,
+      "reasoning": "The image description does not provide any information related to the question, as it describes a grassy field and a paved path, which is unrelated to the topic of planes, inventors, or historical events involving the Wright Brothers or Whitehead. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 45538,
+      "score": 0.0,
+      "ts": 1821.52,
+      "reasoning": "The image description does not provide enough information to answer the question, as it does not mention Whitehead, the Wright Brothers, or any details about the invention of the first plane or their cooperation."
+    },
+    {
+      "frame_idx": 46162,
+      "score": 0.0,
+      "ts": 1846.48,
+      "reasoning": "The image description does not provide any information related to planes, inventors, or historical events involving the Wright Brothers or Whitehead. Therefore, it cannot help in answering the question about the video's main topic."
+    },
+    {
+      "frame_idx": 46786,
+      "score": 0.0,
+      "ts": 1871.44,
+      "reasoning": "The image description does not provide enough information to answer the multiple-choice question about the video's content. The description mentions a dirty piece of paper or cardboard with a faint line near the bottom edge, but it does not relate to the topic of planes, inventors, or historical events. Therefore, it cannot help determine the correct answer to the question."
+    },
+    {
+      "frame_idx": 47410,
+      "score": 0.0,
+      "ts": 1896.4,
+      "reasoning": "The image description does not provide any information related to planes, inventors, or historical events involving the Wright Brothers or Whitehead. It depicts individuals working on a structure outdoors, which is unrelated to the topic of the multiple-choice question. Therefore, the image description cannot help in answering the question."
+    },
+    {
+      "frame_idx": 48034,
+      "score": 0.0,
+      "ts": 1921.36,
+      "reasoning": "The image description provides context about an early aircraft with a wooden framework and fabric covering, suggesting it is from the early 20th century. However, it does not specifically mention the Wright Brothers or any other inventor, nor does it provide enough information to determine the main subject of a video. Therefore, the image description alone is not sufficient to answer the question about what the video is mainly about."
+    },
+    {
+      "frame_idx": 48657,
+      "score": 0.0,
+      "ts": 1946.28,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation. It depicts a scene with a lone figure and a child in a grassy field, which has no connection to the question about the invention of planes or the Wright Brothers. Therefore, it cannot help in answering the multiple-choice question."
+    },
+    {
+      "frame_idx": 49281,
+      "score": 0.0,
+      "ts": 1971.24,
+      "reasoning": "The image description does not provide enough information to answer the question, as it does not mention Whitehead, the Wright Brothers, or any details about the invention of planes. It only describes a man in a light blue shirt standing in front of a yellow biplane in a hangar, gesturing as he speaks. This scene could be part of a video about any topic related to planes, but it does not specifically indicate the content of the video or the subtitles. Therefore, the image description alone cannot help determine the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 49905,
+      "score": 0.0,
+      "ts": 1996.2,
+      "reasoning": "The image description does not provide enough information to answer the question, as it does not mention anything about the Wright Brothers, Whitehead, or the invention of the first plane. It only describes a man in a light blue shirt standing in front of a yellow Piper aircraft in a hangar, gesturing as he speaks. This scene does not directly relate to the historical context or content of the video being discussed in the question."
+    },
+    {
+      "frame_idx": 50529,
+      "score": 0.1,
+      "ts": 2021.16,
+      "reasoning": "The image description provides context about a biplane on a beach, which may relate to historical aviation topics, but it does not specifically mention the Wright Brothers, Whitehead, or the invention of the first plane. Therefore, it does not directly help in selecting the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 51153,
+      "score": 0.1,
+      "ts": 2046.12,
+      "reasoning": "The image description provides context about an early biplane, which may relate to the topic of early aviation inventors, but it does not specifically mention the Wright Brothers or Whitehead, nor does it provide enough detail to determine the main subject of a video. Therefore, it offers limited help in selecting the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 51776,
+      "score": 0.0,
+      "ts": 2071.04,
+      "reasoning": "The image description does not provide enough information to answer the question, as it only shows a black and white photograph of a biplane flying in the sky and does not mention any specific historical context, individuals, or events related to the invention of the first plane or the Wright Brothers. Therefore, it cannot be used to determine the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 52400,
+      "score": 0.0,
+      "ts": 2096.0,
+      "reasoning": "The image description does not provide enough information to answer the question about the video's main topic, as it does not mention anything related to planes, inventors, or historical events. Therefore, it cannot help in selecting the correct answer."
+    },
+    {
+      "frame_idx": 53024,
+      "score": 0.1,
+      "ts": 2120.96,
+      "reasoning": "The image description provides context about a medal commemorating an aviation event with dates and locations, which may relate to early aviation history. However, it does not specifically mention the Wright Brothers or Whitehead, nor does it clarify the subject of the video. Therefore, it offers limited direct help in selecting the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 53648,
+      "score": 0.0,
+      "ts": 2145.92,
+      "reasoning": "The image description does not provide any information related to the content of the video or the question about the invention of planes, the Wright Brothers, or Whitehead. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 54272,
+      "score": 0.0,
+      "ts": 2170.88,
+      "reasoning": "The image description does not provide relevant information to answer the multiple-choice question, as it depicts a vintage agricultural scene with a steam-powered machine, not an aviation-related subject. The question is about the invention of planes and related historical figures, which is unrelated to the agricultural machine shown in the image."
+    },
+    {
+      "frame_idx": 54896,
+      "score": 0.0,
+      "ts": 2195.84,
+      "reasoning": "The image description does not provide relevant information to answer the question, as it depicts two men in period attire on a boat at night, which is unrelated to the topic of planes, inventors, or historical aviation figures mentioned in the multiple-choice question."
+    },
+    {
+      "frame_idx": 55519,
+      "score": 0.0,
+      "ts": 2220.76,
+      "reasoning": "The image description does not provide enough information to answer the question, as it does not mention anything related to planes, inventors, or historical events involving the Wright Brothers or Whitehead. The description only shows two men working on a structure in a field, which is unrelated to the content of the video or the multiple-choice question."
+    },
+    {
+      "frame_idx": 56143,
+      "score": 0.0,
+      "ts": 2245.72,
+      "reasoning": "The image description does not provide any direct information about the content of the video or the subtitles, as it only describes a man in a brown suit and hat standing in a field, looking upwards with a contemplative expression. It does not mention anything related to planes, inventors, or historical events. Therefore, it cannot help answer the question about what the video is mainly about."
+    },
+    {
+      "frame_idx": 56767,
+      "score": 0.3,
+      "ts": 2270.68,
+      "reasoning": "The image description provides visual context that aligns with early flying machines, possibly referencing the Wright Brothers' invention, but it does not explicitly mention Whitehead or the specific comparison of structural differences between Whitehead's and the Wright Brothers' planes. Therefore, while it may support options related to early flying machines, it does not directly help determine the best answer to the multiple-choice question without additional information from the video and subtitles."
+    },
+    {
+      "frame_idx": 57391,
+      "score": 0.0,
+      "ts": 2295.64,
+      "reasoning": "The image description does not provide any direct information related to the content of the video or the multiple-choice question, as it only describes a collage of sepia-toned black-and-white photographs of men in formal attire. Therefore, it cannot help in determining the correct answer to the question about the video's main topic."
+    },
+    {
+      "frame_idx": 58015,
+      "score": 0.0,
+      "ts": 2320.6,
+      "reasoning": "The image description does not provide any information related to the content of the video or the multiple-choice question, which is about the invention of planes and the individuals involved. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 58638,
+      "score": 0.3,
+      "ts": 2345.52,
+      "reasoning": "The image description provides context about an early aircraft, suggesting the topic relates to the invention of the first plane. However, it does not specifically mention the Wright Brothers or Whitehead, nor does it clarify whether the video is about the invention of the first plane or the differences between early aircraft inventors. Therefore, while the image may support a general understanding of the subject matter, it does not provide enough specific information to definitively answer the question."
+    },
+    {
+      "frame_idx": 59262,
+      "score": 0.0,
+      "ts": 2370.48,
+      "reasoning": "图像描述中提到“Orville Wright”和“15 North Broadway, Washington, D.C.”，这可能与莱特兄弟有关，但没有明确提到视频内容或与飞机发明相关的信息。图像描述主要涉及一份历史电报的格式和内容，并未直接说明视频的主题。因此，图像描述无法提供足够的信息来回答关于视频主题的多选题。"
+    },
+    {
+      "frame_idx": 59886,
+      "score": 0.0,
+      "ts": 2395.44,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and the individuals involved (Whitehead and the Wright Brothers). The image depicts a person at a typewriter with a brick wall and a lamp, which is unrelated to the topic of aviation history. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 60510,
+      "score": 0.0,
+      "ts": 2420.4,
+      "reasoning": "The image description does not provide any relevant information about the content of the video or the multiple-choice question, as it describes a man in a suit and a window with greenery, which is unrelated to the topic of planes, inventors, or historical events related to aviation. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 61134,
+      "score": 0.0,
+      "ts": 2445.36,
+      "reasoning": "图像描述中提到的场景（如房间、书架、电脑等）与问题中涉及的飞机发明历史无关，未提供任何与视频内容相关的线索。问题选项均涉及飞机发明者及技术差异，而图像描述未提及任何与航空史、发明者或技术比较相关的信息，因此无法辅助回答问题。"
+    },
+    {
+      "frame_idx": 61758,
+      "score": 0.0,
+      "ts": 2470.32,
+      "reasoning": "The image description does not provide enough information to determine the main topic of the video, as it does not mention any specific individuals, historical events, or context related to planes, inventors, or cooperation between individuals. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 62381,
+      "score": 0.1,
+      "ts": 2495.24,
+      "reasoning": "The image description provides context about early aviation, mentioning two black-and-white photographs of early aircraft, including a biplane and a machine with wheels, which may suggest the presence of different inventors or designs. However, it does not explicitly mention the Wright Brothers or Whitehead, nor does it provide enough detail to determine the main topic of the video. Therefore, while it may support general knowledge about early aviation, it does not directly help in selecting the best answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 63005,
+      "score": 0.6,
+      "ts": 2520.2,
+      "reasoning": "The image description provides context that the scene involves a man holding an early aircraft similar to the Wright brothers' Flyer, which suggests the video may focus on early aviation history, specifically the Wright brothers. This supports options A or C, but does not directly address comparisons with Whitehead or cooperation between inventors, making B or D less likely. The image indirectly supports the topic being about the Wright brothers' invention, aligning with option A or C, but does not definitively answer the question on its own."
+    },
+    {
+      "frame_idx": 63629,
+      "score": 0.0,
+      "ts": 2545.16,
+      "reasoning": "图像描述中未提及任何与飞机发明、人物比较或合作相关的内容，仅描述了人物穿着、场景布置和背景元素，与问题选项中的主题无直接关联。因此，该图像"
+    },
+    {
+      "frame_idx": 64253,
+      "score": 0.0,
+      "ts": 2570.12,
+      "reasoning": "图像描述中提到的\" AFFIDAVIT of Anton Pruckner JULY 1934\"可能与航空"
+    },
+    {
+      "frame_idx": 64877,
+      "score": 0.0,
+      "ts": 2595.08,
+      "reasoning": "The image description does not provide any direct information about the content of the video or the topic of the multiple-choice question, as it only describes a man sitting at a desk with text related to an affidavit from 1934. Therefore, it cannot help answer the question about the video's main subject."
+    },
+    {
+      "frame_idx": 65500,
+      "score": 0.0,
+      "ts": 2620.0,
+      "reasoning": "The image description does not provide any information related to planes, inventors, or historical events involving the Wright Brothers or Whitehead. It only describes a boy in a dimly lit room with a typewriter and papers, which is unrelated to the question about the invention of planes. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 66124,
+      "score": 0.95,
+      "ts": 2644.96,
+      "reasoning": "The image description provides information about a flying machine with large wings and a propeller, its inventor, Whitehead, and its ability to soar above trees. This directly relates to the topic of who invented the first plane, as it mentions Whitehead and his invention. While it does not explicitly mention the Wright Brothers, it does focus on Whitehead's invention, which is relevant to option C. The description does not provide enough information to determine the structural differences between Whitehead's plane and the Wright Brothers' planes, nor does it mention any cooperation between them. Therefore, the image description supports option C as the best answer."
+    },
+    {
+      "frame_idx": 66748,
+      "score": 0.0,
+      "ts": 2669.92,
+      "reasoning": "The image description does not provide information related to the video or the multiple-choice question, as it describes a newspaper from 1910 with various headlines, not a video or its content. Therefore, it cannot help answer the question."
+    },
+    {
+      "frame_idx": 67372,
+      "score": 0.95,
+      "ts": 2694.88,
+      "reasoning": "The image description provides relevant clues that support answer option C, as it mentions \"flying machine,\" \"Mr. Whitehead,\" and references to New York and financial backers, which suggest a discussion about the invention of the first plane and the involvement of Whitehead, potentially positioning him as an early inventor. This aligns with the topic of who invented the first plane, making option C the most likely correct answer."
+    },
+    {
+      "frame_idx": 67996,
+      "score": 0.95,
+      "ts": 2719.84,
+      "reasoning": "The image description provides information about Gustave Whitehead's flight, including the distance and height, as well as his background in mechanical engineering and experiments with flying machines. This suggests the video may be discussing Whitehead's contributions to early aviation. Among the options, option C (\"Who invented the first plane\") is most directly related to the content of the image description, as it mentions Whitehead's flight and his work with flying machines, which could be relevant to the question of who invented the first plane. The other options focus on comparisons with the Wright Brothers or cooperation, which are not mentioned in the image description. Therefore, the image description can help narrow down the answer to option C."
+    },
+    {
+      "frame_idx": 68620,
+      "score": 0.85,
+      "ts": 2744.8,
+      "reasoning": "The image description provides context related to a video about the first flight, mentioning \"U.S. S. Remembers Kitty Hawk,\" which is associated with the Wright Brothers' first flight. This suggests the video is focused on the Wright Brothers and their historical significance in aviation. While the image does not directly answer the question, it supports options related to the Wright Brothers and the first flight, making options A and C more likely. The description does not mention Whitehead or cooperation between inventors, making options B and D less relevant."
+    },
+    {
+      "frame_idx": 69243,
+      "score": 0.0,
+      "ts": 2769.72,
+      "reasoning": "The image description does not provide enough information to answer the question about the main topic of the video, as it only shows a man in front of a yellow Piper aircraft inside a hangar, gesturing with his right hand. It does not mention anything about the Wright Brothers, Whitehead, or the invention of the first plane. Therefore, it cannot help in selecting the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 69867,
+      "score": 0.0,
+      "ts": 2794.68,
+      "reasoning": "The image description does not provide any information related to the question, which is about the invention of planes and the individuals involved, such as the Wright Brothers and Whitehead. The image is about Washington D.C. and its landmarks, which is unrelated to the topic of the question. Therefore, the image description cannot help answer the question."
+    },
+    {
+      "frame_idx": 70491,
+      "score": 0.95,
+      "ts": 2819.64,
+      "reasoning": "The image description provides context about a legal document related to the Wright Aeroplane of 1903, mentioning Wilbur and Orville Wright as its inventors and builders. This directly supports answer A, which focuses on planes invented by the Wright Brothers. The description does not mention Whitehead or any comparison between different inventors, nor does it discuss cooperation between Whitehead and the Wright Brothers. Therefore, the image description helps identify the correct answer by confirming the focus on the Wright Brothers' invention."
+    },
+    {
+      "frame_idx": 71115,
+      "score": 0.95,
+      "ts": 2844.6,
+      "reasoning": "The image description provides context about a document discussing the Wright brothers' achievements in aviation and references a specific magazine article. This suggests the content is focused on the Wright brothers' contributions to aviation. Among the answer choices, option A (\"Planes invented by the Wright Brothers\") aligns most closely with this context, as it directly relates to their achievements. The description does not mention Whitehead or cooperation between inventors, making options B and D less relevant. While option C (\"Who invented the first plane\") is related, the specific focus on the Wright brothers in the image description makes option A a more precise match. Therefore, the image description helps identify the best answer by highlighting the Wright brothers' achievements."
+    },
+    {
+      "frame_idx": 71739,
+      "score": 0.1,
+      "ts": 2869.56,
+      "reasoning": "The image description provides context of a man working on a wooden structure with mechanical parts and wires in a workshop, which suggests a historical or technical setting related to early aviation or machinery. However, it does not specifically mention the Wright Brothers, Whitehead, or any direct reference to the invention of the first plane. Therefore, while it may hint at a workshop environment relevant to early aviation, it does not provide enough specific information to determine the correct answer to the question about the video's main topic."
+    },
+    {
+      "frame_idx": 72362,
+      "score": 0.0,
+      "ts": 2894.48,
+      "reasoning": "The image description does not provide enough information to directly answer the question about the main topic of the video. The description only mentions Dr. Tom Crouch, a senior curator, in a dimly lit room with a vintage aircraft in the background. It does not mention Whitehead, the Wright Brothers, or any discussion about the invention of the first plane or comparisons between different inventors. Therefore, the image description is not helpful in determining the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 72986,
+      "score": 0.0,
+      "ts": 2919.44,
+      "reasoning": "The image description does not provide enough information to answer the question about the video's main topic, as it does not mention any specific individuals, events, or subjects related to planes, inventors, or historical context. It only describes a man in a dimly lit room, which is unrelated to the content of the video or the multiple-choice question."
+    },
+    {
+      "frame_idx": 73610,
+      "score": 0.0,
+      "ts": 2944.4,
+      "reasoning": "The image description does not provide enough information to answer the question, as it does not mention anything about planes, inventors, or historical events related to flight. The description is focused on a workshop scene with people examining a wooden object, which is unrelated to the content of the video or the multiple-choice question."
+    },
+    {
+      "frame_idx": 74234,
+      "score": 0.0,
+      "ts": 2969.36,
+      "reasoning": "The image description does not provide information related to the invention of planes, the Wright Brothers, or Whitehead, and therefore cannot help answer the question."
+    },
+    {
+      "frame_idx": 74858,
+      "score": 0.0,
+      "ts": 2994.32,
+      "reasoning": "The image description does not provide any direct information related to the content of the video or the multiple-choice question, as it depicts a man looking out of a window and does not mention anything about planes, inventors, or historical events. Therefore, it cannot help in answering the question."
+    },
+    {
+      "frame_idx": 75482,
+      "score": 0.0,
+      "ts": 3019.28,
+      "reasoning": "The image description does not provide any relevant information about planes, inventors, or historical events related to aviation, and therefore cannot help in answering the question."
+    },
+    {
+      "frame_idx": 76105,
+      "score": 0.2,
+      "ts": 3044.2,
+      "reasoning": "The image description provides context about an early aircraft, suggesting it is related to the history of aviation. However, it does not specifically mention the Wright Brothers or Whitehead, nor does it clarify whether the aircraft is the first plane or compare different inventors. Therefore, it offers limited direct help in selecting the best answer to the multiple-choice question, which requires specific information about the video and subtitles."
+    },
+    {
+      "frame_idx": 76729,
+      "score": 0.2,
+      "ts": 3069.16,
+      "reasoning": "The image description provides context about a woman in a uniform gesturing while speaking to an audience in front of a vintage biplane, highlighting the aircraft's framework and propeller. While it does not directly answer the question about the video's main topic, it suggests a historical or educational setting, possibly related to aviation history. However, it does not specifically mention Whitehead, the Wright Brothers, or their inventions, so it offers limited help in selecting the correct answer to the multiple-choice question."
+    },
+    {
+      "frame_idx": 77353,
+      "score": 0.0,
+      "ts": 3094.12,
+      "reasoning": "The image description does not provide enough information to answer the multiple-choice question, as it only describes a small, white biplane in mid-flight and its surroundings, without mentioning any historical context, inventors, or comparisons between different aircraft inventors. Therefore, it cannot be used to determine the correct answer to the question about the video's main topic."
+    },
+    {
+      "frame_idx": 77977,
+      "score": 0.0,
+      "ts": 3119.08,
+      "reasoning": "The image description does not provide specific information about the historical context or the individuals involved in the invention of the first plane, such as the Wright Brothers or Whitehead. It only describes a person operating a vintage-style biplane in a natural setting. Therefore, it does not help in determining the correct answer to the multiple-choice question about the video's main topic."
+    },
+    {
+      "frame_idx": 78601,
+      "score": 0.0,
+      "ts": 3144.04,
+      "reasoning": "The image description does not provide information related to the content of the video or the subtitles, as it only describes a list of credits against a dark blue sky. Therefore, it cannot help answer the question about what the video is mainly about."
+    },
+    {
+      "frame_idx": 79225,
+      "score": 0.0,
+      "ts": 3169.0,
+      "reasoning": "The image description does not provide any useful information for answering the question, as it only describes a completely black image with no visible content. The question is about the main topic of a video, which is unrelated to the image description. Therefore, the image description cannot help in selecting the correct answer."
+    }
+  ]
+}

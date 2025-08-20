@@ -276,7 +276,42 @@ def videomme_process_results(doc, results):
     data_dict = {"question_id": doc["question_id"], "duration": doc["duration"], "category": category, "sub_category": sub_category, "task_category": task_category, "pred_answer": pred_ans, "answer": doc["answer"]}
 
     # return {f"videomme_perception_score": data_dict for metric in matrices}
-    return {f"videomme_perception_score": data_dict}
+    return {"videomme_perception_score": data_dict}
+
+
+
+# New: filter function to keep only long-duration videos. Used by videomme_long.yaml
+def videomme_filter_long(doc):
+    """
+    Return True iff the given example should be included as a "long" video.
+
+    It checks (case-insensitively) common fields used in Video-MME metadata:
+    - doc.get("duration") or doc.get("duration_label") or doc.get("duration_category") equals "long"
+    - Or falls back to numeric duration (seconds) >= 60 if available
+    """
+    # string label checks
+    for key in ("duration", "duration_label", "duration_category"):
+        val = doc.get(key)
+        if isinstance(val, str) and val.strip().lower() == "long":
+            return True
+
+    # numeric seconds check
+    for key in ("duration_sec", "duration_seconds", "video_duration", "video_time"):
+        val = doc.get(key)
+        if isinstance(val, (int, float)) and val >= 60:
+            return True
+
+    # some datasets store duration as a nested dict or list; try best-effort extraction
+    val = doc.get("meta") or doc.get("metadata")
+    if isinstance(val, dict):
+        label = val.get("duration") or val.get("duration_label") or val.get("duration_category")
+        if isinstance(label, str) and label.strip().lower() == "long":
+            return True
+        secs = val.get("duration_sec") or val.get("duration_seconds") or val.get("video_duration")
+        if isinstance(secs, (int, float)) and secs >= 60:
+            return True
+
+    return False
 
 
 def videomme_aggregate_results(results):
@@ -347,3 +382,9 @@ def videomme_aggregate_results(results):
         total_answered += v["answered"]
     eval_logger.info(f"Overall Performance: {100 * total_correct / total_answered if total_answered > 0 else 0 : .1f}%")
     return 100 * total_correct / total_answered if total_answered > 0 else 0
+
+
+# Dataset-level processing hook for YAML: process_docs
+def videomme_process_docs_long(dataset):
+    """Keep only long videos by applying videomme_filter_long to each doc."""
+    return dataset.filter(videomme_filter_long)

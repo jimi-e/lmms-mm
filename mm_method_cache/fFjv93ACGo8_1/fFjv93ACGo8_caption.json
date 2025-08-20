@@ -1,0 +1,1031 @@
+{
+  "video_path": "/home/syh/.cache/huggingface/videomme/data/fFjv93ACGo8.mp4",
+  "avg_fps": 29.97002997002997,
+  "total_frames": 2227,
+  "captions": {
+    "0": {
+      "ts": 0.0,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white, with a watermark \"13newsnow.com\" in the top left corner."
+    },
+    "8": {
+      "ts": 0.27,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white, with \"13newsnow.com\" in the top left corner."
+    },
+    "17": {
+      "ts": 0.57,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white, with \"13newsnow.com\" in the top left corner."
+    },
+    "26": {
+      "ts": 0.87,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white."
+    },
+    "34": {
+      "ts": 1.13,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white."
+    },
+    "43": {
+      "ts": 1.43,
+      "caption": "A purple background features a white rectangular frame with the text \"NEW AT 6\" in bold white letters."
+    },
+    "52": {
+      "ts": 1.74,
+      "caption": "A purple background features a white rectangular frame with the text \"NEW AT 6\" in bold white letters, accompanied by a website address \"13newsnow.com\" in the top left corner."
+    },
+    "61": {
+      "ts": 2.04,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white, with \"13newsnow.com\" in the top left corner."
+    },
+    "69": {
+      "ts": 2.3,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white, with \"13newsnow.com\" in the top left corner."
+    },
+    "78": {
+      "ts": 2.6,
+      "caption": "A purple background features a white rectangular frame with the text \"NEW AT 6\" in bold white letters."
+    },
+    "87": {
+      "ts": 2.9,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white, with \"13newsnow.com\" in the top left corner."
+    },
+    "96": {
+      "ts": 3.2,
+      "caption": "A purple background with a white rectangular frame containing the text \"NEW AT 6\" in white, with \"13newsnow.com\" in the top left corner."
+    },
+    "104": {
+      "ts": 3.47,
+      "caption": "A news anchor and reporter are seated at a desk in a studio with a cityscape background, wearing professional attire, and the text \"NEW AT 6\" is prominently displayed in the foreground."
+    },
+    "113": {
+      "ts": 3.77,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio with a cityscape backdrop."
+    },
+    "122": {
+      "ts": 4.07,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a body of water."
+    },
+    "130": {
+      "ts": 4.34,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio with a cityscape backdrop."
+    },
+    "139": {
+      "ts": 4.64,
+      "caption": "Two news anchors, one in a blue suit and the other in a red top, stand behind a white desk with a cityscape backdrop."
+    },
+    "148": {
+      "ts": 4.94,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a body of water."
+    },
+    "157": {
+      "ts": 5.24,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "165": {
+      "ts": 5.51,
+      "caption": "A news anchor and reporter stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "174": {
+      "ts": 5.81,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "183": {
+      "ts": 6.11,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "192": {
+      "ts": 6.41,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "200": {
+      "ts": 6.67,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "209": {
+      "ts": 6.97,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a body of water."
+    },
+    "218": {
+      "ts": 7.27,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "226": {
+      "ts": 7.54,
+      "caption": "Two news anchors, one in a blue suit and the other in a red top, stand behind a desk with a cityscape backdrop."
+    },
+    "235": {
+      "ts": 7.84,
+      "caption": "Two news anchors, one in a blue suit and the other in a red top, stand behind a white desk with a cityscape backdrop."
+    },
+    "244": {
+      "ts": 8.14,
+      "caption": "Two news anchors, one in a blue suit and the other in a red outfit, stand behind a white desk in a studio with a cityscape backdrop."
+    },
+    "253": {
+      "ts": 8.44,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "261": {
+      "ts": 8.71,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "270": {
+      "ts": 9.01,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a partly cloudy sky."
+    },
+    "279": {
+      "ts": 9.31,
+      "caption": "A man in a blue suit and a woman in a red outfit stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a body of water."
+    },
+    "288": {
+      "ts": 9.61,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a blue sky."
+    },
+    "296": {
+      "ts": 9.88,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop and a website address visible in the top left corner."
+    },
+    "305": {
+      "ts": 10.18,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "314": {
+      "ts": 10.48,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a blue sky."
+    },
+    "322": {
+      "ts": 10.74,
+      "caption": "A man in a blue suit and a woman in a red outfit stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a body of water."
+    },
+    "331": {
+      "ts": 11.04,
+      "caption": "Two news anchors, one in a blue suit and the other in a red outfit, stand behind a white desk with a cityscape backdrop."
+    },
+    "340": {
+      "ts": 11.34,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio with a cityscape backdrop."
+    },
+    "349": {
+      "ts": 11.64,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "357": {
+      "ts": 11.91,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "366": {
+      "ts": 12.21,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio with a cityscape backdrop."
+    },
+    "375": {
+      "ts": 12.51,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio with a cityscape backdrop."
+    },
+    "384": {
+      "ts": 12.81,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a blue sky."
+    },
+    "392": {
+      "ts": 13.08,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a blue sky."
+    },
+    "401": {
+      "ts": 13.38,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a blue sky."
+    },
+    "410": {
+      "ts": 13.68,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a blue sky."
+    },
+    "419": {
+      "ts": 13.98,
+      "caption": "A news anchor and co-host stand behind a desk in a studio with a cityscape backdrop, wearing formal attire and holding tablets."
+    },
+    "427": {
+      "ts": 14.25,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a blue sky."
+    },
+    "436": {
+      "ts": 14.55,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a white desk in a news studio, with a cityscape backdrop featuring illuminated buildings and a blue sky."
+    },
+    "445": {
+      "ts": 14.85,
+      "caption": "A man in a blue suit and a woman in a red top stand behind a news desk with a cityscape backdrop."
+    },
+    "453": {
+      "ts": 15.12,
+      "caption": "A group of people is gathered around a rustic wooden table adorned with greenery, enjoying a meal featuring roasted chicken, vegetables, and various fruits."
+    },
+    "462": {
+      "ts": 15.42,
+      "caption": "A group of people is gathered around a wooden table adorned with greenery, enjoying a meal featuring roasted chicken, vegetables, and various fruits."
+    },
+    "471": {
+      "ts": 15.72,
+      "caption": "A group of people is gathered around a wooden table set for a meal, featuring roasted chicken, roasted vegetables, chestnuts, and pomegranates, with white plates and glasses of wine."
+    },
+    "480": {
+      "ts": 16.02,
+      "caption": "A group of people is gathered around a rustic wooden table adorned with greenery, enjoying a meal featuring roasted chicken, roasted vegetables, chestnuts, and a variety of fruits like pomegranates and persimmons."
+    },
+    "488": {
+      "ts": 16.28,
+      "caption": "A group of people is gathered around a rustic wooden table, enjoying a meal with plates of roasted vegetables, a roasted chicken, and various side dishes, surrounded by greenery and fruits."
+    },
+    "497": {
+      "ts": 16.58,
+      "caption": "A group of people is gathered around a rustic wooden table adorned with greenery, enjoying a meal featuring roasted chicken, vegetables, and various fruits."
+    },
+    "506": {
+      "ts": 16.88,
+      "caption": "A group of people is gathered around a wooden table, enjoying a meal with plates of roasted chicken, vegetables, and various fruits, including pomegranates and persimmons."
+    },
+    "515": {
+      "ts": 17.18,
+      "caption": "A festive table setting features roasted chicken, creamy mashed potatoes, roasted vegetables, and pomegranates, all surrounded by greenery and candles on a rustic wooden table."
+    },
+    "523": {
+      "ts": 17.45,
+      "caption": "A festive table setting features roasted chicken, creamy mashed potatoes, roasted vegetables, and pomegranates, all arranged on a rustic wooden table adorned with greenery and candles."
+    },
+    "532": {
+      "ts": 17.75,
+      "caption": "A festive table setting features a roasted chicken, greenery, pomegranates, olives, and glasses of wine, with a person serving food."
+    },
+    "541": {
+      "ts": 18.05,
+      "caption": "A festive table setting features a roasted chicken, greenery, pomegranates, olives, and glasses of rose wine, with a person serving food."
+    },
+    "549": {
+      "ts": 18.32,
+      "caption": "A festive table setting features a roasted chicken, greenery, pomegranates, olives, and glasses of wine, with a person serving food."
+    },
+    "558": {
+      "ts": 18.62,
+      "caption": "The image shows a close-up of out-of-focus, golden-yellow lights creating a bokeh effect against a dark background."
+    },
+    "567": {
+      "ts": 18.92,
+      "caption": "A gingerbread snowflake cookie with white icing details is set against a backdrop of warm, out-of-focus yellow lights."
+    },
+    "576": {
+      "ts": 19.22,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a snowflake design, surrounded by pine cones and berries against a backdrop of warm, blurred lights."
+    },
+    "584": {
+      "ts": 19.49,
+      "caption": "A white mug with a snowflake design sits beside a gingerbread snowflake cookie, with pinecones and blurred golden lights in the background."
+    },
+    "593": {
+      "ts": 19.79,
+      "caption": "A gingerbread snowflake cookie sits beside a white mug with a snowflake pattern, both on a dark surface with pinecones and berries, against a backdrop of warm, blurred lights."
+    },
+    "602": {
+      "ts": 20.09,
+      "caption": "A gingerbread snowflake cookie sits beside a white mug with a lace-like pattern, against a backdrop of warm, blurred lights and pinecones."
+    },
+    "611": {
+      "ts": 20.39,
+      "caption": "A gingerbread snowflake cookie sits beside a white mug with a lace-like pattern, both on a table with pinecones and berries, against a backdrop of warm, blurred lights."
+    },
+    "619": {
+      "ts": 20.65,
+      "caption": "A gingerbread cookie shaped like a snowflake sits next to a white mug with intricate designs, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "628": {
+      "ts": 20.95,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a lace pattern, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "637": {
+      "ts": 21.25,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a lace pattern, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "645": {
+      "ts": 21.52,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a lace pattern, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "654": {
+      "ts": 21.82,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a lace pattern, surrounded by pine cones and red berries against a backdrop of warm, blurred lights."
+    },
+    "663": {
+      "ts": 22.12,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a lace pattern, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "672": {
+      "ts": 22.42,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a lace pattern, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "680": {
+      "ts": 22.69,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a lace pattern, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "689": {
+      "ts": 22.99,
+      "caption": "A gingerbread snowflake cookie with white icing sits next to a white mug with a lace pattern, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "698": {
+      "ts": 23.29,
+      "caption": "A gingerbread snowflake cookie with white icing sits beside a white mug with intricate designs, surrounded by pine cones and small red berries, with warm, blurred lights in the background."
+    },
+    "707": {
+      "ts": 23.59,
+      "caption": "A single, undecorated Christmas tree stands against a plain white background."
+    },
+    "715": {
+      "ts": 23.86,
+      "caption": "A single, undecorated Christmas tree stands against a plain white background."
+    },
+    "724": {
+      "ts": 24.16,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "733": {
+      "ts": 24.46,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "741": {
+      "ts": 24.72,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "750": {
+      "ts": 25.03,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "759": {
+      "ts": 25.33,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "768": {
+      "ts": 25.63,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "776": {
+      "ts": 25.89,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "785": {
+      "ts": 26.19,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "794": {
+      "ts": 26.49,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "803": {
+      "ts": 26.79,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "811": {
+      "ts": 27.06,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "820": {
+      "ts": 27.36,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "829": {
+      "ts": 27.66,
+      "caption": "A decorated Christmas tree with red, gold, and white ornaments stands against a plain white background."
+    },
+    "838": {
+      "ts": 27.96,
+      "caption": "A detailed illustration depicts a man in medieval attire climbing a ladder to reach a tree filled with fruit, with another person partially visible in the background."
+    },
+    "846": {
+      "ts": 28.23,
+      "caption": "A detailed illustration depicts a man in medieval attire standing on a pedestal, with a large tree filled with golden fruits in the foreground and a partially visible figure in the background."
+    },
+    "855": {
+      "ts": 28.53,
+      "caption": "A detailed medieval illustration depicts a man in a robe standing beside a tree with red berries, while another figure in a white robe is partially visible in the background."
+    },
+    "864": {
+      "ts": 28.83,
+      "caption": "A medieval illustration depicts a man climbing a ladder to reach a tree filled with fruit, while another person stands nearby."
+    },
+    "872": {
+      "ts": 29.1,
+      "caption": "A detailed illustration depicts a tree with golden fruits, a child climbing a column, and musical notation at the bottom."
+    },
+    "881": {
+      "ts": 29.4,
+      "caption": "A detailed medieval illustration depicts a man standing on a pedestal, reaching for fruit from a large tree, with another figure in the background."
+    },
+    "890": {
+      "ts": 29.7,
+      "caption": "A detailed illustration depicts a lush green tree adorned with golden and red fruits, with a person in period attire standing on a wooden box, reaching towards the tree."
+    },
+    "899": {
+      "ts": 30.0,
+      "caption": "A detailed illustration depicts a person climbing a ladder to reach a tree filled with golden fruits, while another figure stands nearby, observing."
+    },
+    "907": {
+      "ts": 30.26,
+      "caption": "A child stands on a box, reaching for apples from a tree, while another child in a white dress stands nearby, and musical notes are visible on a staff below."
+    },
+    "916": {
+      "ts": 30.56,
+      "caption": "A detailed illustration depicts a lush green tree with golden apples, a child in a brown coat and white pants climbing a wooden post, and another child in a red dress and white apron standing nearby."
+    },
+    "925": {
+      "ts": 30.86,
+      "caption": "A medieval painting depicts a group of musicians playing various instruments, including a lute, a trumpet, and a bagpipe, with a Christmas tree in the background."
+    },
+    "934": {
+      "ts": 31.16,
+      "caption": "A medieval scene depicts a group of musicians and a Christmas tree, with figures in period attire playing various instruments and standing near a tree adorned with red berries."
+    },
+    "942": {
+      "ts": 31.43,
+      "caption": "A medieval scene depicts a group of musicians playing various instruments, including a lute, a trumpet, and a bagpipe, while a man in a red robe holds a staff, and others stand near a tree with fruit."
+    },
+    "951": {
+      "ts": 31.73,
+      "caption": "A medieval scene depicts a group of musicians and a man with a lute, dressed in colorful, period-appropriate attire, playing and singing in a lush, green landscape with trees and a clear sky."
+    },
+    "960": {
+      "ts": 32.03,
+      "caption": "A medieval scene depicts musicians playing various instruments, including a lute, flutes, and a trumpet, while a group of people in period attire stands nearby, with a tree and a musical staff with notes above them."
+    },
+    "968": {
+      "ts": 32.3,
+      "caption": "A medieval scene depicts a procession with musicians playing lutes, flutes, and horns, accompanied by a man holding a banner with musical notation, set against a backdrop of trees and a fruit-bearing tree."
+    },
+    "977": {
+      "ts": 32.6,
+      "caption": "A medieval scene depicts a group of people in period attire, playing various musical instruments, with a tree and a musical staff labeled \"CHOO DO DO\" in the background."
+    },
+    "986": {
+      "ts": 32.9,
+      "caption": "A small, artificial Christmas tree with dense, green, needle-like foliage stands against a plain white background."
+    },
+    "995": {
+      "ts": 33.2,
+      "caption": "A small, green, artificial Christmas tree stands alone against a plain white background."
+    },
+    "1003": {
+      "ts": 33.47,
+      "caption": "A small, green, coniferous tree with dense foliage stands against a plain white background."
+    },
+    "1012": {
+      "ts": 33.77,
+      "caption": "A small, green, coniferous tree with dense foliage stands against a plain white background."
+    },
+    "1021": {
+      "ts": 34.07,
+      "caption": "A tall, dense green pine tree with needle-like leaves stands against a plain white background."
+    },
+    "1030": {
+      "ts": 34.37,
+      "caption": "The image shows a close-up of a green, coniferous tree with dense, needle-like leaves against a plain white background."
+    },
+    "1038": {
+      "ts": 34.63,
+      "caption": "The image shows a close-up of a green, coniferous tree with dense, needle-like leaves against a plain white background."
+    },
+    "1047": {
+      "ts": 34.93,
+      "caption": "The image shows a close-up of a green, coniferous tree with dense, needle-like leaves against a plain white background."
+    },
+    "1056": {
+      "ts": 35.24,
+      "caption": "A close-up of a green, coniferous tree branch with needle-like leaves against a white background."
+    },
+    "1064": {
+      "ts": 35.5,
+      "caption": "The image shows a close-up of a green coniferous tree branch with needle-like leaves against a plain white background."
+    },
+    "1073": {
+      "ts": 35.8,
+      "caption": "A small Christmas tree with two striped candles hanging from its branches is displayed against a plain white background."
+    },
+    "1082": {
+      "ts": 36.1,
+      "caption": "A Christmas tree with green pine needles and three lit orange and yellow striped candles hanging from it."
+    },
+    "1091": {
+      "ts": 36.4,
+      "caption": "A Christmas tree decorated with red apples and yellow striped candles is displayed against a white background."
+    },
+    "1099": {
+      "ts": 36.67,
+      "caption": "A Christmas tree decorated with red apples and yellow striped candles is displayed against a plain white background."
+    },
+    "1108": {
+      "ts": 36.97,
+      "caption": "A Christmas tree decorated with apples, blueberries, candles, and green leaves against a white background."
+    },
+    "1117": {
+      "ts": 37.27,
+      "caption": "A festive Christmas tree decorated with apples, blueberries, candles, and green leaves against a white background."
+    },
+    "1126": {
+      "ts": 37.57,
+      "caption": "A festive Christmas tree decorated with apples, blueberries, candles, and green leaves against a plain white background."
+    },
+    "1134": {
+      "ts": 37.84,
+      "caption": "A decorated Christmas tree features candles, apples, and blueberries as ornaments."
+    },
+    "1143": {
+      "ts": 38.14,
+      "caption": "A festive Christmas tree adorned with red ornaments, a snowflake-patterned ball, pinecones, and twinkling lights against a dark background."
+    },
+    "1152": {
+      "ts": 38.44,
+      "caption": "A festive Christmas tree adorned with red ornaments, a snowflake-patterned ball, pinecones, and twinkling lights against a dark background."
+    },
+    "1161": {
+      "ts": 38.74,
+      "caption": "A festive Christmas tree adorned with red ornaments, a snowflake-patterned ball, pinecones, and twinkling lights against a dark background."
+    },
+    "1169": {
+      "ts": 39.01,
+      "caption": "The image shows a dark background with numerous small, glowing, circular bokeh lights in various colors, including blue, yellow, and orange."
+    },
+    "1178": {
+      "ts": 39.31,
+      "caption": "The image features the text \"Paradise trees\" in white against a dark blue background with bokeh light effects."
+    },
+    "1187": {
+      "ts": 39.61,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1195": {
+      "ts": 39.87,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1204": {
+      "ts": 40.17,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1213": {
+      "ts": 40.47,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1222": {
+      "ts": 40.77,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1230": {
+      "ts": 41.04,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1239": {
+      "ts": 41.34,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1248": {
+      "ts": 41.64,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1257": {
+      "ts": 41.94,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background with bokeh light effects."
+    },
+    "1265": {
+      "ts": 42.21,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles against a blurred green background."
+    },
+    "1274": {
+      "ts": 42.51,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles against a blurred green background."
+    },
+    "1283": {
+      "ts": 42.81,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles stands in front of a blurred forest background."
+    },
+    "1291": {
+      "ts": 43.08,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles stands in front of a blurred forest background."
+    },
+    "1300": {
+      "ts": 43.38,
+      "caption": "A decorated Christmas tree with red apples, blue berries, and golden candles stands in front of a stone wall adorned with red and green decorations."
+    },
+    "1309": {
+      "ts": 43.68,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles stands in front of a wooden door with glass panels."
+    },
+    "1318": {
+      "ts": 43.98,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1326": {
+      "ts": 44.24,
+      "caption": "A small, decorated Christmas tree with apples, berries, and candles stands in front of a wooden door with glass panels."
+    },
+    "1335": {
+      "ts": 44.54,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1344": {
+      "ts": 44.84,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1353": {
+      "ts": 45.15,
+      "caption": "A small Christmas tree decorated with apples, blueberries, and candles stands in front of a wooden door with glass panels."
+    },
+    "1361": {
+      "ts": 45.41,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1370": {
+      "ts": 45.71,
+      "caption": "A small Christmas tree decorated with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1379": {
+      "ts": 46.01,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1387": {
+      "ts": 46.28,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles is displayed through a wooden door, with stockings hanging in the background."
+    },
+    "1396": {
+      "ts": 46.58,
+      "caption": "A decorated Christmas tree with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1405": {
+      "ts": 46.88,
+      "caption": "A small Christmas tree decorated with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1414": {
+      "ts": 47.18,
+      "caption": "A small Christmas tree decorated with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1422": {
+      "ts": 47.45,
+      "caption": "A small Christmas tree decorated with apples, blueberries, and candles stands in front of a wooden door with glass panels."
+    },
+    "1431": {
+      "ts": 47.75,
+      "caption": "A small Christmas tree decorated with apples, blueberries, and candles stands in front of a wooden door with glass panels."
+    },
+    "1440": {
+      "ts": 48.05,
+      "caption": "A small, decorated Christmas tree with apples, blueberries, and candles stands in front of a wooden door with glass panels, set against a blurred background featuring stockings and a fireplace."
+    },
+    "1449": {
+      "ts": 48.35,
+      "caption": "A small Christmas tree decorated with apples, blueberries, and candles is displayed in front of a wooden door with glass panels."
+    },
+    "1457": {
+      "ts": 48.62,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with lit candles, set against a detailed interior background."
+    },
+    "1466": {
+      "ts": 48.92,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with lit candles, set against a detailed interior background."
+    },
+    "1475": {
+      "ts": 49.22,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with lit candles, set against a detailed interior background."
+    },
+    "1483": {
+      "ts": 49.48,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with lit candles, in a room with ornate furniture and a fireplace."
+    },
+    "1492": {
+      "ts": 49.78,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with lit candles, in a room with a fireplace and ornate furniture."
+    },
+    "1501": {
+      "ts": 50.08,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with lit candles, in a room with a fireplace and ornate furniture."
+    },
+    "1510": {
+      "ts": 50.38,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with lit candles, in a room adorned with ornate furniture and a fireplace."
+    },
+    "1518": {
+      "ts": 50.65,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree in a warmly lit room, with a fireplace and ornate furniture in the background."
+    },
+    "1527": {
+      "ts": 50.95,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree, with candles lit and ornaments visible, in a warmly lit room with ornate furniture and a fireplace."
+    },
+    "1536": {
+      "ts": 51.25,
+      "caption": "A black-and-white illustration depicts a group of people gathered around a decorated Christmas tree, with a man in a fur coat and a young girl in the foreground, while others observe or interact with the tree."
+    },
+    "1545": {
+      "ts": 51.55,
+      "caption": "A black-and-white illustration depicts a group of people gathered around a decorated Christmas tree, with one person seemingly giving a speech or reading aloud."
+    },
+    "1553": {
+      "ts": 51.82,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with candles, engaging in festive activities in a warmly lit room."
+    },
+    "1562": {
+      "ts": 52.12,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree with candles, surrounded by ornate furniture and a fireplace."
+    },
+    "1571": {
+      "ts": 52.42,
+      "caption": "A black-and-white illustration depicts a group of people gathered around a decorated Christmas tree with candles, in a room adorned with ornate furniture and a statue on a pedestal."
+    },
+    "1580": {
+      "ts": 52.72,
+      "caption": "A group of people, including adults and children, gather around a decorated Christmas tree with candles, in a room adorned with ornate furniture and a statue of an angel."
+    },
+    "1588": {
+      "ts": 52.99,
+      "caption": "A group of people, including adults and children, gather around a decorated Christmas tree with candles, in a room adorned with ornate furniture and a statue on a pedestal."
+    },
+    "1597": {
+      "ts": 53.29,
+      "caption": "A vintage illustration depicts a family gathered around a decorated Christmas tree in a warmly lit room, with a clock and ornate furniture in the background."
+    },
+    "1606": {
+      "ts": 53.59,
+      "caption": "A vintage illustration depicts a family gathered around a decorated Christmas tree in a warmly lit room, with a clock and ornate furniture in the background."
+    },
+    "1614": {
+      "ts": 53.85,
+      "caption": "A vintage-style image depicts a family gathered around a Christmas tree, with a prominent coin or medallion in the upper right corner."
+    },
+    "1623": {
+      "ts": 54.15,
+      "caption": "A close-up of colorful Christmas ornaments, including blue, green, purple, and red, with a shiny reflective surface and a small tag on one of the purple ornaments."
+    },
+    "1632": {
+      "ts": 54.45,
+      "caption": "A close-up of colorful Christmas ornaments in red, blue, green, and purple, with reflective surfaces and small metal hangers."
+    },
+    "1641": {
+      "ts": 54.75,
+      "caption": "A close-up of colorful Christmas ornaments in red, blue, green, and purple, with shiny ribbons and reflective surfaces."
+    },
+    "1649": {
+      "ts": 55.02,
+      "caption": "A close-up of colorful Christmas ornaments in vibrant red, blue, green, and purple hues, with shiny surfaces reflecting light."
+    },
+    "1658": {
+      "ts": 55.32,
+      "caption": "A close-up of colorful Christmas ornaments in red, blue, green, and purple, with shiny surfaces and small loops for hanging."
+    },
+    "1667": {
+      "ts": 55.62,
+      "caption": "A close-up of colorful Christmas ornaments in red, blue, green, and purple, with shiny surfaces reflecting light."
+    },
+    "1676": {
+      "ts": 55.92,
+      "caption": "A strip of gold tinsel is positioned at the top of a white background."
+    },
+    "1684": {
+      "ts": 56.19,
+      "caption": "A long, thin strip of gold tinsel stretches horizontally across a white background."
+    },
+    "1693": {
+      "ts": 56.49,
+      "caption": "A white background with a strip of golden tinsel at the bottom."
+    },
+    "1702": {
+      "ts": 56.79,
+      "caption": "A red ribbon is elegantly curved against a plain white background."
+    },
+    "1710": {
+      "ts": 57.06,
+      "caption": "A red ribbon is elegantly curved against a plain white background."
+    },
+    "1719": {
+      "ts": 57.36,
+      "caption": "A red ribbon curves gracefully against a stark white background."
+    },
+    "1728": {
+      "ts": 57.66,
+      "caption": "The image is completely white with no discernible objects, text, or background elements."
+    },
+    "1737": {
+      "ts": 57.96,
+      "caption": "Three glossy Christmas ornaments in red, gold, and pink are hanging against a white background."
+    },
+    "1745": {
+      "ts": 58.22,
+      "caption": "Three glossy Christmas ornaments in red, gold, and pink with metallic loops hang against a white background."
+    },
+    "1754": {
+      "ts": 58.53,
+      "caption": "Two shiny Christmas ornaments, one gold and one pink, are displayed against a plain white background."
+    },
+    "1763": {
+      "ts": 58.83,
+      "caption": "The image is completely white with no discernible objects, text, or background elements."
+    },
+    "1772": {
+      "ts": 59.13,
+      "caption": "The image is completely white with no discernible objects, text, or background elements."
+    },
+    "1780": {
+      "ts": 59.39,
+      "caption": "The image shows a completely white background with no visible objects, text, or symbols."
+    },
+    "1789": {
+      "ts": 59.69,
+      "caption": "A tangled mess of Christmas lights with red, green, and blue bulbs illuminates a dark surface."
+    },
+    "1798": {
+      "ts": 59.99,
+      "caption": "A tangled mess of Christmas lights with red, green, blue, and white bulbs illuminates a reflective surface."
+    },
+    "1806": {
+      "ts": 60.26,
+      "caption": "A tangled string of Christmas lights with red, green, and blue bulbs illuminates a dark surface, creating a festive glow."
+    },
+    "1815": {
+      "ts": 60.56,
+      "caption": "A tangled mess of Christmas lights with red, green, blue, and white bulbs illuminates a reflective surface, creating a vibrant and festive glow."
+    },
+    "1824": {
+      "ts": 60.86,
+      "caption": "A tangled mess of Christmas lights with red, green, blue, and white bulbs illuminates a reflective surface."
+    },
+    "1833": {
+      "ts": 61.16,
+      "caption": "A tangled mess of Christmas lights with red, green, blue, and white bulbs illuminates a reflective surface, creating a vibrant and colorful display."
+    },
+    "1841": {
+      "ts": 61.43,
+      "caption": "A tangled mess of Christmas lights with red, green, and blue bulbs illuminates a reflective surface, creating vibrant reflections."
+    },
+    "1850": {
+      "ts": 61.73,
+      "caption": "A tangled mess of Christmas lights with red, green, blue, and white bulbs illuminates a reflective surface, creating vibrant reflections."
+    },
+    "1859": {
+      "ts": 62.03,
+      "caption": "A tangled string of Christmas lights with red, green, blue, and yellow bulbs illuminates a reflective surface."
+    },
+    "1868": {
+      "ts": 62.33,
+      "caption": "A tangled string of Christmas lights with red, green, and blue bulbs illuminates a reflective surface, creating vibrant reflections."
+    },
+    "1876": {
+      "ts": 62.6,
+      "caption": "A tangled string of Christmas lights with red, green, blue, and white bulbs illuminates a reflective surface, casting colorful reflections."
+    },
+    "1885": {
+      "ts": 62.9,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings, a lit fire, a Christmas tree adorned with gold ornaments, and wrapped presents on the floor."
+    },
+    "1894": {
+      "ts": 63.2,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hung by the fireplace, and wrapped gifts on the floor."
+    },
+    "1903": {
+      "ts": 63.5,
+      "caption": "A festive Christmas scene features a decorated tree with golden ornaments, stockings hung by the fireplace, and wrapped presents beneath the tree."
+    },
+    "1911": {
+      "ts": 63.76,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hung by the fireplace, and wrapped gifts beneath the tree."
+    },
+    "1920": {
+      "ts": 64.06,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hanging above a fireplace, and wrapped presents beneath the tree."
+    },
+    "1929": {
+      "ts": 64.36,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hanging by a fireplace, and wrapped presents on the floor."
+    },
+    "1937": {
+      "ts": 64.63,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hanging above a fireplace with a glowing fire, and wrapped presents beneath the tree."
+    },
+    "1946": {
+      "ts": 64.93,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hanging by a fireplace, and wrapped presents on the floor."
+    },
+    "1955": {
+      "ts": 65.23,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hung by the fireplace, and wrapped presents beneath the tree."
+    },
+    "1964": {
+      "ts": 65.53,
+      "caption": "A festive Christmas scene features a decorated tree with golden ornaments, stockings hung by the fireplace, and wrapped presents beneath it."
+    },
+    "1972": {
+      "ts": 65.8,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hanging by a fireplace, and wrapped gifts beneath the tree."
+    },
+    "1981": {
+      "ts": 66.1,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hanging above a fireplace, and wrapped gifts beneath the tree."
+    },
+    "1990": {
+      "ts": 66.4,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hanging above a fireplace with a glowing fire, and wrapped presents beneath the tree."
+    },
+    "1999": {
+      "ts": 66.7,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings, a lit fire, a Christmas tree adorned with gold ornaments, and wrapped presents beneath it."
+    },
+    "2007": {
+      "ts": 66.97,
+      "caption": "A festive Christmas scene features a decorated tree with golden ornaments, stockings hung by the fireplace, and wrapped presents beneath it."
+    },
+    "2016": {
+      "ts": 67.27,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hanging by a fireplace, and wrapped presents beneath the tree."
+    },
+    "2025": {
+      "ts": 67.57,
+      "caption": "A festive Christmas scene features a decorated tree, stockings hung by the fireplace, and wrapped gifts beneath the tree."
+    },
+    "2033": {
+      "ts": 67.83,
+      "caption": "A close-up of a Christmas tree adorned with shiny ornaments in red, gold, and white, with blurred lights in the background."
+    },
+    "2042": {
+      "ts": 68.13,
+      "caption": "A close-up of a Christmas tree adorned with shiny red, gold, and white ornaments, with blurred lights in the background."
+    },
+    "2051": {
+      "ts": 68.44,
+      "caption": "A close-up of a Christmas tree adorned with shiny ornaments and twinkling lights in the background."
+    },
+    "2060": {
+      "ts": 68.74,
+      "caption": "A close-up of a Christmas tree adorned with shiny ornaments in red, gold, and white, with twinkling lights in the background."
+    },
+    "2068": {
+      "ts": 69.0,
+      "caption": "A close-up of a Christmas tree adorned with shiny ornaments in gold, red, and white, with twinkling lights in the background."
+    },
+    "2077": {
+      "ts": 69.3,
+      "caption": "A close-up of a Christmas tree adorned with shiny ornaments, including a large gold ball and a red one, with blurred lights in the background."
+    },
+    "2086": {
+      "ts": 69.6,
+      "caption": "A Christmas tree adorned with ornaments, including a red bauble and a gold bauble, is decorated with lights and a tag featuring the \"13abc NewsNow\" logo."
+    },
+    "2095": {
+      "ts": 69.9,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a gold ball, features a white tag with the \"13abc News Now\" logo."
+    },
+    "2103": {
+      "ts": 70.17,
+      "caption": "A festive Christmas tree adorned with ornaments, including a red ribbon and a gold bauble, features a white tag with the \"13abc News Now\" logo."
+    },
+    "2112": {
+      "ts": 70.47,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a gold ball, features a white tag with the \"13abc News Now\" logo."
+    },
+    "2121": {
+      "ts": 70.77,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a gold ball, features a white tag with the \"13abc News Now\" logo."
+    },
+    "2129": {
+      "ts": 71.04,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a gold bauble, features a logo for \"13abc News Now\" hanging from a branch."
+    },
+    "2138": {
+      "ts": 71.34,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a gold bauble, features a decorative tag with the \"13abc News Now\" logo."
+    },
+    "2147": {
+      "ts": 71.64,
+      "caption": "A Christmas tree adorned with shiny ornaments, including a red ribbon and a gold bauble, features a white tag with the \"13abc News Now\" logo."
+    },
+    "2156": {
+      "ts": 71.94,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a white tag with \"13abc News Now\" text, is decorated with gold and red baubles and string lights in the background."
+    },
+    "2164": {
+      "ts": 72.21,
+      "caption": "A Christmas tree adorned with shiny ornaments and a decorative tag featuring the \"13abc News Now\" logo hangs prominently."
+    },
+    "2173": {
+      "ts": 72.51,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a gold bauble, features a wooden ornament with the \"13abc News Now\" logo."
+    },
+    "2182": {
+      "ts": 72.81,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a gold bauble, features a wooden ornament with the \"13abc News Now\" logo."
+    },
+    "2191": {
+      "ts": 73.11,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a gold bauble, features a wooden ornament with the \"13abc News Now\" logo."
+    },
+    "2199": {
+      "ts": 73.37,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a wooden tag displaying \"13abc News Now,\" is decorated with gold and pink baubles and twinkling lights."
+    },
+    "2208": {
+      "ts": 73.67,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a wooden tag with the \"13abc News Now\" logo, is decorated with gold and purple baubles and twinkling lights in the background."
+    },
+    "2217": {
+      "ts": 73.97,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a wooden tag displaying \"13abc News Now,\" hangs against a backdrop of twinkling lights."
+    },
+    "2226": {
+      "ts": 74.27,
+      "caption": "A Christmas tree adorned with ornaments, including a red ribbon and a wooden tag with \"13abc News Now\" text, is decorated with gold and pink baubles and twinkling lights."
+    }
+  }
+}

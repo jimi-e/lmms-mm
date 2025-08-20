@@ -3,6 +3,12 @@ import math
 import os
 from datetime import timedelta
 from typing import List, Optional, Tuple, Union
+import copy
+from mm_method.frame_search import (
+    select_frames_by_framesearch,
+    CaptionOnlyCompleted,
+    CaptionsMissing,
+)
 
 import numpy as np
 import torch
@@ -13,7 +19,6 @@ from llava.constants import (
     DEFAULT_IM_END_TOKEN,
     DEFAULT_IM_START_TOKEN,
     DEFAULT_IMAGE_TOKEN,
-    IGNORE_INDEX,
     IMAGE_TOKEN_INDEX,
 )
 from llava.conversation import SeparatorStyle, conv_templates
@@ -31,7 +36,7 @@ from llava.model.language_model.llava_qwen import LlavaQwenConfig
 from loguru import logger as eval_logger
 from PIL import Image
 from tqdm import tqdm
-from transformers import AutoConfig, AutoModelForCausalLM
+from transformers import AutoConfig
 
 from lmms_eval.api.instance import Instance
 from lmms_eval.api.model import lmms
@@ -91,7 +96,7 @@ class LlavaVid(lmms):
         conv_template="vicuna_v1",
         use_cache=True,
         truncate_context=False,  # whether to truncate the context in generation, set it False for LLaVA-1.6
-        max_frames_num: int = 20,
+        max_frames_num: int = 32,
         video_fps: int = 1,
         mm_resampler_type: str = "spatial_pool",
         mm_spatial_pool_stride: int = 2,
@@ -107,6 +112,7 @@ class LlavaVid(lmms):
         add_time_instruction: bool = False,
         add_faster_video: bool = False,
         faster_token_stride: int = 10,
+        frame_select_method: int = 1,  # 0: original, 1: FrameSearch (caption->CoT->VLM scoring)
         **kwargs,
     ) -> None:
         super().__init__()
@@ -140,10 +146,12 @@ class LlavaVid(lmms):
         self.force_sample = force_sample
         self.add_time_instruction = add_time_instruction
         print("force sample:", self.force_sample)
+        # Global-like runtime switch for frame selection strategy
+        self.frame_select_method = int(frame_select_method)
         # self.add_faster_video = add_faster_video
         # self.faster_token_stride = faster_token_stride
         self.torch_dtype = torch_dtype
-        if self.overwrite == True:
+        if self.overwrite:
             overwrite_config = {}
             # overwrite_config["mm_resampler_type"] = self.mm_resampler_type
             overwrite_config["mm_spatial_pool_stride"] = self.mm_spatial_pool_stride
@@ -174,7 +182,9 @@ class LlavaVid(lmms):
                 pretrained, None, self.model_name, device_map=self.device_map, torch_dtype=self.torch_dtype, overwrite_config=overwrite_config, attn_implementation=attn_implementation
             )
         else:
-            self._tokenizer, self._model, self._image_processor, self._max_length = load_pretrained_model(pretrained, None, self.model_name, device_map=self.device_map, torch_dtype=self.torch_dtype, attn_implementation=attn_implementation)
+            self._tokenizer, self._model, self._image_processor, self._max_length = load_pretrained_model(
+                pretrained, None, self.model_name, device_map=self.device_map, torch_dtype=self.torch_dtype, attn_implementation=attn_implementation
+            )
 
         self._config = self._model.config
 
@@ -185,9 +195,9 @@ class LlavaVid(lmms):
                 print("Setting pad token to bos token for qwen model.")
                 self._tokenizer.pad_token_id = 151643
 
-        self.model.eval()
+        self._model.eval()
         if tie_weights:
-            self.model.tie_weights()
+            self._model.tie_weights()
         self.truncation = truncation
         self.batch_size_per_gpu = int(batch_size)
         self.conv_template = conv_template
@@ -221,7 +231,7 @@ class LlavaVid(lmms):
             self._world_size = 1
         else:
             eval_logger.info(f"Using single device: {self._device}")
-            self.model.to(self._device)
+            self._model.to(self._device)
             self._rank = 0
             self._world_size = 1
 
@@ -338,7 +348,7 @@ class LlavaVid(lmms):
 
         for contexts, doc_to_target, doc_to_visual, doc_id, task, split in [reg.args for reg in requests]:
             # encode, pad, and truncate contexts for this batch
-            if type(doc_to_target) == str:
+            if isinstance(doc_to_target, str):
                 continuation = doc_to_target
             else:
                 continuation = doc_to_target(self.task_dict[task][split][doc_id])
@@ -373,7 +383,7 @@ class LlavaVid(lmms):
             prompt = conv.get_prompt()
 
             input_ids = tokenizer_image_token(prompt, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).cuda()
-            attention_masks = input_ids.ne(self.tokenizer.pad_token_id).long().cuda()
+            # mask not used explicitly; model handles attention via padding id
 
             labels = input_ids.clone()
             # Context part no need to calculate for loss
@@ -406,54 +416,110 @@ class LlavaVid(lmms):
         pbar = tqdm(total=len(requests), disable=(self.rank != 0), desc="Model Responding")
 
         for contexts, gen_kwargs, doc_to_visual, doc_id, task, split in [reg.args for reg in requests]:
-            # if self.task_dict[task][split][doc_id]["duration"] != "short":
-            # # if doc_id != 112:
-            #     # import pdb;pdb.set_trace()
-            #     res.append("A")
-            #     pbar.update(1)
-            #     continue
-            # encode, pad, and truncate contexts for this batch
-            # import pdb;pdb.set_trace()
+            # 添加调试信息
+            print("\n[DEBUG] ===== Processing Request =====")
+            print(f"[DEBUG] doc_id: {doc_id}, task: {task}, split: {split}")
+            print(f"[DEBUG] contexts: {contexts[:100]}...")  # 只显示前100个字符
+            print(f"[DEBUG] frame_select_method: {self.frame_select_method}")
+            print(f"[DEBUG] max_frames_num: {self.max_frames_num}")
+            
             visuals = doc_to_visual(self.task_dict[task][split][doc_id])
-            # visuals = [visuals]
-            # visuals = self.flatten(visuals)
+            print(f"[DEBUG] visuals: {visuals}")
+            
             if os.path.isdir(visuals[0]):
                 visuals = glob.glob(visuals[0] + "/*")
+                print(f"[DEBUG] expanded visuals: {visuals}")
+            
             videos = []
             try:
-                # for visual in visuals:
-                if len(visuals) == 1:
-                    if self.video_decode_backend == "decord":
-                        video, frame_time, video_time = self.load_video(visuals[0], self.max_frames_num, self.fps, force_sample=self.force_sample)
-                    elif self.video_decode_backend == "pyav":
-                        video, frame_time, video_time = read_video_pyav(visuals[0], self.max_frames_num, self.fps, force_sample=self.force_sample)
-                    elif self.video_decode_backend == "image":
-                        video = self.load_image(visuals[0])
+                if len(visuals) == 1 and self.frame_select_method == 1 and self.video_decode_backend in ["decord", "pyav"]:
+                    # FrameSearch pipeline: caption -> CoT -> VLM score -> Top-K
+                    print("[DEBUG] Using FrameSearch pipeline")
+                    video_path = visuals[0]
+                    print(f"[DEBUG] video_path: {video_path}")
+                    
+                    # duration label from dataset doc if available
+                    duration_label = self.task_dict[task][split][doc_id].get("duration", "medium") if hasattr(self, 'task_dict') else "medium"
+                    print(f"[DEBUG] duration_label: {duration_label}")
+                    
+                    try:
+                        print("[DEBUG] Calling select_frames_by_framesearch...")
+                        video, frame_time, video_time = select_frames_by_framesearch(
+                            video_path=video_path,
+                            question=contexts,
+                            duration_label=duration_label,
+                            k_top=int(self.max_frames_num),
+                            cache_root=os.path.join(os.getcwd(), "mm_method_cache"),
+                            device=str(self._device),
+                        )
+                        print(f"[DEBUG] FrameSearch successful: got {video.shape} frames")
+                        print(f"[DEBUG] frame_time: {frame_time}")
+                        print(f"[DEBUG] video_time: {video_time}")
+                    except CaptionOnlyCompleted as _cap_done:
+                        # Caption-only mode: captions cached; skip heavy steps
+                        print(f"[DEBUG] CaptionOnlyCompleted: {_cap_done}")
+                        eval_logger.info(f"FrameSearch caption-only completed: {_cap_done}")
+                        res.append("")  # placeholder to keep outputs aligned
+                        pbar.update(1)
+                        continue
+                    except CaptionsMissing as _cap_missing:
+                        # From-caption mode but missing captions: skip this sample to avoid recomputing
+                        print(f"[DEBUG] CaptionsMissing: {_cap_missing}")
+                        eval_logger.info(f"FrameSearch from-caption missing cache, skip: {_cap_missing}")
+                        res.append("")
+                        pbar.update(1)
+                        continue
+                    except Exception as _fs_err:
+                        print(f"[DEBUG] FrameSearch failed: {_fs_err}, falling back to original decode")
+                        eval_logger.info(f"FrameSearch failed, falling back to original decode: {_fs_err}")
+                        if self.video_decode_backend == "decord":
+                            video, frame_time, video_time = self.load_video(visuals[0], self.max_frames_num, self.fps, force_sample=self.force_sample)
+                        elif self.video_decode_backend == "pyav":
+                            video, frame_time, video_time = read_video_pyav(visuals[0], self.max_frames_num, self.fps, force_sample=self.force_sample)
+                        elif self.video_decode_backend == "image":
+                            video = self.load_image(visuals[0])
                 else:
-                    if task == "seedbench":
-                        video = visuals
-                        frame_time = "1.00s"
-                        video_time = 1
-                    elif "mvbench" in task:
-                        # video = visuals
-                        # Reference: https://github.com/jayleicn/TVQA/blob/dfb0e5fe4582efca574dfddfeafd1008db3b33ef/data/README.md?plain=1#L50C34-L50C60
-                        fps = 3
-                        video_time = len(visuals) / fps
-                        sampled_indices = np.linspace(0, len(visuals) - 1, self.max_frames_num, dtype=int)
-                        frame_idx = sampled_indices.tolist()
-                        frame_time = [i / fps for i in frame_idx]
-                        frame_time = ",".join([f"{i:.2f}s" for i in frame_time])
-                        # video = [visuals[i] for i in frame_idx]
-                        video = np.stack([np.array(Image.open(visuals[i])) for i in frame_idx], axis=0)
+                    # Original path
+                    print("[DEBUG] Using original frame selection method")
+                    # for visual in visuals:
+                    if len(visuals) == 1:
+                        print(f"[DEBUG] Processing single video: {visuals[0]}")
+                        print(f"[DEBUG] video_decode_backend: {self.video_decode_backend}")
+                        if self.video_decode_backend == "decord":
+                            video, frame_time, video_time = self.load_video(visuals[0], self.max_frames_num, self.fps, force_sample=self.force_sample)
+                        elif self.video_decode_backend == "pyav":
+                            video, frame_time, video_time = read_video_pyav(visuals[0], self.max_frames_num, self.fps, force_sample=self.force_sample)
+                        elif self.video_decode_backend == "image":
+                            video = self.load_image(visuals[0])
+                        print(f"[DEBUG] Original method: got {video.shape if hasattr(video, 'shape') else len(video)} frames")
+                    else:
+                        print(f"[DEBUG] Processing multiple visuals: {len(visuals)} items")
+                        if task == "seedbench":
+                            video = visuals
+                            frame_time = "1.00s"
+                            video_time = 1
+                        elif "mvbench" in task:
+                            # video = visuals
+                            # Reference: https://github.com/jayleicn/TVQA/blob/dfb0e5fe4582efca574dfddfeafd1008db3b33ef/data/README.md?plain=1#L50C34-L50C60
+                            fps = 3
+                            video_time = len(visuals) / fps
+                            sampled_indices = np.linspace(0, len(visuals) - 1, self.max_frames_num, dtype=int)
+                            frame_idx = sampled_indices.tolist()
+                            frame_time = [i / fps for i in frame_idx]
+                            frame_time = ",".join([f"{i:.2f}s" for i in frame_time])
+                            # video = [visuals[i] for i in frame_idx]
+                            video = np.stack([np.array(Image.open(visuals[i])) for i in frame_idx], axis=0)
 
+                print(f"[DEBUG] Video preprocessing - shape: {video.shape if hasattr(video, 'shape') else len(video)}")
                 video = self._image_processor.preprocess(video, return_tensors="pt")["pixel_values"].cuda()
                 if self.torch_dtype == "bfloat16":
                     video = video.bfloat16()
                 else:
                     video = video.half()
+                print(f"[DEBUG] Video after preprocessing - shape: {video.shape}, dtype: {video.dtype}")
                 videos.append(video)
             except Exception as e:
-                # import pdb;pdb.set_trace()
+                print(f"[DEBUG] Video loading error: {e}")
                 eval_logger.info(f"{e}")
                 eval_logger.info(f"Video {visuals} can not load, check the source")
                 video_path = "\n".join(visuals)
@@ -462,14 +528,22 @@ class LlavaVid(lmms):
                 continue
 
             qs = contexts
-            # import pdb;pdb.set_trace()
+            print(f"[DEBUG] Original question: {qs[:200]}...")
+            
             if self.add_time_instruction:
                 time_instruciton = f"The video lasts for {video_time:.2f} seconds, and {len(video)} frames are uniformly sampled from it. These frames are located at {frame_time}.Please answer the following questions related to this video."
                 qs = f"{time_instruciton}\n{qs}"
+                print(f"[DEBUG] Added time instruction: {time_instruciton}")
+            
+            print(f"[DEBUG] Total videos prepared: {len(videos)}")
+            print(f"[DEBUG] mm_use_im_start_end: {self.model.config.mm_use_im_start_end}")
+            
             if self.model.config.mm_use_im_start_end:
                 qs = DEFAULT_IM_START_TOKEN + DEFAULT_IMAGE_TOKEN + DEFAULT_IM_END_TOKEN + "\n" + qs
+                print("[DEBUG] Using start/end tokens")
             else:
                 qs = DEFAULT_IMAGE_TOKEN * len(videos) + "\n" + qs
+                print(f"[DEBUG] Using {len(videos)} image tokens")
 
             # This is much safer for llama3, as we now have some object type in it
             if "llama_3" in self.conv_template:
@@ -480,12 +554,16 @@ class LlavaVid(lmms):
             conv.append_message(conv.roles[0], qs)
             conv.append_message(conv.roles[1], None)
             prompt = conv.get_prompt()
+            print(f"[DEBUG] Final prompt length: {len(prompt)}")
 
             input_ids = tokenizer_image_token(prompt, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).cuda()
+            print(f"[DEBUG] Input IDs shape: {input_ids.shape}")
+            
             pad_token_ids = self.tokenizer.pad_token_id if self.tokenizer.pad_token_id is not None else self.tokenizer.eos_token_id
             if "llama_3" in self.conv_template:
                 pad_token_ids = 0  # lmms-lab/llama3-llava-8b is trained on this pad token id. You may need to customize this for other models.
             attention_masks = input_ids.ne(pad_token_ids).long().cuda()
+            print(f"[DEBUG] Attention mask shape: {attention_masks.shape}")
 
             stop_str = conv.sep if conv.sep_style != SeparatorStyle.TWO else conv.sep2
             keywords = [stop_str]
@@ -503,6 +581,9 @@ class LlavaVid(lmms):
             if "num_beams" not in gen_kwargs:
                 gen_kwargs["num_beams"] = 1
 
+            print(f"[DEBUG] Generation kwargs: {gen_kwargs}")
+            print("[DEBUG] Starting model generation...")
+            
             # import pdb;pdb.set_trace()
             with torch.inference_mode():
                 output_ids = self.model.generate(

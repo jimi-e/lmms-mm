@@ -1,0 +1,1031 @@
+{
+  "video_path": "/home/syh/.cache/huggingface/videomme/data/fFjv93ACGo8.mp4",
+  "avg_fps": 29.97002997002997,
+  "total_frames": 2227,
+  "captions": {
+    "0": {
+      "ts": 0.0,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, uppercase letters. The text is evenly spaced and aligned, creating a clean and modern look. In the top left corner, there is a small text that reads \"13newsnow.com\"."
+    },
+    "8": {
+      "ts": 0.27,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned centrally both horizontally and vertically within the frame. In the top left corner, there is a small, white text that reads \"13newsnow.com\"."
+    },
+    "17": {
+      "ts": 0.57,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned to the center, and the overall design is simple and clean. In the top left corner, there is a small text that reads \"13newsnow.com\"."
+    },
+    "26": {
+      "ts": 0.87,
+      "caption": "The image features a bold, white rectangular frame centered on a solid purple background. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned centrally both horizontally and vertically within the frame. In the top left corner, there is a small, faint watermark reading \"13newsnow.com\"."
+    },
+    "34": {
+      "ts": 1.13,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned to the center, and the overall design is simple and clean. In the top left corner, there is a small text that reads \"13newsnow.com\"."
+    },
+    "43": {
+      "ts": 1.43,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned to the center, and the overall design is simple and clean, with no additional elements or distractions."
+    },
+    "52": {
+      "ts": 1.74,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, uppercase letters. On the left side of the frame, there is a small white arrow pointing left, and on the right side, there is a similar white arrow pointing right. The top left corner includes the text \"13newsnow.com\" in white."
+    },
+    "61": {
+      "ts": 2.04,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned centrally both horizontally and vertically within the frame. In the top left corner, there is a small, faint watermark reading \"13newsnow.com\"."
+    },
+    "69": {
+      "ts": 2.3,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned centrally both horizontally and vertically. In the top left corner, there is a small, white text that reads \"13newsnow.com\"."
+    },
+    "78": {
+      "ts": 2.6,
+      "caption": "The image features a bold, white rectangular frame centered on a solid purple background. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned centrally both horizontally and vertically within the frame. The overall design is simple and clean, with a strong contrast between the white text and the purple background."
+    },
+    "87": {
+      "ts": 2.9,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned to the center, and the overall design is simple and clean. In the top left corner, there is a small text that reads \"13newsnow.com\"."
+    },
+    "96": {
+      "ts": 3.2,
+      "caption": "The image features a bold, purple background with a white rectangular frame centered in the middle. Inside the frame, the text \"NEW AT 6\" is prominently displayed in large, white, sans-serif font. The text is aligned to the center, and the overall design is simple and clean, with no additional elements or distractions."
+    },
+    "104": {
+      "ts": 3.47,
+      "caption": "The image shows a news broadcast with two anchors, a man in a suit and a woman in a red top, seated at a desk. The background features a cityscape at dusk or night, with illuminated buildings. The text \"NEW AT 6\" is prominently displayed in large, bold letters across the screen, indicating the time of the broadcast. The website \"13newsnow.com\" is visible in the top left corner. The desk has a modern design with a reflective surface and some electronic devices, including a tablet and a smartphone."
+    },
+    "113": {
+      "ts": 3.77,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit and red tie, stands to the left, hands clasped in front. The woman, wearing a red top and necklace, stands to the right, holding a tablet. Behind them is a large screen displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "122": {
+      "ts": 4.07,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a beige cardigan. They are standing behind a white desk with a tablet and a smartphone on it. The background features a large window displaying a cityscape at dusk, with buildings illuminated against a blue sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "130": {
+      "ts": 4.34,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, while the woman wears a red top and a beige cardigan. They are seated at a modern, curved desk with a reflective surface. On the desk, there are two tablets and a smartphone. The background features a large window with a cityscape view, including illuminated buildings and a blue sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "139": {
+      "ts": 4.64,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a beige cardigan. They are standing behind a white desk with a tablet and a smartphone on it. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "148": {
+      "ts": 4.94,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a necklace. They are seated at a white desk with tablets and a phone. Behind them is a large screen displaying a cityscape at dusk, with buildings and a body of water visible. The text \"13newsnow.com\" is displayed in the top left corner."
+    },
+    "157": {
+      "ts": 5.24,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, while the woman wears a red top and a necklace. They stand behind a white desk with a tablet and a smartphone on it. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a body of water. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "165": {
+      "ts": 5.51,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, while the woman wears a red top and a necklace. They are seated at a white desk with tablets and a smartphone on it. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "174": {
+      "ts": 5.81,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, while the woman wears a red top and a necklace. They stand behind a white desk with a tablet and a smartphone on it. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a body of water. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "183": {
+      "ts": 6.11,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a beige cardigan and a long necklace. They are seated at a white desk with tablets and a smartphone. Behind them is a large screen displaying a cityscape at dusk, with buildings and a body of water visible. The text \"13newsnow.com\" is displayed in the top left corner of the screen."
+    },
+    "192": {
+      "ts": 6.41,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a black cardigan and a long necklace. They are seated at a white desk with a tablet and a smartphone placed on it. The background features a large screen displaying a cityscape with illuminated buildings and a body of water under a twilight sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "200": {
+      "ts": 6.67,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a necklace. They are seated at a white desk with a tablet and a smartphone placed on it. The background features a large screen displaying a cityscape at dusk, with illuminated buildings and a body of water. The text \"13newsnow.com\" is visible in the top left corner of the screen."
+    },
+    "209": {
+      "ts": 6.97,
+      "caption": "The image shows two news anchors, a man in a blue suit and a woman in a red top, seated at a modern news desk. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a body of water. The desk has a tablet and a smartphone on it. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "218": {
+      "ts": 7.27,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, while the woman wears a red top and a necklace. They are seated at a white desk with tablets and a smartphone. Behind them is a large screen displaying a cityscape at dusk, with illuminated buildings and a body of water. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "226": {
+      "ts": 7.54,
+      "caption": "The image shows two news anchors in a studio setting. The man, on the left, is dressed in a blue suit with a red tie, while the woman, on the right, wears a red blouse and a necklace. They are seated at a white desk with tablets and a smartphone. Behind them is a large screen displaying a cityscape at dusk, with illuminated buildings and a body of water. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "235": {
+      "ts": 7.84,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red blouse with a matching red cardigan. They are seated at a white desk with tablets and a smartphone on it. Behind them is a large screen displaying a cityscape at dusk, with buildings illuminated against a blue sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "244": {
+      "ts": 8.14,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red blouse with a matching red blazer. They are standing behind a white desk with a tablet and a smartphone placed on it. The background features a large screen displaying a cityscape at dusk, with illuminated buildings and a body of water. The text \"13newsnow.com\" is visible in the top left corner of the screen."
+    },
+    "253": {
+      "ts": 8.44,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit and red tie, stands to the left, while the woman, wearing a red top and necklace, is to the right. They are positioned behind a white desk with a tablet and a smartphone on it. The backdrop features a cityscape with illuminated buildings and a blue sky, suggesting an evening setting. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "261": {
+      "ts": 8.71,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, standing with his hands clasped in front. The woman, wearing a red top and a red cardigan, is seated with a tablet and a smartphone on the desk. The background features a large screen displaying a cityscape at dusk, with illuminated buildings and a body of water. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "270": {
+      "ts": 9.01,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, while the woman wears a red top and a beige cardigan. They stand behind a white desk with a tablet and a smartphone placed on it. The backdrop features a cityscape with illuminated buildings and a blue sky, suggesting an evening setting. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "279": {
+      "ts": 9.31,
+      "caption": "The image shows two news anchors in a studio setting. The man is wearing a blue suit with a red tie, and the woman is in a red top with a matching red cardigan. They are standing behind a white desk with a tablet and a smartphone on it. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "288": {
+      "ts": 9.61,
+      "caption": "The image shows two individuals in a news studio setting. The man, dressed in a blue suit with a red tie, stands to the left, hands clasped in front. The woman, wearing a red top and a beige cardigan, stands to the right, holding a tablet and a phone. Behind them is a large screen displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "296": {
+      "ts": 9.88,
+      "caption": "The image shows two individuals in a news studio setting. The man, dressed in a blue suit with a red tie, stands to the left, hands clasped in front. The woman, wearing a red top and a necklace, stands to the right, holding a tablet and a phone. Behind them is a large screen displaying a cityscape at dusk. The text \"13newsnow.com\" is visible in the top left corner. The studio has a modern, professional appearance with a sleek desk and large windows."
+    },
+    "305": {
+      "ts": 10.18,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit with a red tie, stands to the left, hands clasped in front. The woman, wearing a red top and a long necklace, stands to the right, holding a tablet. Behind them is a large window displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "314": {
+      "ts": 10.48,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit and red tie, stands to the left, hands clasped in front. The woman, wearing a red top and necklace, stands to the right, holding a tablet. Behind them is a large window displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "322": {
+      "ts": 10.74,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit with a red tie, stands to the left, while the woman, wearing a red top and a necklace, stands to the right. They are positioned behind a white desk with a tablet and a phone on it. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "331": {
+      "ts": 11.04,
+      "caption": "The image shows two news anchors in a studio setting. The man is wearing a blue suit with a red tie, and the woman is in a red top with a necklace. They are standing behind a white desk with a tablet and a phone on it. The background features a large screen displaying a cityscape at dusk with illuminated buildings and a blue sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "340": {
+      "ts": 11.34,
+      "caption": "The image shows two news anchors in a studio setting. The man is wearing a blue suit with a red tie, and the woman is in a red top with a beige cardigan. They are standing behind a white desk with a tablet and a smartphone on it. The background features a large screen displaying a cityscape at dusk, with buildings and a body of water visible. The text \"13newsnow.com\" is displayed in the top left corner of the screen."
+    },
+    "349": {
+      "ts": 11.64,
+      "caption": "The image shows two news anchors in a studio setting. The man is wearing a blue suit with a red tie, and the woman is in a red top with a necklace. They are standing behind a white desk with a tablet and a phone on it. The background features a large screen displaying a cityscape at dusk, with buildings and a body of water visible. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "357": {
+      "ts": 11.91,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, while the woman wears a red top and a necklace. They stand behind a white desk with a tablet and a phone on it. The background features a large screen displaying a cityscape at dusk, with buildings illuminated against a blue sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "366": {
+      "ts": 12.21,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a beige cardigan and a long necklace. They are standing behind a white desk with a tablet and a smartphone on it. The background features a large screen displaying a cityscape at dusk, with buildings illuminated against a blue sky. The text \"13newsnow.com\" is visible in the top left corner of the image."
+    },
+    "375": {
+      "ts": 12.51,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit and red tie, stands to the left, hands clasped in front. The woman, wearing a red top and a beige cardigan, stands to the right, holding a tablet. Behind them is a large screen displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "384": {
+      "ts": 12.81,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a beige cardigan and a long necklace. They are seated at a white desk with a tablet and a smartphone on it. Behind them is a large screen displaying a cityscape at dusk, with buildings illuminated against a blue sky. The text \"13newsnow.com\" is visible in the top left corner of the screen."
+    },
+    "392": {
+      "ts": 13.08,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit and red tie, stands to the left, hands clasped in front. The woman, wearing a red top and necklace, stands to the right, holding a tablet. Behind them is a large screen displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "401": {
+      "ts": 13.38,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit and red tie, stands to the left, while the woman, wearing a red top and necklace, is to the right. They are positioned behind a white desk with a tablet and phone on it. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a blue sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "410": {
+      "ts": 13.68,
+      "caption": "The image shows two news anchors in a studio setting. The man, dressed in a blue suit and red tie, stands to the left, hands clasped in front. The woman, wearing a red top and a beige cardigan, stands to the right, holding a tablet. Behind them is a large screen displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "419": {
+      "ts": 13.98,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, and the woman is wearing a red top with a beige cardigan and a long necklace. They are seated at a white desk with a tablet and a smartphone placed on it. Behind them is a large screen displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner of the screen."
+    },
+    "427": {
+      "ts": 14.25,
+      "caption": "The image shows two news anchors in a studio setting. The man is dressed in a blue suit with a red tie, while the woman wears a red top and a beige cardigan. They stand behind a white desk with a tablet and a smartphone placed on it. The background features a large window displaying a cityscape at dusk, with illuminated buildings and a darkening sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "436": {
+      "ts": 14.55,
+      "caption": "The image shows two news anchors in a studio setting. The man is wearing a blue suit with a red tie, and the woman is in a red top with a beige cardigan and a long necklace. They are standing behind a white desk with a tablet and a phone on it. The background features a large screen displaying a cityscape at dusk, with illuminated buildings and a blue sky. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "445": {
+      "ts": 14.85,
+      "caption": "The image shows two news anchors, a man in a blue suit and a woman in a red top, seated at a modern news desk. The desk has a reflective surface with a tablet and a smartphone placed on it. Behind them is a large window displaying a cityscape at dusk, with illuminated buildings and a body of water. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "453": {
+      "ts": 15.12,
+      "caption": "The image shows a group of people gathered around a rustic wooden table, enjoying a meal together. The table is adorned with various dishes, including roasted chicken, vegetables, and a bowl of what appears to be rice or pasta. Fresh fruits like pomegranates and persimmons are scattered around, adding vibrant colors. Green leaves and small candles decorate the table, creating a festive and cozy atmosphere. Each person has a plate in front of them, and some are using utensils to eat. The scene conveys a sense of togetherness and celebration."
+    },
+    "462": {
+      "ts": 15.42,
+      "caption": "The image shows a top-down view of a festive dining table set for a meal. The table is adorned with a variety of dishes, including roasted chicken, vegetables, and a bowl of creamy sauce. Fresh fruits like pomegranates and grapes are scattered around, along with greenery and small candles, creating a warm and inviting atmosphere. Several people are seated around the table, each with a plate in front of them, ready to enjoy the meal. The setting appears to be a cozy, rustic environment, possibly for a holiday or special occasion."
+    },
+    "471": {
+      "ts": 15.72,
+      "caption": "The image shows a festive table setting with a rustic wooden table adorned with greenery and decorative elements. Plates of roasted vegetables, a roasted chicken, and a creamy dish are served. Glasses of red wine and pomegranates are also present, adding to the celebratory atmosphere. Hands are visible, holding utensils, suggesting a shared meal. The scene conveys a warm, communal dining experience."
+    },
+    "480": {
+      "ts": 16.02,
+      "caption": "The image shows a group of people gathered around a rustic wooden table, enjoying a meal together. The table is adorned with various dishes, including roasted chicken, roasted vegetables, and a bowl of what appears to be rice or a similar dish. Fresh fruits like pomegranates and persimmons, along with green leaves, are scattered around the table, adding a festive and natural touch. Each person has a plate in front of them, and some are using utensils to eat. The setting suggests a communal and celebratory dining experience."
+    },
+    "488": {
+      "ts": 16.28,
+      "caption": "The image shows a group of people gathered around a rustic wooden table, enjoying a meal together. The table is adorned with various dishes, including roasted chicken, roasted vegetables, and a bowl of what appears to be mashed potatoes. There are also plates of grapes, pomegranates, and persimmons, adding a festive touch. Each person has a plate in front of them, and some are using utensils to eat. The setting suggests a cozy, communal dining experience, possibly a holiday or special occasion."
+    },
+    "497": {
+      "ts": 16.58,
+      "caption": "The image shows a festive dining scene with a wooden table adorned with greenery and decorative elements like pomegranates and persimmons. Plates of roasted vegetables and a centerpiece of roasted chicken are served. Each person has a plate, fork, and knife, and there are glasses of red wine. The table is set with various dishes, including a bowl of creamy sauce and a plate of chestnuts. The scene is vibrant and celebratory, suggesting a holiday or special occasion."
+    },
+    "506": {
+      "ts": 16.88,
+      "caption": "The image shows a festive dining scene with a group of people gathered around a wooden table. The table is set with plates of food, including roasted chicken, vegetables, and a creamy dish. Decorative elements like pomegranates, chestnuts, and green leaves are placed around the table, adding a seasonal touch. Each person has a glass of red wine, and utensils are neatly arranged on the table. The setting suggests a holiday or special occasion."
+    },
+    "515": {
+      "ts": 17.18,
+      "caption": "The image showcases a festive table setting with a rustic wooden table adorned with greenery and decorative elements. At the center is a large roasted chicken in a blue dish, surrounded by plates of roasted vegetables, a bowl of creamy white sauce, and a plate of olives. A hand reaches in from the right, holding a spoon, ready to serve. Pomegranates and small candles add to the holiday ambiance."
+    },
+    "523": {
+      "ts": 17.45,
+      "caption": "The image showcases a festive table setting with a roasted chicken in a blue dish as the centerpiece. Surrounding the chicken are various dishes, including a bowl of creamy pasta, a plate of roasted vegetables, and a bowl of olives. Green leaves and pomegranates add a decorative touch, while glasses of rose wine and a candle holder enhance the ambiance. A person's hand is visible, holding a spoon, suggesting a meal is about to be served. The wooden table and rustic decor contribute to a warm, inviting atmosphere."
+    },
+    "532": {
+      "ts": 17.75,
+      "caption": "The image showcases a festive table setting with a roasted chicken in a blue dish, surrounded by greenery and decorative ornaments. Plates hold roasted vegetables and a creamy dish, while glasses of rose wine and a pomegranate add to the holiday ambiance. A hand reaches for a spoon, suggesting a shared meal."
+    },
+    "541": {
+      "ts": 18.05,
+      "caption": "The image showcases a festive table setting with a roasted chicken in a blue dish, surrounded by greenery and decorative elements like pomegranates and small candles. A bowl of creamy sauce and a plate of olives are also present, along with glasses of what appears to be rose wine. The table is wooden, and a person's hand is visible, holding a spoon, suggesting a dining scene."
+    },
+    "549": {
+      "ts": 18.32,
+      "caption": "The image showcases a festive table setting with a roasted chicken in a blue dish as the centerpiece. Surrounding the chicken are plates of roasted vegetables, a bowl of olives, and a creamy dish, possibly mashed potatoes. Green leaves and small candles add a decorative touch, while a person's hand is seen holding a spoon, ready to serve. The table is wooden, and the scene suggests a holiday or celebratory meal."
+    },
+    "558": {
+      "ts": 18.62,
+      "caption": "The image features a close-up of out-of-focus, golden-yellow lights, creating a bokeh effect. The lights are circular and softly glowing, with varying sizes and brightness. The background is dark, emphasizing the luminosity of the lights. The text \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "567": {
+      "ts": 18.92,
+      "caption": "The image features a close-up of a gingerbread snowflake cookie with white icing details, set against a blurred background of warm, golden bokeh lights, creating a festive holiday atmosphere. The website \"13newsnow.com\" is subtly visible in the top left corner."
+    },
+    "576": {
+      "ts": 19.22,
+      "caption": "A gingerbread snowflake cookie with white icing sits beside a white mug with intricate snowflake designs, both on a dark wooden surface. Pine cones and red berries are scattered around, with warm, blurred lights in the background creating a cozy, festive atmosphere. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "584": {
+      "ts": 19.49,
+      "caption": "A festive scene features a white mug with intricate snowflake patterns, accompanied by a gingerbread snowflake cookie. The background is softly blurred with warm, golden bokeh lights, creating a cozy, holiday atmosphere. Pine cones and a single red berry add to the seasonal decor. The image is watermarked with \"13newsnow.com\"."
+    },
+    "593": {
+      "ts": 19.79,
+      "caption": "A festive scene features a white mug with intricate snowflake patterns, accompanied by a gingerbread cookie shaped like a snowflake, both set against a backdrop of warm, blurred lights. Pine cones and red berries are scattered around, enhancing the holiday atmosphere. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "602": {
+      "ts": 20.09,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, holding a small, decorative object. Beside it, a gingerbread cookie shaped like a snowflake with white icing details rests on a wooden surface. Pine cones and red berries are scattered around, adding to the holiday theme. The background is softly blurred with warm, golden bokeh lights, enhancing the cozy, Christmas atmosphere."
+    },
+    "611": {
+      "ts": 20.39,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, placed on a dark surface. Beside it, a gingerbread cookie shaped like a snowflake with white icing details is prominently displayed. Pinecones and small red berries are scattered around, adding to the holiday theme. The background is softly blurred with warm, golden bokeh lights, creating a cozy, Christmas atmosphere. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "619": {
+      "ts": 20.65,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, a gingerbread cookie shaped like a snowflake, and pine cones on a wooden surface. The background is softly blurred with warm, golden bokeh lights, creating a cozy, holiday atmosphere. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "628": {
+      "ts": 20.95,
+      "caption": "A gingerbread cookie shaped like a snowflake with white icing sits beside a white, textured mug on a wooden surface. Pine cones and a small red berry are scattered nearby. The background is softly lit with warm, out-of-focus yellow lights, creating a cozy, festive atmosphere. The text \"13newsnow.com\" appears in the top left corner."
+    },
+    "637": {
+      "ts": 21.25,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, accompanied by a gingerbread cookie shaped like a snowflake, decorated with white icing. The background is softly blurred with warm, golden bokeh lights, creating a cozy, holiday atmosphere. Pine cones and small red berries are scattered around, enhancing the seasonal theme. The image is watermarked with \"13newsnow.com\"."
+    },
+    "645": {
+      "ts": 21.52,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, a gingerbread cookie shaped like a snowflake, and pine cones with red berries. The background is softly lit with warm, golden bokeh lights, creating a cozy, holiday atmosphere. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "654": {
+      "ts": 21.82,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, a gingerbread cookie shaped like a snowflake, and pine cones with red berries. The background is softly lit with warm, golden bokeh lights, creating a cozy, holiday atmosphere. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "663": {
+      "ts": 22.12,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, accompanied by a gingerbread cookie shaped like a snowflake, decorated with white icing. The background is softly blurred with warm, golden bokeh lights, creating a cozy, holiday atmosphere. Pine cones and small red berries are scattered around, enhancing the seasonal theme. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "672": {
+      "ts": 22.42,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, accompanied by a gingerbread cookie shaped like a snowflake, decorated with white icing. The background is softly blurred with warm, golden bokeh lights, creating a cozy, holiday atmosphere. Pine cones and small red berries are scattered around, enhancing the seasonal theme. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "680": {
+      "ts": 22.69,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, accompanied by a gingerbread cookie shaped like a snowflake, decorated with white icing. The background is softly blurred with warm, golden bokeh lights, creating a cozy, holiday atmosphere. Pine cones and small red berries are scattered around, enhancing the seasonal theme. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "689": {
+      "ts": 22.99,
+      "caption": "A festive scene features a white mug with intricate lace-like patterns, accompanied by a gingerbread cookie shaped like a snowflake, decorated with white icing. The background is softly blurred with warm, golden bokeh lights, suggesting a cozy, holiday atmosphere. Pine cones and small red berries are scattered around, enhancing the seasonal theme. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "698": {
+      "ts": 23.29,
+      "caption": "A festive scene features a white ceramic mug with intricate lace-like patterns, accompanied by a gingerbread cookie shaped like a snowflake, decorated with white icing. The background is softly blurred with warm, golden bokeh lights, suggesting a cozy, holiday atmosphere. Pine cones and a small red berry add to the seasonal decor. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "707": {
+      "ts": 23.59,
+      "caption": "The image shows a single, undecorated Christmas tree with a conical shape, standing against a plain white background. The tree is lush and green, with dense, needle-like foliage covering its entire structure. The tree appears to be a natural evergreen, possibly a fir or spruce, and is centered in the frame, with no additional objects or decorations visible."
+    },
+    "715": {
+      "ts": 23.86,
+      "caption": "The image shows a single, undecorated Christmas tree with a conical shape, standing against a plain white background. The tree is lush and green, with dense foliage and a pointed top. The lighting highlights the tree's natural texture and vibrant color."
+    },
+    "724": {
+      "ts": 24.16,
+      "caption": "The image features a decorated Christmas tree with a white background. The tree is adorned with various ornaments, including red and gold baubles, and small white lights that create a glowing effect. The tree is fully visible, standing upright, and appears to be a standard Christmas tree shape."
+    },
+    "733": {
+      "ts": 24.46,
+      "caption": "The image features a decorated Christmas tree with a variety of ornaments, including red, gold, and white baubles, as well as small white lights. The tree is set against a plain white background, emphasizing its festive decorations."
+    },
+    "741": {
+      "ts": 24.72,
+      "caption": "The image features a decorated Christmas tree with a variety of ornaments, including red, gold, and white baubles, as well as small star-shaped decorations. The tree is adorned with lights, giving it a festive glow. The background is plain white, emphasizing the tree as the central focus."
+    },
+    "750": {
+      "ts": 25.03,
+      "caption": "The image features a decorated Christmas tree with a variety of ornaments, including red, gold, and white baubles, as well as small star-shaped decorations. The tree is adorned with lights, giving it a festive glow. The background is plain white, emphasizing the tree as the central focus."
+    },
+    "759": {
+      "ts": 25.33,
+      "caption": "The image features a decorated Christmas tree with a variety of ornaments, including red, gold, and white baubles, as well as small star-shaped decorations. The tree is adorned with lights, giving it a festive glow. The background is plain white, emphasizing the tree as the central focus."
+    },
+    "768": {
+      "ts": 25.63,
+      "caption": "The image features a decorated Christmas tree with a white background. The tree is adorned with various ornaments, including red, gold, and white baubles, as well as small star-shaped decorations. The tree is fully lit with white lights, giving it a festive and bright appearance."
+    },
+    "776": {
+      "ts": 25.89,
+      "caption": "The image features a decorated Christmas tree with a white background. The tree is adorned with various ornaments, including red, gold, and white baubles, as well as small white lights that create a festive glow. The tree is fully lit and stands upright, showcasing its full shape and the detailed decorations."
+    },
+    "785": {
+      "ts": 26.19,
+      "caption": "The image features a decorated Christmas tree with a white background. The tree is adorned with various ornaments, including red, gold, and white baubles, as well as small white lights that create a festive glow. The tree is fully lit and stands upright, showcasing its full shape and the detailed decorations."
+    },
+    "794": {
+      "ts": 26.49,
+      "caption": "The image features a decorated Christmas tree with a white background. The tree is adorned with various ornaments, including red, gold, and white baubles, as well as small white lights that create a festive glow. The tree is fully lit and stands upright, showcasing its full shape and the detailed decorations."
+    },
+    "803": {
+      "ts": 26.79,
+      "caption": "The image features a decorated Christmas tree with a white background. The tree is adorned with various ornaments, including red, gold, and white baubles, as well as small white lights. A star-shaped ornament is placed at the top of the tree. The tree is fully visible and centered in the frame."
+    },
+    "811": {
+      "ts": 27.06,
+      "caption": "The image features a decorated Christmas tree with a white background. The tree is adorned with various ornaments, including red, gold, and white baubles, as well as small white lights that create a festive glow. The tree is fully lit and stands upright, showcasing its full shape and the detailed decorations."
+    },
+    "820": {
+      "ts": 27.36,
+      "caption": "The image features a decorated Christmas tree with a white background. The tree is adorned with various ornaments, including red, gold, and white baubles, as well as small white lights that create a festive glow. The tree is fully lit and stands upright, showcasing its full shape and the detailed decorations."
+    },
+    "829": {
+      "ts": 27.66,
+      "caption": "The image shows a decorated Christmas tree with a variety of ornaments, including red, gold, and white baubles, as well as small red and gold ribbons. The tree is adorned with lights, giving it a festive glow. The tree is set against a plain white background, emphasizing its vibrant decorations."
+    },
+    "838": {
+      "ts": 27.96,
+      "caption": "The image depicts a detailed illustration featuring a tree with numerous golden fruits and green leaves. A person in historical attire, possibly from the 18th or 19th century, is standing on a wooden box, reaching towards the tree. The person is wearing a long coat and trousers, and their posture suggests they are picking the fruit. The scene includes musical notation at the bottom right, with clefs and notes, indicating a possible connection to music or a performance. The background is a simple, muted green, focusing attention on the tree and the person."
+    },
+    "846": {
+      "ts": 28.23,
+      "caption": "The image depicts a detailed illustration featuring a large, lush green tree with numerous golden fruits. A man in medieval-style clothing, possibly a scholar or scribe, is seated on a wooden stool, holding a quill pen and appears to be writing or drawing. To the right, another figure, possibly a woman, is partially visible, standing near a table with a cloth draped over it. The scene is rich in detail, with intricate patterns and symbols, including musical notation at the bottom right. The overall atmosphere suggests a historical or educational setting."
+    },
+    "855": {
+      "ts": 28.53,
+      "caption": "The image depicts a medieval-style illustration featuring a large tree with green leaves and red berries. A man in a long robe and white hose stands on a wooden platform, holding a small object. To the right, another figure in a dark robe and white hose is partially visible, standing near a red and white structure. Musical notation is visible on a scroll-like object at the bottom right, with red lines and black symbols. The scene appears to be part of a historical or educational illustration, possibly from a medieval manuscript."
+    },
+    "864": {
+      "ts": 28.83,
+      "caption": "The image depicts a medieval-style illustration featuring a large tree with numerous golden fruits. A man in a white tunic and brown pants stands on a wooden platform, reaching up to pick a fruit. To the right, another figure in a dark robe and white apron observes. The bottom of the image includes musical notation, suggesting a connection to music or a performance. The scene is rich in detail, evoking a historical or fantastical setting."
+    },
+    "872": {
+      "ts": 29.1,
+      "caption": "The image depicts a detailed illustration featuring a large, ornate tree with golden fruits and green leaves. A child in a brown tunic and white pants stands on a pedestal, reaching towards the tree. To the right, another figure in a dark dress and white apron stands beside a table with a red and white cloth. Musical notes and a staff are visible at the bottom right, suggesting a connection to music or a performance. The scene appears to be set in a garden or outdoor setting."
+    },
+    "881": {
+      "ts": 29.4,
+      "caption": "The image depicts a medieval-style illustration featuring a large, lush green tree with golden fruits. A child in a white tunic and breeches stands on a wooden post, reaching towards the tree. To the right, another figure in dark clothing and a white apron stands beside a table. The bottom right corner includes musical notation symbols, suggesting a connection to music or a performance. The scene is vibrant and detailed, evoking a historical or fantastical setting."
+    },
+    "890": {
+      "ts": 29.7,
+      "caption": "The image depicts a vintage illustration featuring a lush, green tree adorned with golden and red fruits. A child in a brown coat and white pants stands on a wooden box, reaching up towards the tree. To the right, another child in a red and white dress stands beside a white fence. Musical notes and staff lines are visible at the bottom right, suggesting a connection to music or a festive theme. The scene is rich in detail, evoking a nostalgic, historical atmosphere."
+    },
+    "899": {
+      "ts": 30.0,
+      "caption": "The image depicts a detailed illustration featuring a large, lush green tree adorned with golden fruits. A person in period attire stands on a pedestal, reaching up towards the tree, seemingly picking a fruit. Another figure, partially visible, stands to the right, wearing a white skirt and dark top. Musical notes and staff lines are visible at the bottom right, suggesting a connection to music or a performance. The scene appears to be from a historical or educational context, possibly illustrating a story or lesson."
+    },
+    "907": {
+      "ts": 30.26,
+      "caption": "The image depicts a vintage illustration featuring a lush, green tree with golden apples. A child in a white shirt and dark pants stands on a small pedestal, reaching up towards the tree. To the right, another child in a white dress and dark skirt holds a basket. Below, a man with a mustache and a woman with a bonnet are partially visible, suggesting a family scene. The bottom right corner includes musical notes and a staff, adding a whimsical touch to the illustration. The website watermark \"13newsnow.com\" is visible in the top left corner."
+    },
+    "916": {
+      "ts": 30.56,
+      "caption": "The image depicts a vintage illustration featuring a lush, green tree adorned with numerous golden apples. A child in a brown jacket and white pants is climbing a wooden post, reaching towards the tree. To the right, another figure, possibly an adult, stands beside a red and white cart. The bottom of the image includes musical notation and a decorative scroll, suggesting a festive or musical theme. The overall scene conveys a nostalgic, holiday atmosphere."
+    },
+    "925": {
+      "ts": 30.86,
+      "caption": "The image depicts a medieval scene with a group of musicians and dancers. They are dressed in period costumes, with some wearing hats and others in long, flowing robes. The musicians play various instruments, including a lute, a trumpet, and a bagpipe. A large musical staff with notes is prominently displayed above them, suggesting a performance or celebration. In the background, a tree and a landscape with a river or field are visible, adding to the historical ambiance. The image appears to be a painting or illustration, possibly from a historical manuscript or book."
+    },
+    "934": {
+      "ts": 31.16,
+      "caption": "The image depicts a medieval scene with a group of musicians and a Christmas tree. The musicians, dressed in period attire, are playing various instruments such as a lute, flutes, and a trumpet. Above them, a banner displays musical notes. The Christmas tree, adorned with red ornaments, stands to the left. The background features a simple landscape with a tree and a grassy field."
+    },
+    "942": {
+      "ts": 31.43,
+      "caption": "The image depicts a medieval scene with a group of musicians and a singer. They are dressed in period costumes, with some wearing hats and others in tunics and skirts. The musicians play various instruments, including a lute, a trumpet, and a bagpipe. A banner above them displays musical notes and the word \"Chord.\" The background features a tree and a grassy field, suggesting an outdoor setting."
+    },
+    "951": {
+      "ts": 31.73,
+      "caption": "The image depicts a medieval scene with a group of musicians and a singer. They are dressed in period costumes, with the musicians playing various instruments such as a lute, a trumpet, and a bagpipe. The singer, positioned at the front, holds a staff with musical notes. The background features a tree and a grassy field, suggesting an outdoor setting. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "960": {
+      "ts": 32.03,
+      "caption": "The image depicts a medieval scene with a group of musicians and a choir. The musicians, dressed in period attire, play various instruments including a lute, a trumpet, and a bagpipe. Above them, a banner displays musical notes and the word \"Chord.\" In the background, a tree with red berries and a figure hanging from a tree by a chain are visible. The setting appears to be outdoors, possibly in a garden or park."
+    },
+    "968": {
+      "ts": 32.3,
+      "caption": "The image depicts a medieval scene with a group of people dressed in period attire, playing various musical instruments. A banner above them displays musical notes and the word \"CHOOD.\" The setting appears to be outdoors, with a tree and a fence visible in the background. The individuals are wearing colorful robes and hats, and some are holding instruments like a lute, a trumpet, and a bagpipe. The scene conveys a lively and festive atmosphere, likely a musical performance or celebration."
+    },
+    "977": {
+      "ts": 32.6,
+      "caption": "The image depicts a medieval scene with a group of people dressed in period attire, playing various musical instruments. A banner above them displays musical notation, suggesting a performance or procession. The setting includes a tree with fruit and a well, indicating a rural or village environment. The clothing and instruments reflect the fashion and music of the late medieval period."
+    },
+    "986": {
+      "ts": 32.9,
+      "caption": "The image shows a single, small, artificial Christmas tree with a dense, conical shape and vibrant green needles. The tree is centered against a plain white background, emphasizing its natural form and color."
+    },
+    "995": {
+      "ts": 33.2,
+      "caption": "The image shows a single, small, artificial Christmas tree with a dense, conical shape and vibrant green needles. The tree is centered against a plain white background, emphasizing its natural form and color."
+    },
+    "1003": {
+      "ts": 33.47,
+      "caption": "The image shows a single, small, artificial Christmas tree with a conical shape and dense, green, needle-like branches. The tree is centered against a plain white background, emphasizing its natural form and vibrant green color."
+    },
+    "1012": {
+      "ts": 33.77,
+      "caption": "The image shows a single, small, artificial Christmas tree with a dense, conical shape and vibrant green needles. The tree is centered against a plain white background, emphasizing its natural form and color."
+    },
+    "1021": {
+      "ts": 34.07,
+      "caption": "The image shows a close-up of a dense, green, coniferous tree with numerous small, needle-like leaves. The tree is centered against a plain white background, emphasizing its natural texture and vibrant green color."
+    },
+    "1030": {
+      "ts": 34.37,
+      "caption": "The image shows a close-up of a dense, green, coniferous tree branch with numerous small, sharp needles. The branch extends diagonally from the bottom left to the top right against a plain white background. The texture of the needles is detailed, with a natural, slightly uneven pattern."
+    },
+    "1038": {
+      "ts": 34.63,
+      "caption": "The image shows a close-up of a dense, green, coniferous tree with numerous thin, needle-like leaves. The tree is centered against a plain white background, emphasizing its natural texture and vibrant green color."
+    },
+    "1047": {
+      "ts": 34.93,
+      "caption": "The image shows a close-up of a dense, green, coniferous tree with numerous thin, needle-like leaves. The tree appears to be a pine or fir, characterized by its symmetrical, pyramidal shape and uniform distribution of branches. The background is plain white, emphasizing the tree's natural texture and vibrant green color."
+    },
+    "1056": {
+      "ts": 35.24,
+      "caption": "The image shows a close-up of a green, coniferous tree branch with dense, needle-like leaves. The branch extends diagonally from the bottom right to the top left against a plain white background. The leaves are vibrant green and appear healthy, with a slightly serrated edge. The branch is well-lit, highlighting its natural texture and structure."
+    },
+    "1064": {
+      "ts": 35.5,
+      "caption": "The image shows a close-up of a green, coniferous tree branch with dense, needle-like leaves. The branch extends diagonally from the bottom right to the top left against a plain white background. The leaves are vibrant green and appear healthy, with a slightly serrated edge. The branch is well-lit, highlighting its natural texture and structure."
+    },
+    "1073": {
+      "ts": 35.8,
+      "caption": "The image shows a small, artificial Christmas tree with two orange and white striped candles hanging from its branches. The tree is set against a plain white background, emphasizing its green needles and festive decorations."
+    },
+    "1082": {
+      "ts": 36.1,
+      "caption": "The image shows a festive Christmas tree with green pine needles and three lit orange and yellow striped candles hanging from its branches. The tree is set against a plain white background, emphasizing its natural texture and the warm glow of the candles."
+    },
+    "1091": {
+      "ts": 36.4,
+      "caption": "The image shows a Christmas tree decorated with three red apple ornaments and three yellow and orange striped candles. The tree is lush with green pine needles and is set against a plain white background."
+    },
+    "1099": {
+      "ts": 36.67,
+      "caption": "The image shows a festive Christmas tree decorated with three red apple ornaments and three yellow and orange striped candles. The tree is lush with green pine needles, and the decorations are evenly spaced along the branches."
+    },
+    "1108": {
+      "ts": 36.97,
+      "caption": "The image features a festive Christmas tree decorated with various ornaments. It includes two lit candles with striped patterns, two red apples with green leaves, and clusters of blue berries. The tree is lush with green pine needles, and the decorations are evenly spaced along the branches."
+    },
+    "1117": {
+      "ts": 37.27,
+      "caption": "The image features a festive Christmas tree decorated with various ornaments. It includes two red apples with green leaves, clusters of blue berries, and two lit yellow candles with red stripes. The tree is adorned with green pine needles, giving it a traditional Christmas appearance."
+    },
+    "1126": {
+      "ts": 37.57,
+      "caption": "The image features a festive Christmas tree decorated with various ornaments. It includes red apples with green leaves, blue berries, and two yellow and orange striped candles. The tree branches are lush and green, and the decorations are evenly spaced, creating a cheerful holiday scene."
+    },
+    "1134": {
+      "ts": 37.84,
+      "caption": "The image features a festive Christmas tree decorated with various ornaments. It includes two red apples with green leaves, clusters of blue berries, and two lit yellow candles with red stripes. The tree is lush with green pine needles, and the decorations are evenly spaced along the branches, creating a cheerful holiday scene."
+    },
+    "1143": {
+      "ts": 38.14,
+      "caption": "A festive Christmas tree decoration features a red bauble with a white snowflake design, surrounded by smaller red ornaments and pinecones. Sparkling lights and a star-shaped ornament add to the holiday cheer. The background is dark, with bokeh lights creating a magical, twinkling effect."
+    },
+    "1152": {
+      "ts": 38.44,
+      "caption": "The image showcases a close-up of a Christmas tree adorned with festive ornaments. Prominently featured is a red bauble with a white snowflake design, surrounded by other red and clear ornaments. Pinecones and green pine branches add natural elements, while small white stars and red berries enhance the holiday theme. The background is softly blurred with bokeh lights, creating a warm, festive atmosphere."
+    },
+    "1161": {
+      "ts": 38.74,
+      "caption": "The image showcases a close-up of a Christmas tree adorned with festive ornaments. Prominently featured is a red bauble with a snowflake design, surrounded by other red ornaments and a pinecone. A silver star and small red berries add to the holiday decor. Soft, blurred lights in the background create a warm, glowing effect, enhancing the festive atmosphere. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1169": {
+      "ts": 39.01,
+      "caption": "The image features a dark blue background with numerous small, glowing orbs of light in various colors, including blue, yellow, and orange. These orbs appear to be floating and are slightly out of focus, creating a bokeh effect. In the top left corner, there is a watermark that reads \"13newsnow.com.\""
+    },
+    "1178": {
+      "ts": 39.31,
+      "caption": "The image features the text \"Paradise trees\" prominently displayed in white against a dark blue background. Surrounding the text are bokeh light effects, creating a sparkling, dreamy atmosphere. The background is slightly out of focus, emphasizing the text and light effects. The website \"13newsnow.com\" is subtly visible in the top left corner."
+    },
+    "1187": {
+      "ts": 39.61,
+      "caption": "The image features the text \"Paradise trees\" in white font against a dark blue background. The background is adorned with bokeh light effects, creating a sparkling, dreamy atmosphere. The text is centered, and the website \"13newsnow.com\" is subtly placed in the top left corner."
+    },
+    "1195": {
+      "ts": 39.87,
+      "caption": "The image displays the word \"Paradise\" in large, white, sans-serif font centered against a dark blue background. Below it, the word \"trees\" appears in the same style and color. The background features a bokeh effect with out-of-focus light circles in various sizes and colors, predominantly blue and orange, creating a dreamy, ethereal atmosphere. The website address \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "1204": {
+      "ts": 40.17,
+      "caption": "The image displays the text \"Paradise trees\" in white font against a dark blue background. The background features a bokeh effect with blurred, glowing circles of light in various shades of blue and orange, creating a dreamy, ethereal atmosphere. The text is centered and prominently displayed, with \"Paradise\" on the first line and \"trees\" on the second line. The website \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "1213": {
+      "ts": 40.47,
+      "caption": "The image displays the text \"Paradise trees\" in white font against a dark blue background. The background features a bokeh effect with blurred, glowing circles of light in various shades of blue and orange, creating a dreamy, ethereal atmosphere. The text is centered and prominently displayed, with \"Paradise\" on the first line and \"trees\" on the second line. The website \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "1222": {
+      "ts": 40.77,
+      "caption": "The image displays the text \"Paradise trees\" in white font against a dark blue background. The background features a bokeh effect with blurred, glowing circles of light in various shades of blue and orange, creating a dreamy, ethereal atmosphere. The website address \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "1230": {
+      "ts": 41.04,
+      "caption": "The image displays the text \"Paradise trees\" in white font against a dark blue background. The background features a bokeh effect with blurred, glowing circles in various shades of blue and orange, creating a dreamy, ethereal atmosphere. The text is centered and prominently displayed, with \"Paradise\" on the first line and \"trees\" on the second line. The website \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "1239": {
+      "ts": 41.34,
+      "caption": "The image displays the text \"Paradise trees\" in white font against a dark blue background. The background features a bokeh effect with blurred, glowing circles of light in various shades of blue and orange, creating a dreamy, ethereal atmosphere. The text is centered and prominently displayed, with \"Paradise\" on the first line and \"trees\" on the second line. The website \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "1248": {
+      "ts": 41.64,
+      "caption": "The image displays the text \"Paradise trees\" in white font against a dark blue background. The background features a bokeh effect with blurred, glowing circles in various shades of blue and orange, creating a dreamy, ethereal atmosphere. The text is centered and prominently displayed, with \"Paradise\" on the first line and \"trees\" on the second line. The website \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "1257": {
+      "ts": 41.94,
+      "caption": "The image displays the text \"Paradise trees\" in white font against a dark blue background. The background features a bokeh effect with circular light spots in various shades of blue and orange, creating a dreamy, ethereal atmosphere. The text is centered and prominently displayed, with \"Paradise\" on the first line and \"trees\" on the second line. The website \"13newsnow.com\" is faintly visible in the top left corner."
+    },
+    "1265": {
+      "ts": 42.21,
+      "caption": "The image features a small, decorated Christmas tree with a natural green background. The tree is adorned with cartoon-style ornaments, including red apples, blue berries, and orange candles with yellow stripes. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1274": {
+      "ts": 42.51,
+      "caption": "The image features a small, decorated Christmas tree with a natural green background. The tree is adorned with three red apples, two bunches of blue berries, and two golden candles with red stripes. The website \"13newsnow.com\" is visible in the top left corner. The tree is centered against a blurred, forest-like backdrop."
+    },
+    "1283": {
+      "ts": 42.81,
+      "caption": "The image features a small, decorated Christmas tree with green pine needles. It is adorned with three red apples, three blue berries, and three orange candles with white stripes. The background is a blurred, dense forest of green trees. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1291": {
+      "ts": 43.08,
+      "caption": "The image features a Christmas tree decorated with apples, blueberries, and candles, set against a blurred background of green trees. The tree is adorned with red apples, blue berries, and orange candles with white stripes, giving it a festive appearance. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1300": {
+      "ts": 43.38,
+      "caption": "The image shows a split view: on the left, a rustic interior with a stone fireplace, red stockings hanging, and a green armchair, suggesting a cozy holiday setting. On the right, a decorated Christmas tree with red apples, blue berries, and golden candles is prominently displayed against a blurred green background, emphasizing the festive theme. The watermark \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1309": {
+      "ts": 43.68,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with colorful ornaments, including red apples, blue berries, and golden candles. The background is slightly blurred, showing a festive indoor setting with red and green decorations. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1318": {
+      "ts": 43.98,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with colorful ornaments, including red apples, blue berries, and golden candles. The background is slightly blurred, showing a festive indoor setting with red and green decorations. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1326": {
+      "ts": 44.24,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with red apples, blue berries, and golden candles. The background features a blurred interior with red and pink decorations, possibly stockings, hanging on a wall. The image has a watermark in the top left corner reading \"13newsnow.com\"."
+    },
+    "1335": {
+      "ts": 44.54,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with red apples, blue berries, and golden candles. The background is softly blurred, suggesting a cozy indoor setting with hints of festive decorations. The text \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1344": {
+      "ts": 44.84,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with three golden candles, two red apples, and clusters of blue berries. The background is softly blurred, suggesting a cozy indoor setting with hints of red and green, possibly stockings or festive decorations. The image includes a watermark in the top left corner reading \"13newsnow.com\"."
+    },
+    "1353": {
+      "ts": 45.15,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with red apples, blue berries, and golden candles. The background features a blurred interior with a fireplace and stockings hanging on the wall. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1361": {
+      "ts": 45.41,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with colorful ornaments, including red apples, blue berries, and yellow candles with orange stripes. The background is slightly blurred, showing a cozy indoor setting with a fireplace and stockings hanging. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1370": {
+      "ts": 45.71,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with red apples, blue berries, and two golden candles with red stripes. The background shows a cozy interior with a fireplace and stockings hanging on the wall. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1379": {
+      "ts": 46.01,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with cartoon-style ornaments: red apples, blue berries, and yellow candles with orange stripes. The background, slightly blurred, suggests a cozy indoor setting with a fireplace and stockings hanging. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1387": {
+      "ts": 46.28,
+      "caption": "The image shows a Christmas tree decorated with apples, blueberries, and candles, placed in front of a wooden door with glass panels. The tree is adorned with these natural-looking ornaments, giving it a rustic and festive appearance. The background is slightly blurred, suggesting a cozy indoor setting with a fireplace and stockings hanging. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1396": {
+      "ts": 46.58,
+      "caption": "A festive Christmas tree decorated with apples, blueberries, and candles is displayed in front of a wooden door with glass panels. The tree is adorned with these natural ornaments, creating a rustic and cheerful holiday scene. The background, slightly blurred, suggests a cozy indoor setting with stockings hanging on a fireplace. The website watermark \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1405": {
+      "ts": 46.88,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with red apples, blue berries, and yellow candles with orange stripes. The background is softly blurred, showing a cozy indoor setting with a fireplace and stockings hanging on the wall. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1414": {
+      "ts": 47.18,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with red apples, blue berries, and golden candles. The background shows a cozy indoor setting with a fireplace and stockings hanging on the wall. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1422": {
+      "ts": 47.45,
+      "caption": "The image shows a small, decorated Christmas tree with green pine needles. It is adorned with two red apples, two bunches of blue berries, and two golden candles with red stripes. The tree is positioned in front of a wooden door with glass panels, and a blurred background suggests a cozy indoor setting with stockings hanging on a fireplace. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1431": {
+      "ts": 47.75,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with red apples, blue berries, and two golden candles with red stripes. The background shows a cozy indoor setting with a fireplace and stockings hanging on the wall. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1440": {
+      "ts": 48.05,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with three red apples, three bunches of blue berries, and two golden candles with red stripes. The background features a blurred interior with a brick fireplace and stockings hanging on the wall. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1449": {
+      "ts": 48.35,
+      "caption": "A small, decorated Christmas tree stands in front of a wooden door with glass panels. The tree is adorned with red apples, blue berries, and two golden candles with red stripes. The background features a blurred interior with a fireplace and stockings hanging on the wall. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1457": {
+      "ts": 48.62,
+      "caption": "The image depicts a family gathered around a decorated Christmas tree, adorned with candles that emit a warm glow. The tree is central, surrounded by adults and children, all dressed in formal attire, suggesting a traditional holiday celebration. The room has ornate wallpaper and a fireplace, adding to the festive atmosphere. The scene conveys a sense of warmth and togetherness."
+    },
+    "1466": {
+      "ts": 48.92,
+      "caption": "The image depicts a black-and-white illustration of a family gathered around a decorated Christmas tree. The tree is adorned with candles and ornaments, and the room features a fireplace and ornate wall decorations. The family, consisting of adults and children, appears to be in a festive mood, with some individuals looking at the tree and others engaged in conversation. The scene conveys a warm, traditional holiday atmosphere."
+    },
+    "1475": {
+      "ts": 49.22,
+      "caption": "The image depicts a family gathered around a decorated Christmas tree, adorned with candles and ornaments. The tree stands prominently in the center, with light emanating from the candles, creating a warm and festive atmosphere. The family, consisting of adults and children, is dressed in formal attire, suggesting a traditional holiday celebration. The room has ornate details, including a fireplace and decorative wall elements, enhancing the cozy and celebratory mood."
+    },
+    "1483": {
+      "ts": 49.48,
+      "caption": "The image depicts a family gathered around a decorated Christmas tree, adorned with candles and ornaments. The tree stands prominently in the center, with its branches extending outward. The room is warmly lit, suggesting a cozy, festive atmosphere. The family members, dressed in period attire, appear to be engaged in conversation or admiring the tree. The background features ornate architectural details, including a decorative fireplace and a door with intricate carvings, enhancing the historical and celebratory mood of the scene."
+    },
+    "1492": {
+      "ts": 49.78,
+      "caption": "The image depicts a family gathered around a decorated Christmas tree, adorned with candles and ornaments. The tree stands prominently in the center, with its branches extending outward. The room is warmly lit, suggesting a cozy, festive atmosphere. The family members, including adults and children, are dressed in period attire, indicating a historical setting. The background features a fireplace with a decorative mantel, adding to the traditional holiday scene."
+    },
+    "1501": {
+      "ts": 50.08,
+      "caption": "The image depicts a family gathered around a decorated Christmas tree, adorned with candles and ornaments. The tree stands prominently in the center, with its branches extending outward. The room is warmly lit, suggesting a cozy, festive atmosphere. The family members, dressed in period attire, appear to be engaged in conversation or contemplation, with some looking towards the tree. The background features a fireplace and ornate furniture, adding to the traditional holiday setting."
+    },
+    "1510": {
+      "ts": 50.38,
+      "caption": "The image depicts a family gathered around a decorated Christmas tree with lit candles, symbolizing a festive holiday scene. The tree is adorned with simple ornaments, and the room features a fireplace with a mantel, adding to the cozy atmosphere. The family, consisting of adults and children, appears to be in a warm and intimate setting, likely celebrating Christmas. The illustration is detailed, with each figure and object carefully drawn, emphasizing the traditional holiday spirit."
+    },
+    "1518": {
+      "ts": 50.65,
+      "caption": "The image depicts a family gathered around a decorated Christmas tree in a warmly lit room. The tree is adorned with candles and ornaments, and a star sits atop it. The family, dressed in formal attire, appears to be engaged in conversation or preparing for a festive meal. The room features ornate furniture and a fireplace, contributing to the cozy, celebratory atmosphere."
+    },
+    "1527": {
+      "ts": 50.95,
+      "caption": "The image depicts a Victorian-era family gathered around a decorated Christmas tree, adorned with candles and ornaments. The tree stands prominently in the center, surrounded by adults and children dressed in period attire. The room is warmly lit, with a fireplace and ornate furniture visible in the background, suggesting a cozy, festive atmosphere."
+    },
+    "1536": {
+      "ts": 51.25,
+      "caption": "The image depicts a group of people gathered around a decorated Christmas tree in a room with ornate furniture and a fireplace. The tree is adorned with candles and ornaments, and a child appears to be reaching out to touch it. The individuals, dressed in formal attire, are engaged in conversation and appear to be celebrating the holiday season. The scene conveys a warm, festive atmosphere."
+    },
+    "1545": {
+      "ts": 51.55,
+      "caption": "The image depicts a Victorian-era Christmas scene. A family gathers around a decorated Christmas tree adorned with candles and ornaments. The tree stands prominently in the center of the room, surrounded by adults and children. The adults, dressed in formal attire, appear to be engaged in conversation or preparing for a celebration. The children, some in festive clothing, are gathered near the tree, possibly receiving gifts or decorations. The room is furnished with ornate furniture, including a large wardrobe and a table with a lace tablecloth. The overall atmosphere suggests a warm, familial gathering during the holiday season."
+    },
+    "1553": {
+      "ts": 51.82,
+      "caption": "The image depicts a family gathered around a decorated Christmas tree in a warmly lit room. The tree is adorned with candles and ornaments, casting a festive glow. Several adults and children are present, some standing and others seated, engaged in conversation or observing the tree. The room features ornate furniture and a mirror on the wall, adding to the cozy, traditional holiday atmosphere."
+    },
+    "1562": {
+      "ts": 52.12,
+      "caption": "The image depicts a Victorian-era family gathered around a decorated Christmas tree, with candles and ornaments adorning its branches. The room is warmly lit, with a large cabinet and ornate mirror in the background. Several adults and children are present, some seated at a table, others standing, all appearing engaged in the festive scene. The atmosphere suggests a traditional holiday gathering."
+    },
+    "1571": {
+      "ts": 52.42,
+      "caption": "A black-and-white illustration depicts a family gathered around a decorated Christmas tree in a warmly lit room. The tree is adorned with candles and ornaments, casting a festive glow. Several adults and children are present, some seated at a table, others standing, all appearing engaged in the holiday celebration. The room features ornate furniture and a fireplace, enhancing the cozy, traditional Christmas atmosphere."
+    },
+    "1580": {
+      "ts": 52.72,
+      "caption": "The image depicts a Victorian-era Christmas scene with a large, decorated Christmas tree at the center, adorned with candles and ornaments. A group of people, including adults and children, gather around the tree, some appearing to exchange gifts or engage in conversation. The room is richly decorated with ornate furniture and a fireplace, suggesting a warm and festive atmosphere. The illustration is detailed, with intricate linework and shading, giving it a classic, vintage feel."
+    },
+    "1588": {
+      "ts": 52.99,
+      "caption": "The image depicts a Victorian-era family gathered around a decorated Christmas tree, adorned with candles and ornaments. The tree stands prominently in the center, surrounded by adults and children dressed in period attire. The room features ornate furniture, including a large wardrobe and a door with a decorative angel statue above it. The scene conveys a warm, festive atmosphere, with the family appearing engaged and joyful."
+    },
+    "1597": {
+      "ts": 53.29,
+      "caption": "The image depicts a Victorian-era Christmas scene with a family gathered around a decorated Christmas tree. The tree is adorned with candles and ornaments, and the room is richly decorated with ornate furniture and a fireplace. The family, dressed in period attire, appears engaged in conversation and celebration. The illustration is detailed, showcasing the clothing and decor typical of the 19th century."
+    },
+    "1606": {
+      "ts": 53.59,
+      "caption": "The image depicts a vintage-style illustration of a family gathered around a decorated Christmas tree in a warmly lit room. The tree is adorned with candles and ornaments, and the family, dressed in period clothing, appears to be celebrating. A clock in the background suggests the time is around 10 o'clock. The scene is overlaid with colorful, abstract patterns, giving it a festive and slightly surreal atmosphere."
+    },
+    "1614": {
+      "ts": 53.85,
+      "caption": "The image features a vintage-style Christmas scene with a family gathered around a decorated Christmas tree. The tree is adorned with ornaments and a star at the top. The family includes adults and children, dressed in period clothing, suggesting a historical setting. The background includes ornate architectural details, possibly a fireplace or a mantelpiece. The image has a colorful, slightly distorted effect, with vibrant hues of red, yellow, blue, and purple overlaying the scene. The website \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1623": {
+      "ts": 54.15,
+      "caption": "The image shows a close-up of colorful Christmas ornaments, including blue, green, and purple ones. Each ornament has a small, circular tag with text on it, though the text is not fully legible. The background appears to be a textured surface, possibly a wall or a display case. The lighting highlights the reflective surfaces of the ornaments, creating a shiny effect."
+    },
+    "1632": {
+      "ts": 54.45,
+      "caption": "The image shows a close-up of colorful Christmas ornaments, including blue, green, purple, and red. Each ornament has a small, shiny hanger attached. The background is blurred, emphasizing the vibrant colors of the ornaments."
+    },
+    "1641": {
+      "ts": 54.75,
+      "caption": "The image shows a close-up of colorful Christmas ornaments, including blue, green, purple, and red. Each ornament has a small loop at the top, likely for hanging. The background is blurred, emphasizing the vibrant colors of the ornaments."
+    },
+    "1649": {
+      "ts": 55.02,
+      "caption": "The image shows a close-up of colorful Christmas ornaments, including a prominent blue, green, and purple one. Each ornament has a small loop at the top for hanging. The background is blurred, emphasizing the vibrant colors of the ornaments. The text \"13newsnow.com\" is visible in the top left corner, suggesting the image might be from a news or media source."
+    },
+    "1658": {
+      "ts": 55.32,
+      "caption": "The image shows a close-up of colorful Christmas ornaments, including a bright blue, a vibrant green, a deep red, and a rich purple. Each ornament has a small loop at the top, suggesting they are meant to be hung. The background is blurred, emphasizing the glossy, reflective surfaces of the ornaments. The text \"13newsnow.com\" is visible in the top left corner, indicating the source of the image."
+    },
+    "1667": {
+      "ts": 55.62,
+      "caption": "The image showcases a close-up of colorful Christmas ornaments, including vibrant red, pink, blue, green, and purple baubles. Each ornament has a shiny, reflective surface, and some have small, gold-colored hangers attached. The background is blurred, emphasizing the ornaments in the foreground."
+    },
+    "1676": {
+      "ts": 55.92,
+      "caption": "The image features a strip of shiny, golden tinsel at the top against a plain white background. The tinsel is evenly spaced and extends horizontally across the image, creating a festive border."
+    },
+    "1684": {
+      "ts": 56.19,
+      "caption": "The image shows a long, thin strip of gold tinsel against a plain white background. The tinsel is evenly spread and appears to be a festive decoration, likely used for holiday or celebratory purposes. The strip is straight and stretches horizontally across the image."
+    },
+    "1693": {
+      "ts": 56.49,
+      "caption": "The image shows a bright white background with a thin strip of golden, textured material at the bottom, resembling a decorative border or fringe."
+    },
+    "1702": {
+      "ts": 56.79,
+      "caption": "A red ribbon is elegantly curved against a stark white background, creating a simple yet striking visual. The ribbon's glossy texture reflects light, adding depth and dimension to the image. The white space surrounding the ribbon emphasizes its vibrant color and fluid shape."
+    },
+    "1710": {
+      "ts": 57.06,
+      "caption": "A red ribbon is elegantly curved against a stark white background, creating a dynamic and flowing visual. The ribbon's glossy surface reflects light, adding depth and texture to the image."
+    },
+    "1719": {
+      "ts": 57.36,
+      "caption": "A red ribbon is elegantly curved at the bottom of a white background. The ribbon's glossy texture reflects light, adding a subtle sheen. The simplicity of the white space emphasizes the ribbon's vibrant color and smooth form."
+    },
+    "1728": {
+      "ts": 57.66,
+      "caption": "The image displays a white background with the text \"THE SYSTEM\" prominently centered in a bold, sans-serif font. Below the main text, smaller text reads \"THE SYSTEM\" again, followed by \"THE SYSTEM\" in an even smaller font size. The overall design is minimalistic and clean."
+    },
+    "1737": {
+      "ts": 57.96,
+      "caption": "The image features three glossy Christmas ornaments hanging against a white background. The ornaments are spherical and reflective, with the leftmost being red, the middle one gold, and the rightmost a gradient of pink and orange. Each ornament has a small, shiny metallic loop at the top, suggesting they are designed to be hung."
+    },
+    "1745": {
+      "ts": 58.22,
+      "caption": "The image features three Christmas ornaments against a white background. The ornaments are spherical and shiny, with reflective surfaces. From left to right, the first ornament is red, the second is gold with horizontal stripes, and the third is pink with a gradient effect. Each ornament has a small loop at the top for hanging."
+    },
+    "1754": {
+      "ts": 58.53,
+      "caption": "The image shows two Christmas ornaments against a plain white background. The ornament on the left is gold with a shiny, reflective surface, and the one on the right is pink with a similar reflective finish. Both ornaments have small loops at the top for hanging."
+    },
+    "1763": {
+      "ts": 58.83,
+      "caption": "The image displays a white background with the text \"THE SYSTEM\" prominently centered in bold, black, uppercase letters. Below this, smaller text reads \"OF THE\" in the same style. The overall design is minimalistic and clean."
+    },
+    "1772": {
+      "ts": 59.13,
+      "caption": "The image displays a white background with the text \"THE SYSTEM\" prominently centered in bold, black, uppercase letters. Below this, smaller text reads \"THE SYSTEM\" again, this time in a lighter, grayish font. The overall design is minimalistic and clean."
+    },
+    "1780": {
+      "ts": 59.39,
+      "caption": "The image shows a white background with the text \"! Picture 1:\" in black, centered at the top."
+    },
+    "1789": {
+      "ts": 59.69,
+      "caption": "The image shows a tangled mess of Christmas lights with various colors, including red, green, blue, and yellow. The lights are illuminated, creating a vibrant and festive glow. The wires are intertwined, and the lights are densely packed, giving a chaotic yet colorful appearance. The background is dark, which makes the bright lights stand out even more."
+    },
+    "1798": {
+      "ts": 59.99,
+      "caption": "The image shows a tangled mess of Christmas lights with various colors, including red, green, blue, and white. The lights are illuminated, creating a vibrant and festive glow. The background appears to be a dark surface, possibly a table or floor, which reflects the light, enhancing the brightness of the scene. The wires are intertwined, and the bulbs are small and cylindrical, typical of Christmas string lights."
+    },
+    "1806": {
+      "ts": 60.26,
+      "caption": "The image shows a tangled mess of Christmas lights with red, green, and blue bulbs. The lights are illuminated, casting a warm glow on the surface below, which appears to be a reflective, polished wooden table. The wires are intertwined, creating a chaotic yet festive scene. The background is dimly lit, emphasizing the brightness of the lights."
+    },
+    "1815": {
+      "ts": 60.56,
+      "caption": "The image shows a tangled mess of Christmas lights with multicolored bulbs—red, green, blue, and white—twisted and overlapping. The lights are illuminated, casting a warm, festive glow. The background is dark, emphasizing the bright colors of the lights. The text \"13newsnow.com\" is visible in the top left corner, suggesting the image might be from a news or media source."
+    },
+    "1824": {
+      "ts": 60.86,
+      "caption": "The image shows a tangled mess of Christmas lights with red, green, blue, and white bulbs. The lights are intertwined, creating a vibrant and chaotic display of colors. The background appears to be a reflective surface, possibly a table or floor, which enhances the glow of the lights. The text \"13newsnow.com\" is visible in the top left corner, indicating the source of the image."
+    },
+    "1833": {
+      "ts": 61.16,
+      "caption": "The image shows a tangled mess of Christmas lights with red, green, blue, and white bulbs. The lights are intertwined, creating a vibrant and chaotic display of colors. The background is dark, which makes the bright lights stand out prominently. The scene suggests a festive or holiday setting, possibly indicating preparation for decorating."
+    },
+    "1841": {
+      "ts": 61.43,
+      "caption": "The image shows a tangled mess of Christmas lights with red, green, and blue bulbs. The lights are illuminated, casting a warm glow on the surface below, which appears to be a reflective surface, possibly a table or floor. The wires are intertwined, creating a chaotic and festive scene. The text \"13newsnow.com\" is visible in the top left corner, suggesting the image might be from a news source."
+    },
+    "1850": {
+      "ts": 61.73,
+      "caption": "The image shows a tangled mess of Christmas lights with red, green, blue, and white bulbs. The lights are intertwined, creating a vibrant and chaotic display of colors. The background is dark, which makes the bright lights stand out even more. The scene suggests a festive or holiday setting, possibly indicating preparation for decorating."
+    },
+    "1859": {
+      "ts": 62.03,
+      "caption": "The image displays a tangled string of Christmas lights with red, green, blue, and white bulbs. The lights are illuminated, casting a warm glow on a reflective surface below, creating a vibrant and festive atmosphere. The cords are intertwined, adding to the chaotic yet charming look of the scene."
+    },
+    "1868": {
+      "ts": 62.33,
+      "caption": "The image displays a tangled mess of Christmas lights with red, green, blue, and white bulbs. The lights are intertwined, creating a vibrant and chaotic scene. The background is dark, which makes the colorful lights stand out prominently. The wires are black and appear to be connected to a power source, though the source is not visible in the image. The overall atmosphere is festive and chaotic, typical of holiday decorations."
+    },
+    "1876": {
+      "ts": 62.6,
+      "caption": "The image shows a tangled mess of Christmas lights with red, green, blue, and white bulbs. The lights are intertwined, creating a vibrant and colorful display. The background appears to be a reflective surface, possibly glass, which amplifies the light reflections, adding depth and a shimmering effect to the scene. The text \"newsnow.com\" is faintly visible in the top left corner, suggesting the image might be from a news or media source."
+    },
+    "1885": {
+      "ts": 62.9,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a Christmas tree adorned with golden ornaments to the right. Red gift boxes are neatly stacked at the base of the tree. A dark blue armchair is partially visible on the left. The setting is indoors, likely in a cozy living room, with a wooden mantel and a window in the background."
+    },
+    "1894": {
+      "ts": 63.2,
+      "caption": "A festive Christmas scene features a decorated Christmas tree with golden ornaments and a star at the top, placed beside a fireplace with a glowing fire. Above the fireplace, three red stockings hang from the mantel, adorned with white fur trim and pink bows. The mantel itself is dark marble with intricate carvings. To the left, a dark blue armchair is partially visible. The room has a warm, cozy atmosphere, enhanced by the glow of the fire and the vibrant decorations."
+    },
+    "1903": {
+      "ts": 63.5,
+      "caption": "A festive Christmas scene features a decorated Christmas tree with golden ornaments and a lit fireplace with stockings hanging above it. Presents are neatly stacked under the tree, and a chair is positioned to the left. The setting appears warm and cozy, with a wooden mantel and a window in the background."
+    },
+    "1911": {
+      "ts": 63.76,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a large Christmas tree adorned with golden ornaments and star-shaped decorations. Red gift boxes with gold ribbons are placed at the base of the tree, and a blue armchair is positioned to the left. The setting appears warm and inviting, with a wooden mantel and a window in the background."
+    },
+    "1920": {
+      "ts": 64.06,
+      "caption": "The image showcases a festive Christmas scene with a decorated Christmas tree adorned with golden ornaments and star-shaped decorations. Below the tree, red gift boxes with gold ribbons are neatly stacked. Above the tree, a fireplace with a glowing fire and a lattice screen is flanked by three red stockings hung with white fur trim. The fireplace is set against a wooden mantel decorated with greenery and red bows. The setting appears warm and inviting, typical of a cozy holiday atmosphere."
+    },
+    "1929": {
+      "ts": 64.36,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a Christmas tree adorned with golden ornaments to the right. Red gift boxes are stacked at the base of the tree, and a blue armchair is partially visible on the left. The setting appears warm and cozy, with a wooden mantel and a window in the background."
+    },
+    "1937": {
+      "ts": 64.63,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a large Christmas tree adorned with golden ornaments and stars. Presents are neatly stacked at the base of the tree, and a wreath with a bow is displayed above the mantel. The setting includes a dark curtain and a chair, suggesting a cozy indoor environment."
+    },
+    "1946": {
+      "ts": 64.93,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a large Christmas tree adorned with golden ornaments to the right. Red gift boxes are neatly arranged at the base of the tree, and a dark blue armchair is partially visible on the left. The setting appears warm and cozy, with a wooden mantelpiece and a window in the background."
+    },
+    "1955": {
+      "ts": 65.23,
+      "caption": "The image showcases a festive Christmas scene with a decorated Christmas tree adorned with golden ornaments and a red bow. Below the tree, red gift boxes are neatly stacked. Above the tree, a fireplace with a glowing fire is framed by a wooden mantel. Three red stockings hang from the mantel, each with white fur trim and a bow. The mantel also features small red and white decorative items, including a reindeer figure and candles. The setting appears warm and cozy, typical of a holiday celebration."
+    },
+    "1964": {
+      "ts": 65.53,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire crackling inside, and a large Christmas tree adorned with golden ornaments and wrapped presents at its base. The setting appears warm and cozy, with wooden paneling and a marble fireplace surround."
+    },
+    "1972": {
+      "ts": 65.8,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a large Christmas tree adorned with golden ornaments to the right. Presents are neatly arranged at the base of the tree, and a wreath with red berries and greenery is placed on the mantel. The setting appears warm and inviting, with a cozy holiday atmosphere."
+    },
+    "1981": {
+      "ts": 66.1,
+      "caption": "The image showcases a festive Christmas scene with a decorated Christmas tree adorned with golden ornaments and star-shaped decorations. Below the tree, red gift boxes with gold ribbons are neatly stacked. Above the tree, three red stockings hang from a wooden mantelpiece, each with a white fur trim and a bow at the top. The mantelpiece is set against a dark stone wall with a decorative metal grate in the center. The top of the mantelpiece features a wreath with red berries and a striped bow. The scene is well-lit, emphasizing the warm glow of the fire burning in the grate, creating a cozy and celebratory atmosphere."
+    },
+    "1990": {
+      "ts": 66.4,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a large Christmas tree adorned with golden ornaments to the right. Red gift boxes with gold ribbons are stacked at the base of the tree. The setting includes a dark marble fireplace surround and a wooden mantel decorated with greenery and red bows. The watermark \"13newsnow.com\" is visible in the top left corner."
+    },
+    "1999": {
+      "ts": 66.7,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a Christmas tree adorned with golden ornaments to the right. Red gift boxes with gold bows are placed beneath the tree. The setting includes a dark marble fireplace surround and a wooden mantel with holiday decorations. The image is watermarked with \"13newsnow.com\"."
+    },
+    "2007": {
+      "ts": 66.97,
+      "caption": "A festive Christmas scene features a decorated fireplace with stockings hanging above, a lit fire inside, and a large Christmas tree adorned with golden ornaments to the right. Red gift boxes with gold ribbons are placed at the base of the tree. The background includes a wooden panel and a marble fireplace surround, enhancing the cozy holiday atmosphere."
+    },
+    "2016": {
+      "ts": 67.27,
+      "caption": "A festive Christmas scene features a decorated Christmas tree adorned with golden ornaments and star-shaped decorations. Three red stockings hang from a wooden mantel above a lit fireplace, with a decorative bow and greenery adorning the mantel. Red gift boxes with gold bows are placed at the base of the tree, and a dark blue armchair is partially visible on the left. The setting suggests a cozy, holiday atmosphere."
+    },
+    "2025": {
+      "ts": 67.57,
+      "caption": "A festive Christmas scene features a decorated Christmas tree with golden ornaments and a lit fireplace with stockings hanging above it. Red gift boxes are neatly arranged at the base of the tree, and a decorative reindeer ornament sits atop the mantel. The setting appears warm and cozy, with a wooden panel background and a marble fireplace surround."
+    },
+    "2033": {
+      "ts": 67.83,
+      "caption": "The image showcases a close-up of a Christmas tree adorned with shiny ornaments. Prominently featured are a red, a gold, and a white bauble, each reflecting light. The tree is decorated with small, golden beads and string lights, creating a festive glow. The background is slightly blurred, emphasizing the tree's decorations. The website watermark \"13newsnow.com\" is visible in the top left corner."
+    },
+    "2042": {
+      "ts": 68.13,
+      "caption": "The image showcases a close-up of a Christmas tree adorned with shiny ornaments, including a prominent red bauble and a gold one. The tree is decorated with string lights, creating a warm, festive glow. The background is slightly blurred, emphasizing the tree's decorations. The text \"13newsnow.com\" is visible in the top left corner, suggesting the image might be from a news or media source."
+    },
+    "2051": {
+      "ts": 68.44,
+      "caption": "The image showcases a close-up of a Christmas tree adorned with shiny ornaments, including a prominent red and a reflective gold bauble. The tree is decorated with small, golden beads and string lights, creating a festive glow. The background is slightly blurred, emphasizing the tree's decorations and giving a warm, celebratory atmosphere. The text \"13newsnow.com\" is visible in the top left corner, suggesting the image might be from a news or media source."
+    },
+    "2060": {
+      "ts": 68.74,
+      "caption": "A close-up of a Christmas tree adorned with shiny ornaments, including a prominent red and gold bauble, and string lights that create a festive glow. The tree's green needles are lush and vibrant, and the background is slightly blurred, emphasizing the tree's decorations."
+    },
+    "2068": {
+      "ts": 69.0,
+      "caption": "A close-up of a Christmas tree adorned with shiny ornaments, including a prominent pink and gold bauble. The tree is decorated with string lights, creating a warm, festive glow. The background is slightly blurred, emphasizing the tree's decorations."
+    },
+    "2077": {
+      "ts": 69.3,
+      "caption": "A close-up of a Christmas tree adorned with shiny ornaments, including a prominent red and gold bauble. The tree is decorated with string lights and small white beads, creating a festive and warm atmosphere. The background is slightly blurred, emphasizing the tree's decorations."
+    },
+    "2086": {
+      "ts": 69.6,
+      "caption": "A Christmas tree is adorned with ornaments, including a shiny gold ball and a red bauble. A tag with the \"13abc NewsNow\" logo is prominently displayed, attached to the tree. The background is softly blurred, showcasing more festive lights and ornaments, creating a warm, holiday atmosphere."
+    },
+    "2095": {
+      "ts": 69.9,
+      "caption": "A festive Christmas tree is adorned with shiny ornaments, including a prominent pink bauble and a golden one. A decorative tag with the \"13abc News Now\" logo is attached to the tree, featuring a blue and white design. The background is softly blurred, showcasing more ornaments and twinkling lights, creating a warm and celebratory atmosphere."
+    },
+    "2103": {
+      "ts": 70.17,
+      "caption": "A festive Christmas tree is adorned with shiny ornaments, including a prominent pink and gold bauble. A decorative tag with the \"13abc News Now\" logo hangs from the tree, featuring a blue and white design. The background is softly blurred, showcasing more ornaments and twinkling lights, creating a warm and celebratory atmosphere."
+    },
+    "2112": {
+      "ts": 70.47,
+      "caption": "A Christmas tree is decorated with shiny ornaments, including a prominent red ribbon and a gold bauble. A white tag with a blue border and the text \"13 abc NEWSNOW\" is attached to the tree, indicating a festive news broadcast. The background is blurred with golden lights, enhancing the holiday atmosphere."
+    },
+    "2121": {
+      "ts": 70.77,
+      "caption": "A festive Christmas tree is adorned with shiny ornaments, including a prominent pink bauble and a gold one. A decorative tag with the \"13abc News Now\" logo hangs from the tree, featuring a blue and white design. The background is softly blurred, showcasing more lights and ornaments, creating a warm, holiday atmosphere."
+    },
+    "2129": {
+      "ts": 71.04,
+      "caption": "A festive Christmas tree is adorned with shiny ornaments, including a prominent pink bauble and a gold one. A decorative tag with the \"13abc News Now\" logo hangs from the tree, featuring a blue and white design. The background is softly blurred, showcasing more ornaments and twinkling lights, creating a warm and cheerful holiday atmosphere."
+    },
+    "2138": {
+      "ts": 71.34,
+      "caption": "A Christmas tree is decorated with shiny ornaments, including a prominent red ribbon and a gold bauble. A white tag with blue text reading \"13 abc NEWSNOW\" is attached to the tree, with a website address \"13newsnow.com\" visible in the top left corner. The background is softly blurred, showing more ornaments and twinkling lights, creating a festive atmosphere."
+    },
+    "2147": {
+      "ts": 71.64,
+      "caption": "A Christmas tree is adorned with festive ornaments, including shiny gold and purple baubles, and a red ribbon. A decorative tag with the \"13abc News Now\" logo is prominently displayed, hanging from the tree. The background is softly blurred, showcasing more ornaments and twinkling lights, creating a warm and festive atmosphere."
+    },
+    "2156": {
+      "ts": 71.94,
+      "caption": "A Christmas tree is adorned with various ornaments, including shiny gold and purple baubles, and a red ribbon. A decorative tag with the text \"13 abc NEWSNOW\" is prominently displayed, hanging from the tree. The background is softly blurred, showcasing more festive lights and ornaments, creating a warm and cheerful holiday atmosphere."
+    },
+    "2164": {
+      "ts": 72.21,
+      "caption": "A Christmas tree is decorated with shiny ornaments, including a prominent pink bauble and a gold one. A wooden ornament with the text \"13abc NEWSNOW\" hangs from the tree, featuring a blue and white logo. The background is softly blurred, showing more ornaments and twinkling lights, creating a festive atmosphere."
+    },
+    "2173": {
+      "ts": 72.51,
+      "caption": "A Christmas tree is decorated with shiny ornaments, including a prominent pink bauble and a gold one. A wooden ornament with the text \"13abc NEWSNOW\" hangs from a branch, featuring a red ribbon. The background is softly blurred, showing more ornaments and twinkling lights, creating a festive atmosphere."
+    },
+    "2182": {
+      "ts": 72.81,
+      "caption": "A Christmas tree is decorated with shiny ornaments, including a prominent pink bauble and a gold one. A wooden ornament with the text \"13abc NEWSNOW\" hangs from the tree, featuring a blue and white logo. The background is softly blurred, showing more ornaments and twinkling lights, creating a festive atmosphere."
+    },
+    "2191": {
+      "ts": 73.11,
+      "caption": "A Christmas tree is decorated with shiny ornaments, including a prominent pink bauble and a gold one. A wooden ornament with the text \"13 abc NEWSNOW\" hangs from a branch, adorned with a red ribbon. The background is softly blurred, showcasing more festive lights and ornaments, creating a warm, holiday atmosphere."
+    },
+    "2199": {
+      "ts": 73.37,
+      "caption": "A Christmas tree adorned with shiny ornaments, including a prominent pink bauble and a golden one, is decorated with a wooden ornament featuring the \"13abc News Now\" logo. The background is softly blurred, showcasing more festive lights and ornaments, creating a warm and cheerful holiday atmosphere."
+    },
+    "2208": {
+      "ts": 73.67,
+      "caption": "A Christmas tree is adorned with shiny ornaments, including a prominent red ribbon and a large gold ball. A wooden ornament with the text \"13 abc NEWSNOW\" hangs from the tree, featuring a blue and white logo. The background is softly blurred, showcasing more ornaments and twinkling lights, creating a festive atmosphere."
+    },
+    "2217": {
+      "ts": 73.97,
+      "caption": "A Christmas tree is decorated with shiny ornaments, including a prominent red ribbon and a gold bauble. A wooden ornament with the \"13abc News Now\" logo hangs from the tree, featuring a blue and white design. The background is softly blurred, showing more ornaments and twinkling lights, creating a festive atmosphere."
+    },
+    "2226": {
+      "ts": 74.27,
+      "caption": "A Christmas tree is decorated with shiny ornaments, including a prominent red and gold bauble. A wooden ornament with the text \"13 abc NEWSNOW\" hangs from the tree, featuring a blue and white logo. The background is softly blurred, showing more ornaments and twinkling lights, creating a festive atmosphere."
+    }
+  }
+}

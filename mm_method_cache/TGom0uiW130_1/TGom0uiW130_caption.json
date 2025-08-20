@@ -1,0 +1,519 @@
+{
+  "video_path": "/home/syh/.cache/huggingface/videomme/data/TGom0uiW130.mp4",
+  "avg_fps": 25.0,
+  "total_frames": 79226,
+  "captions": {
+    "0": {
+      "ts": 0.0,
+      "caption": "The image is entirely black with no discernible objects, people, or text present."
+    },
+    "623": {
+      "ts": 24.92,
+      "caption": "A black-and-white photograph depicts a vintage biplane on a sandy beach, with its propeller spinning and smoke emitting from the engine, while a man in a dark suit and hat stands nearby, observing the aircraft."
+    },
+    "1247": {
+      "ts": 49.88,
+      "caption": "The newspaper headline reads \"Bridgeport Evening Farmer\" with various articles and headlines discussing topics such as runaway boys, aviation, and insurance, with specific mentions of locations like Pennsylvania and Connecticut, and names like Gustave Whitehead and Otto Herger."
+    },
+    "1871": {
+      "ts": 74.84,
+      "caption": "A close-up of a person wearing a white shirt with a patterned tie, the image is dimly lit, focusing on the upper torso and neck area."
+    },
+    "2495": {
+      "ts": 99.8,
+      "caption": "The image shows a close-up of a tall, ornate clock tower constructed from reddish-brown stone, featuring arched windows with green shutters and a clock face with Roman numerals, set against a pale sky."
+    },
+    "3119": {
+      "ts": 124.76,
+      "caption": "The image features a bright sun shining through a partly cloudy sky, with the text \"FIRST FLIGHT Conquest of the Skies\" prominently displayed in the foreground."
+    },
+    "3742": {
+      "ts": 149.68,
+      "caption": "The image shows a ceiling with recessed lighting fixtures, a white tent structure in the foreground, and a building with arched windows and a lamp post in the background."
+    },
+    "4366": {
+      "ts": 174.64,
+      "caption": "Two individuals are seated inside a helicopter cockpit, both wearing headsets and glasses, with one person in a blue shirt and the other in a green shirt, both appearing to be engaged in conversation or communication."
+    },
+    "4990": {
+      "ts": 199.6,
+      "caption": "A man with light-colored hair, wearing a blue shirt, is speaking in a room with a brick wall and a framed picture in the background. The text overlay identifies him as \"John Brown, Aviation Expert & Historical Researcher.\""
+    },
+    "5614": {
+      "ts": 224.56,
+      "caption": "A close-up view of a ship's rigging, featuring ropes and wooden components, with a blurred background of trees and a hazy sky."
+    },
+    "6238": {
+      "ts": 249.52,
+      "caption": "A man with light-colored hair, wearing a light blue shirt, stands in a room with a brick wall and a white wall in the background, featuring a framed picture and a tripod with a monitor."
+    },
+    "6862": {
+      "ts": 274.48,
+      "caption": "A man in a dimly lit room is intently sketching on a large piece of paper with a pencil, his face partially obscured by the angle of the shot."
+    },
+    "7485": {
+      "ts": 299.4,
+      "caption": "A black-and-white photograph shows a large aircraft, possibly a seaplane or flying boat, with its wings and tail section prominently visible, hovering or flying low over a body of water, with the horizon line separating the sky and sea in the background."
+    },
+    "8109": {
+      "ts": 324.36,
+      "caption": "A woman in a dark suit and bow tie stands in a room, holding a briefcase, while another person with short hair is partially visible in the foreground. The background includes a framed certificate on the wall and a dark wooden door."
+    },
+    "8733": {
+      "ts": 349.32,
+      "caption": "A man with light-colored hair, wearing a blue shirt, stands in a room with a brick wall and a blurred background featuring a couch and a lamp."
+    },
+    "9357": {
+      "ts": 374.28,
+      "caption": "A close-up shows a person's hands typing on a vintage black typewriter, with fingers pressing keys and paper fed through the machine."
+    },
+    "9981": {
+      "ts": 399.24,
+      "caption": "A man with short, light-colored hair, wearing a light blue button-up shirt, stands in a room with a brick wall and a blurred background featuring a couch, a lamp, and some wall decorations."
+    },
+    "10604": {
+      "ts": 424.16,
+      "caption": "The image shows the Wright Brothers National Memorial, a tall stone monument inscribed with \"WILBUR WRIGHT ORVILLE WRIGHT,\" situated on a grassy field with a paved path leading to it. In the background, a town with numerous houses and buildings is visible, along with a body of water in the distance. A few people can be seen walking near the monument, and an American flag is visible on a pole to the right. The scene is bathed in sunlight, casting shadows on the ground."
+    },
+    "11228": {
+      "ts": 449.12,
+      "caption": "The image is a black-and-white portrait of a man with a mustache, wearing a suit and tie, set against a textured background with a circular frame."
+    },
+    "11852": {
+      "ts": 474.08,
+      "caption": "A man in a dimly lit workshop, wearing a dark cap and a light-colored shirt, is carefully sanding a piece of wood on a workbench, surrounded by various tools and materials, with a brick wall and hanging fabric in the background."
+    },
+    "12476": {
+      "ts": 499.04,
+      "caption": "Dr. Tom Crouch, a senior curator at the Smithsonian Institution, stands in front of a historical aircraft, wearing a suit and glasses, with text identifying his role and affiliation displayed at the bottom of the frame."
+    },
+    "13100": {
+      "ts": 524.0,
+      "caption": "An ivy-covered stone archway frames a narrow street leading to a quaint village with traditional buildings, including a yellow house with a red roof, under a clear sky."
+    },
+    "13724": {
+      "ts": 548.96,
+      "caption": "A man in a suit walks through a room with wooden beams and a large model of a biplane, surrounded by chairs and informational displays on the walls."
+    },
+    "14347": {
+      "ts": 573.88,
+      "caption": "A close-up view of a mechanical structure with a sign reading \"Gustav Weißkopf Nr. 21 B\" prominently displayed on a cylindrical component, with additional text partially visible on another part of the structure."
+    },
+    "14971": {
+      "ts": 598.84,
+      "caption": "A man in a plaid shirt and glasses stands in a dimly lit, narrow staircase, looking down, with another person in a dark suit partially visible behind him."
+    },
+    "15595": {
+      "ts": 623.8,
+      "caption": "A person in a white shirt and dark skirt is holding a large, white, origami-like structure in a grassy field, with the sun shining brightly in the background, creating a lens flare effect."
+    },
+    "16219": {
+      "ts": 648.76,
+      "caption": "In a dimly lit room with wooden paneling and a large arched doorway, a woman in a dark dress stands holding a piece of paper, while a young boy in a blue uniform stands in front of a piano, both appearing to be in a classroom or church setting."
+    },
+    "16843": {
+      "ts": 673.72,
+      "caption": "A man stands in front of an early biplane, holding onto its wing, with a stone wall and grassy field in the background."
+    },
+    "17466": {
+      "ts": 698.64,
+      "caption": "A silhouette of a person standing on a large, futuristic structure with a large, curved, black and white object extending from it, set against a serene sunset sky with a few distant trees and a flat, open landscape."
+    },
+    "18090": {
+      "ts": 723.6,
+      "caption": "A silhouette of a person flying with large, bat-like wings against a plain, light background."
+    },
+    "18714": {
+      "ts": 748.56,
+      "caption": "A close-up view of a mechanical structure with pipes and metal framework, featuring a cylindrical tank labeled \"Gustav Weißkopf Nr. 21 B\" in blue text on a white background, partially obscured by a metal railing."
+    },
+    "19338": {
+      "ts": 773.52,
+      "caption": "A man in a dark suit is talking on his phone while standing on a busy city sidewalk lined with shops, potted plants, and bicycles, with a crowd of people walking in the background."
+    },
+    "19962": {
+      "ts": 798.48,
+      "caption": "Two individuals are working together to move a large, white, tarp-covered object, which appears to be a boat, on a paved surface near a building with a metal door. One person is wearing jeans and sneakers, while the other is in shorts and a dark shirt, and they are using a skateboard to assist in the movement."
+    },
+    "20586": {
+      "ts": 823.44,
+      "caption": "An older man with a white beard and mustache, wearing a white shirt, sits in a rustic wooden room, playing a traditional stringed instrument with multiple strings, while framed photographs and posters adorn the walls behind him."
+    },
+    "21209": {
+      "ts": 848.36,
+      "caption": "A large white airplane with visible landing gear is taxiing on a wet runway, with a partially visible building and a crane in the background."
+    },
+    "21833": {
+      "ts": 873.32,
+      "caption": "A large bird with outstretched wings is flying over a white car on a road, with trees and a clear sky in the background."
+    },
+    "22457": {
+      "ts": 898.28,
+      "caption": "A dimly lit scene features a person with a hooded cloak, their face partially obscured by shadows, standing against a dark background."
+    },
+    "23081": {
+      "ts": 923.24,
+      "caption": "A bustling industrial factory scene from the early 20th century, featuring numerous workers operating large machinery and handling metal parts, with rows of mechanical equipment and stacks of circular metal components in the foreground."
+    },
+    "23705": {
+      "ts": 948.2,
+      "caption": "A hand holds a pencil, pointing at a detailed pencil drawing of a windmill and a pulley system on a piece of paper, with the text \"40 kg\" visible near the bottom of the drawing."
+    },
+    "24328": {
+      "ts": 973.12,
+      "caption": "Three men on a sailing ship, dressed in period attire, are engaged in an activity involving ropes and rigging, with the sun shining brightly in the sky and the ocean visible in the background."
+    },
+    "24952": {
+      "ts": 998.08,
+      "caption": "A lone person walks along a wide, sandy beach under a clear blue sky, with gentle waves lapping at the shore and patches of seaweed scattered across the sand."
+    },
+    "25576": {
+      "ts": 1023.04,
+      "caption": "A man in a suit and tie is talking on a cell phone in a brightly lit indoor shopping area with various stores and people in the background."
+    },
+    "26200": {
+      "ts": 1048.0,
+      "caption": "A man in a dark jacket stands in front of a stone building with a tower, gesturing with his hands as he speaks."
+    },
+    "26824": {
+      "ts": 1072.96,
+      "caption": "A person stands on a grassy hilltop with a rocky outcrop, overlooking a dense forest and a distant view of a cityscape with a large, angular structure and a tower, under an overcast sky."
+    },
+    "27448": {
+      "ts": 1097.92,
+      "caption": "A black-and-white photograph depicts a bustling industrial scene with smokestacks emitting plumes of smoke, indicating heavy industrial activity, and a large body of water in the background, possibly a river or harbor, with a ship visible on the right side. The foreground shows a network of railway tracks and buildings, including a structure with the text \"NATIONAL TUBE CO.\" prominently displayed, suggesting a focus on manufacturing or industrial operations. The overall atmosphere is hazy, likely due to the smoke and industrial emissions."
+    },
+    "28071": {
+      "ts": 1122.84,
+      "caption": "A black-and-white photograph depicts a bustling street scene from the early 20th century, featuring a horse-drawn carriage parked on a rough, rocky road, with a sign for a drug store and a Coca-Cola advertisement visible in the background. The street is lined with buildings, including a house with a porch, and utility poles with wires stretch across the scene. A man stands near the carriage, and other figures can be seen in the distance, suggesting a lively urban environment."
+    },
+    "28695": {
+      "ts": 1147.8,
+      "caption": "A man with curly hair, wearing a light blue shirt, red suspenders, and a patterned tie, sits in a white wicker chair outdoors, surrounded by greenery and a white column in the background."
+    },
+    "29319": {
+      "ts": 1172.76,
+      "caption": "The image depicts a long, narrow room filled with rows of tall, dark filing cabinets, each with multiple drawers and labeled with blue tags, leading to a bookshelf at the far end."
+    },
+    "29943": {
+      "ts": 1197.72,
+      "caption": "The image shows a close-up of a historical newspaper clipping dated Tuesday, December 5, 1899, with various headlines and articles, including one about an airship and another about a man who accidentally shot himself while hunting."
+    },
+    "30567": {
+      "ts": 1222.68,
+      "caption": "A man in a dark suit and white shirt is seated in the back of a vehicle at night, with a dimly lit cityscape visible through the window behind him."
+    },
+    "31190": {
+      "ts": 1247.6,
+      "caption": "A man in a dark shirt stands in a grassy park, facing away from the camera, with his arm raised as if preparing to throw or point something. Behind him, several trees with green foliage are visible, and in the background, there are white buildings with windows and a chain-link fence."
+    },
+    "31814": {
+      "ts": 1272.56,
+      "caption": "A black-and-white photograph depicts a row of dilapidated brick buildings with broken windows and debris scattered in the foreground, with a hillside of similar structures in the background, and utility poles lining the street."
+    },
+    "32438": {
+      "ts": 1297.52,
+      "caption": "A person rides a bicycle across a large, empty warehouse with corrugated metal walls and a high, industrial ceiling, while another individual stands near a doorway on the right side, observing."
+    },
+    "33062": {
+      "ts": 1322.48,
+      "caption": "The image is a black-and-white portrait of a man with a receding hairline, wearing a suit and tie, seated in a dimly lit environment with a blurred background."
+    },
+    "33686": {
+      "ts": 1347.44,
+      "caption": "A black-and-white photograph depicts a man operating a vintage biplane, with its wings and tail clearly visible, as he appears to be adjusting or inspecting the aircraft on the ground."
+    },
+    "34310": {
+      "ts": 1372.4,
+      "caption": "The image shows a historical document from the Wright Cycle Cycle Company, established in 1892, with a formal letterhead and handwritten text discussing the discretion and reliability of a 18 horsepower motor, referencing the company's address at 1127 West Third Street, Dayton, Ohio."
+    },
+    "34933": {
+      "ts": 1397.32,
+      "caption": "In a dimly lit room with brick walls and a fireplace, two men in period attire stand near a wooden counter; one man, wearing a hat and a light-colored shirt, holds a small object while the other, in a darker shirt, observes him attentively. A lit lantern and candles on the counter cast a warm glow, illuminating the scene."
+    },
+    "35557": {
+      "ts": 1422.28,
+      "caption": "A person is sitting inside a vehicle, viewed from the front seat, with their face partially obscured by the reflection on the windshield. The interior of the car appears to be dark, and the person is wearing a white shirt. Outside the car, trees and a bright sky are visible through the windshield."
+    },
+    "36181": {
+      "ts": 1447.24,
+      "caption": "A young boy wearing a dark cap and a light blue shirt leans forward, gripping a wooden beam with his right hand, appearing focused and determined in a dimly lit, rustic setting."
+    },
+    "36805": {
+      "ts": 1472.2,
+      "caption": "A young boy wearing a dark cap and a blue shirt with a dark vest underneath is leaning forward, gripping a wooden beam with his right hand, appearing focused and determined in a dimly lit, rustic setting."
+    },
+    "37429": {
+      "ts": 1497.16,
+      "caption": "The image shows a close-up of a weathered photograph of an elderly man with a prominent mustache and a receding hairline, set against a blurred background that appears to be a natural landscape. The photograph is printed on a textured surface, possibly wood or a similar material, and the overall tone of the image is monochromatic, giving it a vintage appearance."
+    },
+    "38052": {
+      "ts": 1522.08,
+      "caption": "An elderly man with a bald head and glasses, dressed in a dark suit and striped tie, is seated in a room with wooden beams and a large, partially constructed aircraft in the background."
+    },
+    "38676": {
+      "ts": 1547.04,
+      "caption": "A close-up of a man with a mustache and a dark background, his face illuminated by a dim light, creating a dramatic and intense atmosphere."
+    },
+    "39300": {
+      "ts": 1572.0,
+      "caption": "A person is sitting in a hammock inside a rustic, sunlit barn with wooden beams and large windows allowing natural light to stream in."
+    },
+    "39924": {
+      "ts": 1596.96,
+      "caption": "A man sits in a small, early 20th-century biplane on a vast, sandy desert under a partly cloudy sky."
+    },
+    "40548": {
+      "ts": 1621.92,
+      "caption": "A man lies on the ground next to an early biplane, with its wings and framework clearly visible, set against a vast, flat, and barren landscape under a clear sky."
+    },
+    "41172": {
+      "ts": 1646.88,
+      "caption": "A vast, open field with sparse vegetation stretches towards a dense forest in the background, under an overcast sky."
+    },
+    "41795": {
+      "ts": 1671.8,
+      "caption": "A black-and-white photograph depicts a group of people standing near a vintage biplane on a sandy, open landscape, with tracks visible in the sand leading towards the aircraft."
+    },
+    "42419": {
+      "ts": 1696.76,
+      "caption": "Three children stand together, a boy in a skull t-shirt on the left, a girl in a light purple jacket in the middle, and another boy in a blue shirt with a frog skeleton design on the right, with adults partially visible behind them."
+    },
+    "43043": {
+      "ts": 1721.72,
+      "caption": "An elderly man with glasses and a mustache sits on a wooden bench, gazing out at the choppy, gray ocean under an overcast sky."
+    },
+    "43667": {
+      "ts": 1746.68,
+      "caption": "A lone bird soars through a gray, overcast sky above a tumultuous ocean with churning waves."
+    },
+    "44291": {
+      "ts": 1771.64,
+      "caption": "A hand wearing a silver watch points to a photograph of a beach scene, highlighting a small structure and some dark shapes on the sand."
+    },
+    "44914": {
+      "ts": 1796.56,
+      "caption": "A wide, open grassy field with a few scattered visitors walking along a paved path on the left, and a line of trees in the background under an overcast sky."
+    },
+    "45538": {
+      "ts": 1821.52,
+      "caption": "A black-and-white photograph shows a biplane flying low over a sandy landscape, with three figures visible on the ground below, possibly observing or directing the aircraft."
+    },
+    "46162": {
+      "ts": 1846.48,
+      "caption": "An elderly man in a blue shirt holds up a framed photograph, standing in front of a window with vertical blinds and a yellow curtain."
+    },
+    "46786": {
+      "ts": 1871.44,
+      "caption": "A hand holds a large, rectangular piece of paper or cardboard, which appears to be dirty or stained, with a faint line or mark visible near the bottom edge. The background is a plain, light-colored wall."
+    },
+    "47410": {
+      "ts": 1896.4,
+      "caption": "A black-and-white photograph shows two individuals working on a large, complex structure outdoors, possibly a framework or scaffolding, with wooden beams and ropes visible. The person on the left is holding a pole, while the one on the right appears to be assisting or inspecting the structure. The background features a grassy field and a line of trees, suggesting a rural or open setting."
+    },
+    "48034": {
+      "ts": 1921.36,
+      "caption": "Two men stand beside an early aircraft, with one seated in the cockpit, in a black-and-white photograph. The aircraft has a wooden framework and a fabric covering, with a propeller and engine visible. The background shows a grassy field and a crowd of onlookers."
+    },
+    "48657": {
+      "ts": 1946.28,
+      "caption": "A lone figure in a white hooded garment sits on a grassy field, with a small child beside them, both facing a dense line of trees under a pale, overcast sky."
+    },
+    "49281": {
+      "ts": 1971.24,
+      "caption": "A man in a light blue shirt stands in front of a yellow biplane in a hangar, gesturing with his hands as he speaks."
+    },
+    "49905": {
+      "ts": 1996.2,
+      "caption": "A man in a light blue shirt stands in front of a yellow Piper aircraft in a hangar, gesturing with his hands as he speaks."
+    },
+    "50529": {
+      "ts": 2021.16,
+      "caption": "A group of people stands on a sandy beach, observing a large, old-fashioned biplane lying on its side near the water's edge, with its wings spread out and a rope or cable attached to it."
+    },
+    "51153": {
+      "ts": 2046.12,
+      "caption": "An early biplane with a large propeller and two sets of wings is parked on a grassy field, with trees and a clear sky in the background."
+    },
+    "51776": {
+      "ts": 2071.04,
+      "caption": "A black and white photograph shows a biplane flying in the sky, with the horizon visible at the bottom of the frame."
+    },
+    "52400": {
+      "ts": 2096.0,
+      "caption": "A man in a formal suit stands in a dimly lit room, holding a document, with other individuals seated in the background."
+    },
+    "53024": {
+      "ts": 2120.96,
+      "caption": "The medal features a relief portrait of two men, with inscriptions reading \"AERO-CLUB OF AMERICA\" at the top and \"SEP-9-1908\" and \"SEP-21-1908\" along with \"FORT MYERVA\" and \"LE MANS FRANCE\" at the bottom, commemorating a significant aviation event."
+    },
+    "53648": {
+      "ts": 2145.92,
+      "caption": "The image is a black-and-white portrait of an older man with a receding hairline, a mustache, and a serious expression, looking directly at the camera."
+    },
+    "54272": {
+      "ts": 2170.88,
+      "caption": "The illustration depicts a vintage agricultural scene with a large, complex machine, possibly a steam-powered plow or harvester, with a person operating it. The machine has a large wheel at the front and a series of radiating lines suggesting motion or force. The background shows a rural landscape with fields and trees, rendered in a simple, line-drawn style."
+    },
+    "54896": {
+      "ts": 2195.84,
+      "caption": "Two men in period attire, one wearing a top hat and the other a bowler, stand on a boat at night, surrounded by dark, leafy trees and dim lighting."
+    },
+    "55519": {
+      "ts": 2220.76,
+      "caption": "Two men are working on a large, white, canvas-covered structure, possibly a tent or a sail, in an open field with trees in the background under a clear blue sky."
+    },
+    "56143": {
+      "ts": 2245.72,
+      "caption": "A man in a brown suit and hat stands in a grassy field under a clear blue sky with scattered clouds, looking upwards with a contemplative expression."
+    },
+    "56767": {
+      "ts": 2270.68,
+      "caption": "The image depicts a detailed black-and-white illustration of a large, early flying machine with a pilot seated in the center, flanked by two propellers, and supported by a framework of ropes and wires, set against a backdrop of a rural landscape with trees and open fields."
+    },
+    "57391": {
+      "ts": 2295.64,
+      "caption": "The image displays a collage of four sepia-toned black-and-white photographs of men, each in formal attire, arranged in a row against a blurred background."
+    },
+    "58015": {
+      "ts": 2320.6,
+      "caption": "A man in a dark suit and striped tie stands indoors, looking downward with a serious expression, in front of a window with a brick wall visible outside."
+    },
+    "58638": {
+      "ts": 2345.52,
+      "caption": "A man in a suit and hat stands beside a large, early aircraft with a propeller and wings, set against a backdrop of a rural landscape with power lines and trees."
+    },
+    "59262": {
+      "ts": 2370.48,
+      "caption": "The document appears to be a historical telegram or cablegram from the Western Union, featuring various codes and abbreviations, including \"DL\" for Day Letter, \"NL\" for Night Letter, and \"LC\" for Deferred Cable. The text includes references to \"Orville Wright\" and \"15 North Broadway, Washington, D.C.,\" along with a date and time stamp of \"11:11 44A.\" The document also contains handwritten annotations and markings, including a signature and a crossed-out section, suggesting it may have been reviewed or edited."
+    },
+    "59886": {
+      "ts": 2395.44,
+      "caption": "A person in a white shirt is seated at a vintage typewriter, illuminated by a warm light from a lamp above, with a brick wall in the background."
+    },
+    "60510": {
+      "ts": 2420.4,
+      "caption": "A man with a bald head and a receding hairline, wearing a dark suit and a light blue shirt, is seated indoors, with a window in the background showing a bright, slightly out-of-focus view of greenery."
+    },
+    "61134": {
+      "ts": 2445.36,
+      "caption": "A man with short, light-colored hair and glasses is seated at a desk in a well-lit room, wearing a dark sweater over a light blue collared shirt. He is positioned in front of a computer monitor displaying a document, with a black keyboard and mouse on the desk. A desk lamp with an adjustable arm is mounted on the monitor, and a bookshelf filled with books is visible to the left. The wall behind him features a small framed picture."
+    },
+    "61758": {
+      "ts": 2470.32,
+      "caption": "A man in a hat is lying on a bed with a large, light-colored object draped over him, surrounded by various mechanical and industrial equipment, including springs and metal structures, in a dimly lit room."
+    },
+    "62381": {
+      "ts": 2495.24,
+      "caption": "A computer screen displays a document with text and two black-and-white photographs of early aviation, one showing a biplane and the other a machine with wheels, both set against a natural landscape."
+    },
+    "63005": {
+      "ts": 2520.2,
+      "caption": "A man stands in a grassy field, holding a large, early aircraft with a framework of metal poles and fabric wings, resembling the Wright brothers' Flyer."
+    },
+    "63629": {
+      "ts": 2545.16,
+      "caption": "A man in a light blue shirt and patterned tie, wearing suspenders, sits on a white wicker chair, engaged in conversation with someone off-camera, with a blurred background featuring greenery and a stone column."
+    },
+    "64253": {
+      "ts": 2570.12,
+      "caption": "A man in a dark pinstripe suit and tie sits at a wooden desk, looking slightly to his right, with a window in the background showing greenery outside. The text \"AFFIDAVIT of Anton Pruckner JULY 1934\" is displayed at the bottom of the frame."
+    },
+    "64877": {
+      "ts": 2595.08,
+      "caption": "A man in a dark suit and tie sits at a wooden desk in a dimly lit room with a large window in the background, through which green foliage is visible. The text \"AFFIDAVIT of Michael Werer SEPTEMBER 1934\" is displayed at the bottom of the image."
+    },
+    "65500": {
+      "ts": 2620.0,
+      "caption": "A boy sits at a desk in a dimly lit room, facing a window that casts a warm, golden light onto the wall and the desk, illuminating a typewriter and scattered papers."
+    },
+    "66124": {
+      "ts": 2644.96,
+      "caption": "The image depicts a historical newspaper article featuring a detailed illustration of a flying machine with large wings and a propeller, alongside a man in a suit and tie, and a landscape with trees and a fence in the background. The text discusses the flight of the machine and its inventor, Whitehead, with references to the machine's weight and its ability to soar above the trees."
+    },
+    "66748": {
+      "ts": 2669.92,
+      "caption": "The newspaper headline reads \"Bridgeport Evening Farmer\" with a date of June 20, 1910, and includes various headlines such as \"Three Runaway Boys Found in Pennsylvania,\" \"Flying Machine That Will Remain Stationary in Mid-Air,\" and \"Holland Heights Engine Builder with Millions at His Command,\" alongside other news items and advertisements."
+    },
+    "67372": {
+      "ts": 2694.88,
+      "caption": "The image shows a close-up of a newspaper article with text that appears distorted and fragmented, making it difficult to read clearly, but it mentions \"flying machine,\" \"Mr. Whitehead,\" and references to New York and financial backers."
+    },
+    "67996": {
+      "ts": 2719.84,
+      "caption": "The newspaper clipping features a headline about Gustave Whitehead's flight, mentioning a half-mile distance and a height of fifty feet, with text discussing his mechanical engineering and experiments with flying machines."
+    },
+    "68620": {
+      "ts": 2744.8,
+      "caption": "The image shows a black-and-white title card with the text \"First Flight: U.S. S. Remembers Kitty Hawk\" overlaid on a photograph of a large hangar or aircraft hangar, where several aircraft are visible, including a biplane, with people and equipment in the background."
+    },
+    "69243": {
+      "ts": 2769.72,
+      "caption": "A man in a light blue shirt stands in front of a yellow Piper aircraft inside a hangar, gesturing with his right hand."
+    },
+    "69867": {
+      "ts": 2794.68,
+      "caption": "The image showcases a panoramic view of Washington D.C., featuring the iconic Washington Monument, the Capitol Building, and surrounding government buildings, with a mix of autumnal trees and urban structures in the background."
+    },
+    "70491": {
+      "ts": 2819.64,
+      "caption": "A document titled \"AGREEMENT\" is displayed, detailing an agreement between Harold S. Miller and Harold W. Steeper as Executors of the Last Will and Testament of Orville Wright, deceased, regarding the Wright Aeroplane of 1903, which was invented and built by Wilbur and Orville Wright and flown at Kitty Hawk, North Carolina on December 17, 1903. The document mentions the Probate Court of Montgomery County, Ohio, having jurisdiction over the administration of the estate and the public interest in preserving the plane as a public exhibit."
+    },
+    "71115": {
+      "ts": 2844.6,
+      "caption": "A laptop screen displays a document with text discussing the Wright brothers' achievements in aviation, referencing a statement from the Century Magazine, Volume 76, September 1908, page 649."
+    },
+    "71739": {
+      "ts": 2869.56,
+      "caption": "A man in a dark suit and cap is leaning forward, working on a wooden structure with a tool in his hands, surrounded by various mechanical parts and wires in a dimly lit workshop."
+    },
+    "72362": {
+      "ts": 2894.48,
+      "caption": "Dr. Tom Crouch, a senior curator at the Smithsonian's Aeronautics Institute, stands in a dimly lit room with a vintage aircraft in the background, wearing a dark suit and glasses."
+    },
+    "72986": {
+      "ts": 2919.44,
+      "caption": "An older man with a white mustache and glasses, dressed in a dark suit and striped tie, stands in a dimly lit room with wooden beams and a large, partially visible structure in the background."
+    },
+    "73610": {
+      "ts": 2944.4,
+      "caption": "A man in a suit is examining a wooden object on a workbench, with another man in a white shirt and tie standing nearby, and a third person partially visible in the background, all in a workshop setting with wooden beams and tools."
+    },
+    "74234": {
+      "ts": 2969.36,
+      "caption": "A commercial airplane is captured in flight, silhouetted against a gradient sky transitioning from light to dark, with fluffy clouds below. The aircraft, featuring a dark fuselage with a red stripe near the tail, is shown in profile as it soars above the clouds."
+    },
+    "74858": {
+      "ts": 2994.32,
+      "caption": "A man with a mustache and a gray jacket is looking out of a window with wooden shutters, his expression serious and contemplative."
+    },
+    "75482": {
+      "ts": 3019.28,
+      "caption": "A solitary figure in a dark suit and hat walks away from the camera towards a dense forest, with a partially visible white sailboat in the foreground on a calm, overcast day."
+    },
+    "76105": {
+      "ts": 3044.2,
+      "caption": "An old black-and-white photograph shows a large, early aircraft with a biplane design, supported by a wooden frame on a grassy field, with two individuals standing nearby, observing the structure."
+    },
+    "76729": {
+      "ts": 3069.16,
+      "caption": "A woman in a uniform stands in front of a vintage biplane, gesturing with her hands as she speaks to an audience, with the aircraft's intricate framework and propeller prominently displayed in the background."
+    },
+    "77353": {
+      "ts": 3094.12,
+      "caption": "A small, white, biplane with a single propeller is captured in mid-flight, angled slightly upward as it moves across a runway, with a backdrop of dense, dark green trees and a clear sky above."
+    },
+    "77977": {
+      "ts": 3119.08,
+      "caption": "A person operates a large, vintage-style biplane with two propellers, one of which is emitting smoke, while standing on a grassy field with trees and hills in the background under a cloudy sky."
+    },
+    "78601": {
+      "ts": 3144.04,
+      "caption": "The image displays a list of credits against a backdrop of a dark blue sky with scattered white clouds, featuring names and roles such as Assistant Editor & Graphics, Production Accountant, Research Writer, and Production Assistant, among others."
+    },
+    "79225": {
+      "ts": 3169.0,
+      "caption": "The image is entirely black with no discernible objects, people, or text present."
+    }
+  }
+}
